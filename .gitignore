@@ -1,0 +1,51 @@
+
+# All the big memory directories
+misc_projects/
+raw_metagenomes/
+adapters/
+FASTQ/
+all_bins_analyses/
+assembly_A_analysis/
+assembly_B_analysis/
+coassembly_analysis/
+databases/
+fastqc_output
+rdhA/
+subsample_analysis/
+
+# To be safe
+**/*.fastq
+**/*.fastq.gz
+**/*.fq
+**/*.fq.gz
+**/*.bam
+**/*.sam
+**/*.cram
+**/*.bai
+**/*.fna
+**/*.fa
+**/*.fasta
+**/*.fna.gz
+**/*.fa.gz
+**/*.fasta.gz
+**/*.gz
+**/*.xz
+**/*.bz2
+
+# misc heavy stuff
+**/*.tsv.gz
+**/*.csv.gz
+**/*.h5
+**/*.hdf5
+**/*.npz
+**/*.zip
+**/*.tar
+**/*.tar.gz
+
+# editor cruft
+.Rhistory
+.Rproj.user/
+.ipynb_checkpoints/
+*.swp
+.DS_Store
+EOF
