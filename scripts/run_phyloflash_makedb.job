@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 24:00:00
+#SBATCH --ntasks-per-node 8
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+
+source /jet/home/hkittner/miniforge3/bin/activate
+conda activate phyloflash
+
+phyloFlash_makedb.pl \
+  --univec_file /ocean/projects/ees240004p/hkittner/databases/univec/UniVec \
+  --silva_file /ocean/projects/ees240004p/hkittner/databases/silva/138.1/SILVA_138.1_SSURef_NR99.fasta

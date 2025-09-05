@@ -1,0 +1,41 @@
+
+Job: megahit_meta_large_noEC_assembly_S4 [_cont].job
+
+Using all trimmed S4_04 reads
+
+On RM-512 with 128 threads
+
+Job ID - time - est SUs - cumulative SUs
+
+24277086 - 10 hrs - 1280 - 1280
+24282530 - 10 hrs - 1280 - 2560
+24308750 - 20 hrs - 2560 - 5120
+24340061 - 40 hrs - 5120 - 10240
+24366011 - 40 hrs - 5120 - 15360
+24377616 - 40 hrs - 5120 - 20480
+24393249 - 40 hrs - 5120 - 25600
+25503388 - 40 hrs - 5120 - 30720
+25556244 - 15 hrs - 1920 - 32640
+
+done - finally
+
+Looks like the preset didn't work, so the kmers need to be manually input from now on
+___________________________________________________________________________________
+
+Job: megahit_meta_large_noEC_assembly_S4_04_L001only.job
+
+Using trimmed reads from S4_04_L001 - input the meta-large preset parameters manually
+
+On RM-512 with 128 threads
+
+25557396 - 20 hrs - 2560 SUs
+
+__________________________________________________________________________________
+
+Job: spades_error_correction_S4_L001only.job
+
+Using trimmed reads from S4_04_L001 doing spades error correction - to be assembled with megahit
+
+On RM-512 with 128 threads
+
+25583515 - 

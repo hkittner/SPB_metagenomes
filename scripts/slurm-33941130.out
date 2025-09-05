@@ -1,0 +1,114 @@
+[17:21:37] Checking for required tools.
+[17:21:37] Using bbmask found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/bin/bbmask.sh".
+[17:21:37] Using bowtiebuild found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/bin/bowtie-build".
+[17:21:37] Using bbmap found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/bin/bbmap.sh".
+[17:21:37] Using barrnapHGV found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/barrnap_HGV".
+[17:21:37] Using bbduk found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/bin/bbduk.sh".
+[17:21:37] Using vsearch found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/bin/vsearch".
+[17:21:37] Using grep found at "/usr/bin/grep".
+[17:21:37] All required tools found.
+
+This is phyloFlash_makedb.pl from phyloFlash.pl v3.4.2
+
+[17:21:37] using local copy of univec:
+	   /ocean/projects/ees240004p/hkittner/databases/univec/UniVec
+[17:21:37] using local copy of Silva SSU RefNR:
+	   /ocean/projects/ees240004p/hkittner/databases/silva/138.1/SILVA_138.1_SSURef_NR99.fasta
+[17:21:37] unpacking SILVA database
+[17:21:40] LSU-filtered file found, not overwriting
+[17:21:40] masking low entropy regions in SSU RefNR
+[17:21:40] running subcommand:
+	   /jet/home/hkittner/miniforge3/envs/phyloflash/bin/bbmask.sh	
+	   overwrite=t -Xmx10g threads=128
+	   in=./138.1//SILVA_SSU.noLSU.fasta
+	   out=./138.1//SILVA_SSU.noLSU.masked.fasta minkr=4 maxkr=8 mr=t
+	   minlen=20 minke=4 maxke=8 fastawrap=0 
+	   2>tmp.bbmask_mask_repeats.log
+[17:22:08] removing UniVec contamination in SSU RefNR
+[17:22:08] running subcommand:
+	   /jet/home/hkittner/miniforge3/envs/phyloflash/bin/bbduk.sh
+	   ref=/ocean/projects/ees240004p/hkittner/databases/univec/UniVec 
+	    overwrite=t -Xmx10g threads=128 fastawrap=0 ktrim=r ow=t
+	   minlength=800 mink=11 hdist=1
+	   in=./138.1//SILVA_SSU.noLSU.masked.fasta
+	   out=./138.1//SILVA_SSU.noLSU.masked.trimmed.fasta
+	   stats=./138.1//SILVA_SSU.noLSU.masked.trimmed.fasta.UniVec_contamination_stats.txt
+	   2>tmp.bbduk_remove_univec.log
+[17:22:27] Vsearch v2.5.0+ found, will index database to UDB file
+[17:22:27] Indexing ./138.1//SILVA_SSU.noLSU.masked.trimmed.fasta to make
+	   UDB file ./138.1//SILVA_SSU.noLSU.masked.trimmed.udb with
+	   Vsearch
+[17:22:27] running subcommand:
+	   /jet/home/hkittner/miniforge3/envs/phyloflash/bin/vsearch
+	   --threads 128 --notrunclabels --makeudb_usearch
+	   ./138.1//SILVA_SSU.noLSU.masked.trimmed.fasta --output
+	   ./138.1//SILVA_SSU.noLSU.masked.trimmed.udb
+	   2>tmp.vsearch_make_udb.log
+[17:25:13] clustering database
+[17:25:13] running subcommand:
+	   /jet/home/hkittner/miniforge3/envs/phyloflash/bin/vsearch  
+	   --cluster_fast ./138.1/SILVA_SSU.noLSU.masked.trimmed.fasta --id
+	   0.99 --centroids
+	   ./138.1/SILVA_SSU.noLSU.masked.trimmed.NR99.fasta
+	   --notrunclabels --threads 128 
+vsearch v2.29.1_linux_x86_64, 251.6GB RAM, 128 cores
+https://github.com/torognes/vsearch
+
+Reading file ./138.1/SILVA_SSU.noLSU.masked.trimmed.fasta 100%
+609672191 nt in 421415 seqs, min 807, max 3694, avg 1447
+Masking 100%
+Sorting by length 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 421222 Size min 1, max 3, avg 1.0
+Singletons: 421030, 99.9% of seqs, 100.0% of clusters
+[18:06:58] creating bbmap reference
+[18:06:58] running subcommand:
+	   /jet/home/hkittner/miniforge3/envs/phyloflash/bin/bbmap.sh  
+	   -Xmx10g threads=128
+	   ref=./138.1/SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta
+	   path=./138.1/  2>tmp.bbmap_index.log
+[18:07:40] clustering database
+[18:07:40] running subcommand:
+	   /jet/home/hkittner/miniforge3/envs/phyloflash/bin/vsearch  
+	   --cluster_fast ./138.1/SILVA_SSU.noLSU.masked.trimmed.NR99.fasta
+	   --id 0.96 --centroids
+	   ./138.1/SILVA_SSU.noLSU.masked.trimmed.NR96.fasta
+	   --notrunclabels --threads 128 
+vsearch v2.29.1_linux_x86_64, 251.6GB RAM, 128 cores
+https://github.com/torognes/vsearch
+
+Reading file ./138.1/SILVA_SSU.noLSU.masked.trimmed.NR99.fasta 100%
+609408919 nt in 421222 seqs, min 807, max 3694, avg 1447
+Masking 100%
+Sorting by length 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 158431 Size min 1, max 1178, avg 2.7
+Singletons: 108912, 25.9% of seqs, 68.7% of clusters
+[18:29:12] creating bowtie index (for emirge)
+[18:29:12] running subcommand:
+	   /jet/home/hkittner/miniforge3/envs/phyloflash/bin/bowtie-build
+	   ./138.1/SILVA_SSU.noLSU.masked.trimmed.NR96.fixed.fasta
+	   ./138.1/SILVA_SSU.noLSU.masked.trimmed.NR96.fixed.bt -q
+	   2>tmp.bowtiebuild.log
+[18:38:08] Walltime used: 76.52 minutes
+[18:38:08] The databases for Silva release 138.1 are ready for phyloFlash
+	   
+	       When running phyloFlash, please provide the location of
+	       the databases with the following option:
+		 -dbhome /ocean/projects/ees240004p/hkittner/scripts/138.1
+	   
+	       or add the following line to your .bashrc or .bash_profile:
+		 export
+	   PHYLOFLASH_DBHOME=/ocean/projects/ees240004p/hkittner/scripts/138.1

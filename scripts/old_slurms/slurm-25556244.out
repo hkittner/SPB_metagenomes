@@ -1,0 +1,54 @@
+Continue mode activated. Ignore all options except for -o/--out-dir.
+2024-09-05 15:20:50 - MEGAHIT v1.2.9
+2024-09-05 15:20:50 - Using megahit_core with POPCNT and BMI2 support
+2024-09-05 15:20:50 - passing check point 0
+2024-09-05 15:20:50 - passing check point 1
+2024-09-05 15:20:50 - k-max reset to: 127 
+2024-09-05 15:20:50 - Start assembly. Number of CPU threads 128 
+2024-09-05 15:20:50 - k list: 27,37,47,57,67,77,87,97,107,117,127 
+2024-09-05 15:20:50 - Memory used: 486665017344
+2024-09-05 15:20:50 - passing check point 2
+2024-09-05 15:20:50 - passing check point 3
+2024-09-05 15:20:50 - passing check point 4
+2024-09-05 15:20:50 - passing check point 5
+2024-09-05 15:20:50 - passing check point 6
+2024-09-05 15:20:50 - passing check point 7
+2024-09-05 15:20:50 - passing check point 8
+2024-09-05 15:20:50 - passing check point 9
+2024-09-05 15:20:50 - passing check point 10
+2024-09-05 15:20:50 - passing check point 11
+2024-09-05 15:20:50 - passing check point 12
+2024-09-05 15:20:50 - passing check point 13
+2024-09-05 15:20:50 - passing check point 14
+2024-09-05 15:20:50 - passing check point 15
+2024-09-05 15:20:50 - passing check point 16
+2024-09-05 15:20:50 - passing check point 17
+2024-09-05 15:20:50 - passing check point 18
+2024-09-05 15:20:50 - passing check point 19
+2024-09-05 15:20:50 - passing check point 20
+2024-09-05 15:20:50 - passing check point 21
+2024-09-05 15:20:50 - passing check point 22
+2024-09-05 15:20:50 - passing check point 23
+2024-09-05 15:20:50 - passing check point 24
+2024-09-05 15:20:50 - passing check point 25
+2024-09-05 15:20:50 - passing check point 26
+2024-09-05 15:20:50 - passing check point 27
+2024-09-05 15:20:50 - passing check point 28
+2024-09-05 15:20:50 - passing check point 29
+2024-09-05 15:20:50 - passing check point 30
+2024-09-05 15:20:50 - passing check point 31
+2024-09-05 15:20:50 - passing check point 32
+2024-09-05 15:20:50 - passing check point 33
+2024-09-05 15:20:50 - passing check point 34
+2024-09-05 15:20:50 - passing check point 35
+2024-09-05 15:20:50 - passing check point 36
+2024-09-05 15:20:50 - passing check point 37
+2024-09-05 15:20:50 - passing check point 38
+2024-09-05 15:20:50 - passing check point 39
+2024-09-05 15:20:50 - Local assembly for k = 117
+2024-09-06 04:05:20 - Extract iterative edges from k = 117 to 127 
+2024-09-06 04:20:26 - Build graph for k = 127 
+2024-09-06 04:37:25 - Assemble contigs from SdBG for k = 127
+2024-09-06 06:02:19 - Merging to output final contigs 
+2024-09-06 06:04:46 - 41722786 contigs, total 23257934917 bp, min 200 bp, max 375683 bp, avg 557 bp, N50 576 bp
+2024-09-06 06:04:46 - ALL DONE. Time elapsed: 53036.736711 seconds 

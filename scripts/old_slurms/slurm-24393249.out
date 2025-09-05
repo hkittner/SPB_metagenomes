@@ -1,0 +1,37 @@
+Continue mode activated. Ignore all options except for -o/--out-dir.
+2024-07-03 17:05:12 - MEGAHIT v1.2.9
+2024-07-03 17:05:12 - Using megahit_core with POPCNT and BMI2 support
+2024-07-03 17:05:12 - passing check point 0
+2024-07-03 17:05:12 - passing check point 1
+2024-07-03 17:05:12 - k-max reset to: 127 
+2024-07-03 17:05:12 - Start assembly. Number of CPU threads 128 
+2024-07-03 17:05:12 - k list: 27,37,47,57,67,77,87,97,107,117,127 
+2024-07-03 17:05:12 - Memory used: 486665021030
+2024-07-03 17:05:12 - passing check point 2
+2024-07-03 17:05:12 - passing check point 3
+2024-07-03 17:05:12 - passing check point 4
+2024-07-03 17:05:12 - passing check point 5
+2024-07-03 17:05:12 - passing check point 6
+2024-07-03 17:05:12 - passing check point 7
+2024-07-03 17:05:12 - passing check point 8
+2024-07-03 17:05:12 - passing check point 9
+2024-07-03 17:05:12 - passing check point 10
+2024-07-03 17:05:12 - passing check point 11
+2024-07-03 17:05:12 - passing check point 12
+2024-07-03 17:05:12 - passing check point 13
+2024-07-03 17:05:12 - passing check point 14
+2024-07-03 17:05:12 - passing check point 15
+2024-07-03 17:05:12 - passing check point 16
+2024-07-03 17:05:12 - passing check point 17
+2024-07-03 17:05:12 - Build graph for k = 67 
+2024-07-03 17:40:34 - Assemble contigs from SdBG for k = 67
+2024-07-03 21:30:50 - Local assembly for k = 67
+2024-07-04 10:17:48 - Extract iterative edges from k = 67 to 77 
+2024-07-04 11:07:00 - Build graph for k = 77 
+2024-07-04 11:22:21 - Assemble contigs from SdBG for k = 77
+2024-07-04 14:57:26 - Local assembly for k = 77
+2024-07-05 01:58:45 - Extract iterative edges from k = 77 to 87 
+2024-07-05 02:40:10 - Build graph for k = 87 
+2024-07-05 02:53:29 - Assemble contigs from SdBG for k = 87
+2024-07-05 05:40:28 - Local assembly for k = 87
+slurmstepd: error: *** JOB 24393249 ON l014 CANCELLED AT 2024-07-05T09:05:24 DUE TO TIME LIMIT ***

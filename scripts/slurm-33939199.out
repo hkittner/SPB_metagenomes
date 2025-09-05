@@ -1,0 +1,16 @@
+2025-08-01 03:07:44 - MEGAHIT v1.2.9
+2025-08-01 03:07:44 - Using megahit_core with POPCNT and BMI2 support
+2025-08-01 03:07:44 - Convert reads to binary library
+2025-08-01 03:31:12 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_06_forward_paired_trim.fastq.gz,/ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_06_reverse_paired_trim.fastq.gz): pe, 1598081198 reads, 151 max length'
+2025-08-01 03:31:12 - b'INFO  utils/utils.h                 :  152 - Real: 1408.4100\tuser: 1210.2202\tsys: 298.5167\tmaxrss: 247148'
+2025-08-01 03:31:12 - k-max reset to: 127 
+2025-08-01 03:31:12 - Start assembly. Number of CPU threads 128 
+2025-08-01 03:31:12 - k list: 27,37,47,57,67,77,87,97,107,117,127 
+2025-08-01 03:31:12 - Memory used: 486664202649
+2025-08-01 03:31:12 - Extracting solid (k+1)-mers and building sdbg for k = 27
+2025-08-01 04:01:36 - Assemble contigs from SdBG for k = 27
+2025-08-02 22:00:36 - Local assembly for k = 27
+2025-08-03 04:21:23 - Extract iterative edges from k = 27 to 37 
+2025-08-03 15:17:44 - Error occurs, please refer to /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S6_06/log for detail
+2025-08-03 15:17:44 - Command: /ocean/projects/deb190007p/hkittner/.conda/envs/megahit/bin/megahit_core iterate -c /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S6_06/intermediate_contigs/k27.contigs.fa -b /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S6_06/intermediate_contigs/k27.bubble_seq.fa -t 128 -k 27 -s 10 -o /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S6_06/tmp/k37/37 -r /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S6_06/tmp/reads.lib.bin; Exit code -9
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=33939199.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

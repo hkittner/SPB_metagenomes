@@ -1,0 +1,2433 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        A02_01_coassembly_bin.1-proteins.faa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/A02_01_genomes/A02_01_coassembly_bin.1-proteins_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.1e-10   38.4   3.0    2.4e-10   37.2   3.0    1.5  1  k87_22410697_3  # 1134 # 2264 # -1 # ID=167_3;partial=00;star
+    5.1e-07   26.3   5.4      7e-07   25.8   5.4    1.1  1  k87_9780677_10  # 8646 # 9137 # 1 # ID=60_10;partial=00;start
+    8.3e-05   19.0   0.8    8.3e-05   19.0   0.8    2.0  2  k87_28955313_3  # 1614 # 1952 # 1 # ID=80_3;partial=00;start_
+
+
+Domain annotation for each sequence (and alignments):
+>> k87_22410697_3  # 1134 # 2264 # -1 # ID=167_3;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;g
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.2   3.0   3.5e-13   2.4e-10     295     426 ..     136     259 ..     128     268 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 37.2 bits;  conditional E-value: 3.5e-13
+  rdhAprofile_alignment_trim 295 eapsvplavlaGlGElgRtgdllitpeyGprvrlakvlTDLPLapdkPidfGvreFCktCkkCAdaCPsgaIskdkeptweap 377
+                                  +++ pla++aGlG +g+   +l++ e+G+   l +++T   L+pd    +  ++ C  C+ C daCP++a +   e  ++a+
+              k87_22410697_3 136 PVMEKPLAAKAGLGWQGKHT-NLVSREFGSWLFLGSIFTTVGLEPD----ASETDHCGACRSCLDACPTNAFTAPYE--IDAR 211
+                                 57899***************.7***********************6....7789******************99955..5555 PP
+
+  rdhAprofile_alignment_trim 378 e.....asnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnkkedswiHel 426
+                                 +     + +++g         +    + +  +gC  C+avCp+nk  ++  He+
+              k87_22410697_3 212 RcisylTIEHKGH--IAPEFRE---AMGNRIYGCDDCLAVCPWNKF-AKDSHEV 259
+                                 5343222222222..2223333...3334579*************9.6666776 PP
+
+>> k87_9780677_10  # 8646 # 9137 # 1 # ID=60_10;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.8   5.4   9.9e-10     7e-07     351     414 ..      63     114 ..      59     127 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 25.8 bits;  conditional E-value: 9.9e-10
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 C  Ck C   CP++aI+ +  p      +  +  + r+  d+ kC         +Cg Cq++Cp
+              k87_9780677_10  63 CIACKLCEAICPAQAITIEAGPRR----NDGTRRTTRYDIDMVKC--------IYCGFCQEACP 114
+                                 99*****************99998....56789999*********........89********9 PP
+
+>> k87_28955313_3  # 1614 # 1952 # 1 # ID=80_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=3-4bp;gc_cont=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   3.8      0.15     1e+02     347     369 ..       5      29 ..       2      39 .. 0.80
+   2 !   19.0   0.8   1.2e-07   8.3e-05     351     389 ..      40      78 ..      37      83 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 0.15
+  rdhAprofile_alignment_trim 347 vreFCktCkk..CAdaCPsgaIskd 369
+                                 v+e C +Ck   C + CP+++  ++
+              k87_28955313_3   5 VTEVCIKCKYtdCVEVCPVDCFYEG 29 
+                                 678999998555******9986665 PP
+
+  == domain 2  score: 19.0 bits;  conditional E-value: 1.2e-07
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWr 389
+                                 C  C+ C  +CP++aI+ d+ep+ ++    n ++ + W 
+              k87_28955313_3  40 CIDCGVCEPECPVDAIKPDTEPELDKWLDVNRDYSEVWP 78 
+                                 99**********************988888999999886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                       2112  (616718 residues searched)
+Passed MSV filter:                        71  (0.0336174); expected 42.2 (0.02)
+Passed bias filter:                       60  (0.0284091); expected 42.2 (0.02)
+Passed Vit filter:                        11  (0.00520833); expected 2.1 (0.001)
+Passed Fwd filter:                         3  (0.00142045); expected 0.0 (1e-05)
+Initial search space (Z):               2112  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 17866.21
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        A02_01_coassembly_bin.2-proteins.faa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/A02_01_genomes/A02_01_coassembly_bin.2-proteins_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+   1.4e-101  338.6   0.1   1.7e-101  338.3   0.1    1.0  1  k87_23207374_3   # 1497 # 2654 # 1 # ID=467_3;partial=00;star
+    1.8e-66  222.8   0.0    2.3e-66  222.5   0.0    1.1  1  k87_6644811_6    # 7322 # 8497 # -1 # ID=471_6;partial=00;sta
+    4.4e-10   36.9   1.3    6.2e-10   36.4   1.3    1.1  1  k87_21437911_10  # 11200 # 12138 # -1 # ID=38_10;partial=00;s
+    2.5e-05   21.2   0.6    5.8e-05   20.0   0.6    1.6  1  k87_16892110_1   # 2 # 2038 # -1 # ID=140_1;partial=10;start_
+    2.9e-05   21.0  12.1    2.9e-05   21.0  12.1    3.3  4  k87_21905560_2   # 422 # 2221 # 1 # ID=250_2;partial=00;start
+    5.8e-05   20.0   7.0    0.00028   17.7   0.6    2.0  2  k87_27271002_2   # 2590 # 2811 # 1 # ID=390_2;partial=00;star
+    0.00011   19.2   8.0     0.0018   15.1   2.3    2.0  2  k87_6035949_27   # 23321 # 23617 # 1 # ID=413_27;partial=00;s
+    0.00012   19.0   6.6    0.00012   19.0   6.6    2.9  2  k87_561677_2     # 1644 # 5018 # -1 # ID=264_2;partial=00;sta
+    0.00012   19.0   6.8     0.0022   14.8   0.7    2.0  2  k87_5364435_9    # 11367 # 11588 # 1 # ID=279_9;partial=00;st
+    0.00025   17.9   1.7      0.016   11.9   0.2    2.2  2  k87_22085165_4   # 5973 # 7127 # 1 # ID=306_4;partial=00;star
+    0.00045   17.1   1.7      0.021   11.6   0.1    2.1  2  k87_28873415_9   # 9099 # 10067 # -1 # ID=191_9;partial=01;st
+     0.0005   16.9   0.3     0.0005   16.9   0.3    2.0  2  k87_7878682_3    # 2420 # 2641 # 1 # ID=317_3;partial=00;star
+    0.00065   16.6   9.8       0.31    7.7  11.6    2.4  2  k87_22085165_3   # 3540 # 5795 # 1 # ID=306_3;partial=00;star
+    0.00076   16.3   6.1      0.051   10.3   0.3    2.0  2  k87_21812197_7   # 8502 # 8723 # -1 # ID=226_7;partial=00;sta
+    0.00087   16.1   3.4    0.00087   16.1   3.4    5.0  5  k87_2377822_5    # 6607 # 8325 # 1 # ID=5_5;partial=00;start_
+     0.0018   15.1   7.1     0.0031   14.3   7.1    1.3  1  k87_31228124_7   # 8241 # 9815 # 1 # ID=178_7;partial=01;star
+     0.0041   13.9   1.5      0.015   12.0   0.2    2.0  2  k87_12677922_29  # 29139 # 30167 # -1 # ID=337_29;partial=00;
+     0.0047   13.7   9.4       0.28    7.9   1.5    2.0  2  k87_22070027_5   # 4093 # 4293 # -1 # ID=303_5;partial=00;sta
+     0.0051   13.6   9.0       0.27    7.9   1.6    2.0  2  k87_18565050_1   # 3 # 200 # 1 # ID=475_1;partial=10;start_ty
+  ------ inclusion threshold ------
+      0.014   12.2   0.1      0.023   11.4   0.1    1.3  1  k87_6005889_2    # 434 # 2191 # -1 # ID=411_2;partial=00;star
+      0.053   10.2   9.8      0.096    9.4   9.8    1.4  1  k87_16892110_2   # 2147 # 4000 # -1 # ID=140_2;partial=00;sta
+      0.065   10.0  13.2      0.087    9.5   2.3    2.0  2  k87_5057534_3    # 3214 # 3435 # 1 # ID=158_3;partial=00;star
+       0.13    9.0   4.8       0.19    8.4   4.8    1.2  1  k87_561677_1     # 1 # 1485 # -1 # ID=264_1;partial=10;start_
+       0.22    8.2  10.1        2.7    4.6  10.5    1.9  1  k87_4980303_2    # 1442 # 1642 # 1 # ID=122_2;partial=00;star
+        0.4    7.3   8.5       0.17    8.6   0.5    2.0  2  k87_31295682_2   # 1642 # 1869 # -1 # ID=222_2;partial=00;sta
+        0.6    6.8  16.8        1.9    5.1  17.1    1.6  1  k87_2464077_11   # 10967 # 11203 # -1 # ID=55_11;partial=00;s
+       0.75    6.4  11.8        7.6    3.1  11.8    2.0  1  k87_14946800_15  # 22215 # 23288 # 1 # ID=302_15;partial=00;s
+          1    6.0  23.6      0.085    9.6   6.6    3.2  3  k87_19545871_4   # 4461 # 7481 # -1 # ID=256_4;partial=00;sta
+        1.1    5.9  10.8         22    1.6   4.0    2.0  2  k87_6005889_1    # 156 # 380 # -1 # ID=411_1;partial=00;start
+        1.5    5.5  14.6        4.1    4.0   4.3    2.3  2  k87_6228131_1    # 1 # 1524 # 1 # ID=435_1;partial=10;start_t
+        1.7    5.3  30.4       0.17    8.6   0.7    4.7  5  k87_2651240_4    # 1902 # 3350 # 1 # ID=146_4;partial=00;star
+        1.8    5.2  12.7      0.062   10.0   0.4    2.2  2  k87_14609168_3   # 2287 # 3357 # -1 # ID=180_3;partial=00;sta
+          2    5.0  15.2       0.31    7.7   2.5    2.0  2  k87_14324298_29  # 32838 # 33038 # 1 # ID=44_29;partial=00;st
+        2.2    4.9  13.8        3.6    4.2  13.8    1.3  1  k87_9949866_2    # 652 # 2439 # -1 # ID=234_2;partial=00;star
+        2.6    4.7   7.9          5    3.7   7.9    1.4  1  k87_22096636_2   # 109 # 585 # 1 # ID=308_2;partial=00;start_
+        5.5    3.6  12.9         44    0.6  12.9    1.9  1  k87_21764206_6   # 4501 # 4737 # -1 # ID=204_6;partial=00;sta
+        9.5    2.8   9.3        4.5    3.9   6.8    1.8  1  k87_2704713_1    # 1 # 2346 # -1 # ID=170_1;partial=10;start_
+
+
+Domain annotation for each sequence (and alignments):
+>> k87_23207374_3  # 1497 # 2654 # 1 # ID=467_3;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  338.3   0.1  2.1e-103  1.7e-101     105     461 ..      46     383 ..      12     385 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 338.3 bits;  conditional E-value: 2.1e-103
+  rdhAprofile_alignment_trim 105 alvkalk.eeepgftlrdralaaaakagllpeeiqlgglagaavltsllgpe.vvgtpeelgvpkwegtpeenskmikaaarf 185
+                                 +l++ +k +++ g+ + d a+ +aa++   +  + +g++ +++ l+s+ + + ++++      + +++ pe n +++k+aarf
+              k87_23207374_3  46 RLYNTIKyQDKYGYRKIDYAFRNAAWNM--EYAFGYGNMRSNYGLYSWTEVAdKAKRF-VETGEPVKNPPEINNRIVKKAARF 125
+                                 45555553556799************43..3345555688889999999987344444.3466667799************** PP
+
+  rdhAprofile_alignment_trim 186 lGadeVGiaeldekwkklihkkektgkplvfedvdeayetdtkivipeklkyvivvtvrqskeltraspggissaasgkaYsr 268
+                                 +Gad VG++  +++ +++ h+ +           +    + + ++ip+ + ++iv+++++++e+tr sp  is+aa+g+ Ys 
+              k87_23207374_3 126 FGADLVGVCYAHPNLIYS-HEMDLV---------E---AKHWALEIPKGCSNAIVMAIEMDYEATRYSPDSISGAATGQGYSL 195
+                                 *****************9.554222.........2...25799**************************************** PP
+
+  rdhAprofile_alignment_trim 269 saviavklqefirgLGYqalasgndgeapsvplavlaGlGElgRtgdllitpeyGprvrlakvlTDLPLapdkPidfGvreFC 351
+                                  av+a++l+ firgLGY+a++sgnd +a+s+pla++aGlGElgR+g ll+t+++Gprvr++kv+TDLPL  d+ + fGv  FC
+              k87_23207374_3 196 QAVLANQLAAFIRGLGYKAIPSGND-TAISIPLAMAAGLGELGRMG-LLLTKKFGPRVRICKVFTDLPLTYDEYRPFGVESFC 276
+                                 ************************9.9*******************.9*********************************** PP
+
+  rdhAprofile_alignment_trim 352 ktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnkkedswiHelvkatvstt 434
+                                 +tCkkCA++CPs aIs+d +pt e ++ sn++g  +W+ + +kC  fwa++ ++C++C+ vCpFnk+ + ++H+ v+a++ t 
+              k87_23207374_3 277 RTCKKCAQHCPSLAISHD-DPTTEGQSLSNHSGASKWYINPEKCFLFWAKNWMDCNNCVNVCPFNKP-KGILHDGVRALIRTM 357
+                                 ******************.9**********************************************9.*************** PP
+
+  rdhAprofile_alignment_trim 435 plfnsflknmdkafgYgrkeeekeewW 461
+                                 p+fn+++++md+++gYg+  + ++  W
+              k87_23207374_3 358 PIFNRLIVWMDDLLGYGKPIK-EKHYW 383
+                                 ******************985.56666 PP
+
+>> k87_6644811_6  # 7322 # 8497 # -1 # ID=471_6;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  222.5   0.0   2.8e-68   2.3e-66     141     466 ..      69     376 ..       4     385 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 222.5 bits;  conditional E-value: 2.8e-68
+  rdhAprofile_alignment_trim 141 g......laga.avltsllgpe..vvgtpeelgvpkwegtpeenskmikaaarflGadeVGiaeldekwkklihkkektgkpl 214
+                                 +      +++a   + +++++e  v+g+p     +k   +p+ +s  ik  ar+lGad V i+++++ w++   + ++++ + 
+               k87_6644811_6  69 IapqdelMENAmRFIPNVMAKEeyVDGEP---APEKIVIDPKRASSKIKGFARHLGADLVKIGPFNPSWTYKNISSPDHS-G- 146
+                                 13333335566234566666543344444...4455669********************************766663332.2. PP
+
+  rdhAprofile_alignment_trim 215 vfedvdeayetdtkivipeklkyvivvtvrqskeltraspggissaasgkaYsrsaviavklqefirgLGYqalasgndgeap 297
+                                           +d + + p+k  ++ivv++  +++ ++++p  +   a+g  Y r + i v l+++ir+LGY+a+a+  +++++
+               k87_6644811_6 147 S--------PSDIPAHPPNK--HAIVVAIAYKQDEIECAPRFTIALATGAIYLRLSTIVVTLARYIRSLGYEARAHNHNSQVL 219
+                                 1........23334455655..56777777777889****9999*********************************999*** PP
+
+  rdhAprofile_alignment_trim 298 svplavlaGlGElgRtgdllitpeyGprvrlakvlTDLPLapdkPidfGvreFCktCkkCAdaCPsgaIskdkeptweapeas 380
+                                  vpla+ aG+GEl+R+g ++it+eyG+ ++ ++v+TD+PL+ d+P+d+Gv eFC +C++C + CP+gaI+ ++++t+      
+               k87_6644811_6 220 HVPLAIDAGFGELARNG-IFITKEYGSAIKPMTVTTDMPLVYDRPVDIGVDEFCSQCNICVKYCPAGAIHVGEKKTI------ 295
+                                 *****************.9*****************************************************66666...... PP
+
+  rdhAprofile_alignment_trim 381 nnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnkkedswiHelvkatvsttplfnsflknmdkafgYgrkeeekeewWde 463
+                                    gvk+W ++++ C ++  ++g++C+ C+a+Cp++++  ++ H+++  + ++++++ +   ++  ++ Y +k++ k   W+e
+               k87_6644811_6 296 --RGVKKWPLNASACFEYFLRSGANCSLCVAYCPWTRP-RTFPHNFIIKAFERSNIARKSYLKVASLL-YRKKKM-KIPSWQE 373
+                                 ..9**********************************9.********************999999888.999995.5566666 PP
+
+  rdhAprofile_alignment_trim 464 dep 466
+                                 ++p
+               k87_6644811_6 374 EQP 376
+                                 554 PP
+
+>> k87_21437911_10  # 11200 # 12138 # -1 # ID=38_10;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.4   1.3   7.6e-12   6.2e-10     295     421 ..     129     249 ..     119     259 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 36.4 bits;  conditional E-value: 7.6e-12
+  rdhAprofile_alignment_trim 295 eapsvplavlaGlGElgRtgdllitpeyGprvrlakvlTDLPLapdkPidfGvreFCktCkkCAdaCPsgaIskdkeptweap 377
+                                  +++  +a +aG+G +g+++ +li p yG+   la++lT  ++   kP+d  +   C  C+ C d CP+ga       + +a+
+             k87_21437911_10 129 PILERSFAHMAGIGFIGKNN-MLILPGYGSYLYLAEILTTAEITF-KPVDP-IESECGECTLCLDVCPAGALDGP--FSLDAS 206
+                                 5677889*************.9*****************988865.67774.6677***************9877..677777 PP
+
+  rdhAprofile_alignment_trim 378 e.......asnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnkkeds 421
+                                 +         + p ++  r  + +C         gC +Cq+vCp n++ +s
+             k87_21437911_10 207 RclsyltiERKEPITEDNRIEMGSC-------FFGCDRCQEVCPHNSE-KS 249
+                                 778888777799*************.......489***********98.44 PP
+
+>> k87_16892110_1  # 2 # 2038 # -1 # ID=140_1;partial=10;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.0   0.6   7.1e-07   5.8e-05     348     418 ..     160     244 ..     148     262 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 20.0 bits;  conditional E-value: 7.1e-07
+  rdhAprofile_alignment_trim 348 reFCktCkkCAdaCPsgaIskdkeptweape..................asnnpgvkrWrtdlkkClsfwaeegsgCgaCqav 412
+                                 ++ C +C+ CA  CP+g I+ + + t  +++                  ++ +   ++   d ++C  f++    +C++C++ 
+              k87_16892110_1 160 TDVCISCGACAFICPTGHIKLE-DITSHVADpipseydlglkgrkpvyvPYAQAIPNTPAIDRSRCVHFKT---GECQICTSF 238
+                                 578*******************.6666666679***********9999988888888899******99997...8******** PP
+
+  rdhAprofile_alignment_trim 413 CpFnkk 418
+                                 C  n+ 
+              k87_16892110_1 239 CGVNAI 244
+                                 *87776 PP
+
+>> k87_21905560_2  # 422 # 2221 # 1 # ID=250_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.466
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.7   9.6      0.51        41     351     413 ..      44     106 ..      41     110 .. 0.79
+   2 ?   -0.4   1.8       1.1        88     353     370 ..      98     115 ..      97     137 .. 0.80
+   3 !   21.0  12.1   3.6e-07   2.9e-05     349     424 ..     383     436 ..     381     445 .. 0.86
+   4 !    8.9   2.5    0.0017      0.14     351     370 ..     417     436 ..     413     466 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 0.7 bits;  conditional E-value: 0.51
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape......asnnpgvkrWrtdlkkClsfwaeegsgCgaCqavC 413
+                                 C  C+kC + CP  a+  d e +   ++      ++ +     +  + ++Cl     +   Cg C+++C
+              k87_21905560_2  44 CTACGKCVEVCP--AVRPD-EFNLGLSSrkaiyiSFPQAVPSSYVINVNECL---GHNPIVCGKCIEAC 106
+                                 9***********..57777.44443333458877778888999********4...457899*****999 PP
+
+  == domain 2  score: -0.4 bits;  conditional E-value: 1.1
+  rdhAprofile_alignment_trim 353 tCkkCAdaCPsgaIskdk 370
+                                 +C+kC +aC  ++I++  
+              k87_21905560_2  98 VCGKCIEACDKECINFHM 115
+                                 6*************9763 PP
+
+  == domain 3  score: 21.0 bits;  conditional E-value: 3.6e-07
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnkkedswiH 424
+                                 e Ck C+kCA+ CP +aIs d+++ +               +++++C        +gCg+C a C+F +   s+ H
+              k87_21905560_2 383 ELCKFCGKCAEVCPYNAISIDTKKRI------------PAEVNTASC--------AGCGTCAAECVFDAI--SMNH 436
+                                 67*******************76666............3379*****........9***********997..7777 PP
+
+  == domain 4  score: 8.9 bits;  conditional E-value: 0.0017
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdk 370
+                                 C  C+ CA +C ++aIs+++
+              k87_21905560_2 417 CAGCGTCAAECVFDAISMNH 436
+                                 99***************985 PP
+
+>> k87_27271002_2  # 2590 # 2811 # 1 # ID=390_2;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.41
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   0.6   3.5e-06   0.00028     349     373 ..       9      33 ..       7      42 .. 0.86
+   2 !    6.6   0.8    0.0084      0.69     349     369 ..      41      61 ..      37      69 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 3.5e-06
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkept 373
+                                 e C  C++C ++CP++ I +d+e +
+              k87_27271002_2   9 ELCTGCGICVNSCPMDVIRMDEEAN 33 
+                                 78*******************8765 PP
+
+  == domain 2  score: 6.6 bits;  conditional E-value: 0.0084
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskd 369
+                                 e C+ C  C   CP +aI   
+              k87_27271002_2  41 EDCMLCDFCVLDCPEEAIYVS 61 
+                                 66****************766 PP
+
+>> k87_6035949_27  # 23321 # 23617 # 1 # ID=413_27;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.9   0.3    0.0033      0.27     389     415 ..      14      32 ..       5      45 .. 0.80
+   2 !   15.1   2.3   2.2e-05    0.0018     351     368 ..      50      67 ..      46      79 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 7.9 bits;  conditional E-value: 0.0033
+  rdhAprofile_alignment_trim 389 rtdlkkClsfwaeegsgCgaCqavCpF 415
+                                 +++ +kC         gCg C++vCp 
+              k87_6035949_27  14 KLNPDKC--------IGCGECTKVCPH 32 
+                                 5677788........789999999995 PP
+
+  == domain 2  score: 15.1 bits;  conditional E-value: 2.2e-05
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIsk 368
+                                 C+ C+ CA +CP++aIs 
+              k87_6035949_27  50 CMECGACALNCPTEAISV 67 
+                                 ****************96 PP
+
+>> k87_561677_2  # 1644 # 5018 # -1 # ID=264_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.478
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.3      0.11       9.3     351     369 ..     111     129 ..     104     139 .. 0.81
+   2 !   19.0   6.6   1.4e-06   0.00012     348     418 ..    1053    1105 ..    1047    1109 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 2.9 bits;  conditional E-value: 0.11
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskd 369
+                                 C  C+ C ++CP+  ++ +
+                k87_561677_2 111 CILCGHCFENCPVTTVEGN 129
+                                 8889999999998887655 PP
+
+  == domain 2  score: 19.0 bits;  conditional E-value: 1.4e-06
+  rdhAprofile_alignment_trim  348 reFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrt..dlkkClsfwaeegsgCgaCqavCpFnkk 418 
+                                  +++C+ C+ C +aCP  aI+ +            n+ v +W+   d + C        +gCg+C++vCp n+ 
+                k87_561677_2 1053 KDMCRGCGRCVRACPYHAITLQ------------NNSVGGWYAqeDEALC--------KGCGNCISVCPSNAA 1105
+                                  479******************9............5666788743389999........9**********8876 PP
+
+>> k87_5364435_9  # 11367 # 11588 # 1 # ID=279_9;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.8   0.7   2.7e-05    0.0022     350     374 ..      10      33 ..       8      42 .. 0.84
+   2 !    8.1   0.8    0.0029      0.23     351     370 ..      43      62 ..      39      70 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 2.7e-05
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkeptw 374
+                                  C  C++C ++CP++ I +d e ++
+               k87_5364435_9  10 LCTGCGICINSCPMDVIRMD-EGKM 33 
+                                 6******************9.5444 PP
+
+  == domain 2  score: 8.1 bits;  conditional E-value: 0.0029
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdk 370
+                                 C+ C+ C   CP  aI+   
+               k87_5364435_9  43 CMLCEFCSLDCPEHAITVSP 62 
+                                 ****************9774 PP
+
+>> k87_22085165_4  # 5973 # 7127 # 1 # ID=306_4;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.9   0.2    0.0002     0.016     391     428 ..      20      49 ..      13      62 .. 0.84
+   2 ?    5.1   0.1     0.023       1.9     351     365 ..      68      82 ..      66     105 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.0002
+  rdhAprofile_alignment_trim 391 dlkkClsfwaeegsgCgaCqavCpFnkkedswiHelvk 428
+                                 d++kC        ++Cg+C+avCp ++ ++++  +l+k
+              k87_22085165_4  20 DANKC--------MHCGNCTAVCPLSTADNTFPRKLIK 49 
+                                 78888........9***********9998887666666 PP
+
+  == domain 2  score: 5.1 bits;  conditional E-value: 0.023
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsga 365
+                                 C  C+ C d+CP ga
+              k87_22085165_4  68 CYYCGDCSDTCPRGA 82 
+                                 999*********998 PP
+
+>> k87_28873415_9  # 9099 # 10067 # -1 # ID=191_9;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.48
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.6   0.1   0.00026     0.021     389     418 ..     249     270 ..     225     283 .. 0.82
+   2 ?    4.8   0.3      0.03       2.4     351     368 ..     290     307 ..     287     316 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00026
+  rdhAprofile_alignment_trim 389 rtdlkkClsfwaeegsgCgaCqavCpFnkk 418
+                                 ++++++C        s+Cg+C++ Cp++++
+              k87_28873415_9 249 YVNTTDC--------SSCGVCVEICPYSAP 270
+                                 4789999........9***********986 PP
+
+  == domain 2  score: 4.8 bits;  conditional E-value: 0.03
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIsk 368
+                                 Ck C+ C  +C sgaI+ 
+              k87_28873415_9 290 CKGCGLCVASCRSGAINL 307
+                                 ****************85 PP
+
+>> k87_7878682_3  # 2420 # 2641 # 1 # ID=317_3;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.42
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.5   2.4     0.073         6     404     414 ..      12      22 ..       5      34 .. 0.72
+   2 !   16.9   0.3   6.1e-06    0.0005     351     378 ..      43      70 ..      41      73 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 3.5 bits;  conditional E-value: 0.073
+  rdhAprofile_alignment_trim 404 sgCgaCqavCp 414
+                                  gCg+C+ +Cp
+               k87_7878682_3  12 IGCGNCVNTCP 22 
+                                 46777777777 PP
+
+  == domain 2  score: 16.9 bits;  conditional E-value: 6.1e-06
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape 378
+                                 C++C+ CA  CP+g+I   +++  ++p+
+               k87_7878682_3  43 CQVCNLCAAYCPTGSIMVTRDKGLKIPT 70 
+                                 ****************998887776665 PP
+
+>> k87_22085165_3  # 3540 # 5795 # 1 # ID=306_3;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.7  11.6    0.0038      0.31     351     414 ..     545     586 ..     539     586 .. 0.79
+   2 ?    6.1   0.7     0.012      0.99     351     369 ..     575     593 ..     573     600 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 7.7 bits;  conditional E-value: 0.0038
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 C +Ck C  +CP+gaI++d+e +                   ++C          Cg+C+++Cp
+              k87_22085165_3 545 CTQCKRCTVECPFGAINEDDEANP--------------LPHPTRC--------RRCGVCMGACP 586
+                                 *******************87665..............2335677........67888888887 PP
+
+  == domain 2  score: 6.1 bits;  conditional E-value: 0.012
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskd 369
+                                 C+ C+ C  aCP   Is++
+              k87_22085165_3 575 CRRCGVCMGACPERIISFK 593
+                                 9*************99987 PP
+
+>> k87_21812197_7  # 8502 # 8723 # -1 # ID=226_7;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.5   1.0    0.0011     0.093     349     373 ..       9      33 ..       7      42 .. 0.86
+   2 !   10.3   0.3   0.00062     0.051     351     373 ..      43      65 ..      38      72 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 0.0011
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkept 373
+                                 + C+ C+ C ++C ++ I +++e +
+              k87_21812197_7   9 DLCNGCGECVKSCAVDVIRMNEEEK 33 
+                                 78*****************997654 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 0.00062
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkept 373
+                                 C+ C+ C   CP++aI+   +++
+              k87_21812197_7  43 CMLCELCTFFCPVDAITLIPKKS 65 
+                                 ****************9765555 PP
+
+>> k87_2377822_5  # 6607 # 8325 # 1 # ID=5_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.454
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.1   3.4   1.1e-05   0.00087     350     373 ..     233     255 ..     230     261 .. 0.85
+   2 !    8.6   0.6    0.0021      0.17     351     386 ..     262     299 ..     258     307 .. 0.78
+   3 ?    1.0   1.4      0.41        34     351     365 ..     352     366 ..     347     374 .. 0.63
+   4 !   10.6   8.4   0.00052     0.042     353     417 ..     394     450 ..     391     456 .. 0.82
+   5 ?    0.1   1.8      0.77        63     351     364 ..     471     484 ..     465     490 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 1.1e-05
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkept 373
+                                  C +C+kC ++CP+ aIs+d +p 
+               k87_2377822_5 233 DCTNCGKCVESCPTAAISQD-DPG 255
+                                 5*******************.664 PP
+
+  == domain 2  score: 8.6 bits;  conditional E-value: 0.0021
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape..asnnpgvk 386
+                                 C +Ck C + CP++a+ +  e+   +p   + n p  +
+               k87_2377822_5 262 CIVCKTCEEICPVDAVRFSAEKADRNPAgePVNSPERR 299
+                                 99***************997766655555555666555 PP
+
+  == domain 3  score: 1.0 bits;  conditional E-value: 0.41
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsga 365
+                                 C  C+ C  aCP + 
+               k87_2377822_5 352 CVRCGECMVACPNNV 366
+                                 555555555555554 PP
+
+  == domain 4  score: 10.6 bits;  conditional E-value: 0.00052
+  rdhAprofile_alignment_trim 353 tCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnk 417
+                                 +C+ C d CP+ aI     p    ++++  +g+ +   ++  Cl + +  +++C++C +vCpF +
+               k87_2377822_5 394 SCTNCGDVCPTFAIRSL--PRK--ERIWARSGTATIIKNM--CLAWEH--KKKCMVCDEVCPFGA 450
+                                 6**************98..333..36889*****999987..755444..699**********65 PP
+
+  == domain 5  score: 0.1 bits;  conditional E-value: 0.77
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsg 364
+                                 C  C+ C  +CP++
+               k87_2377822_5 471 CAGCGYCEHHCPVQ 484
+                                 66777777777765 PP
+
+>> k87_31228124_7  # 8241 # 9815 # 1 # ID=178_7;partial=01;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.44
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.3   7.1   3.8e-05    0.0031     351     417 ..     118     179 ..     116     185 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 3.8e-05
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape....asnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnk 417
+                                 C  C+ CA+aCP++      ++ + +++    +  ++  + +  d++ C        ++Cg C++vCp n+
+              k87_31228124_7 118 CIGCNACAEACPVEIPDIF-NKGMTKRKaiylPVPHSIPNPYVIDYSAC--------TQCGECVKVCPTNA 179
+                                 999**********965544.444444444666778888899********........99*********775 PP
+
+>> k87_12677922_29  # 29139 # 30167 # -1 # ID=337_29;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_con
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.0   0.2   0.00019     0.015       1      42 [.       1      41 [.       1      50 [. 0.75
+   2 ?    0.7   0.1      0.49        40       6      47 ..     254     297 ..     247     332 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00019
+  rdhAprofile_alignment_trim  1 MskfhselsrrdFlKalglagaglgaaaaaapvfhdldelvs 42
+                                M k  +++srr+F++ +g+ +a+l++a+ ++p+  +l+++v+
+             k87_12677922_29  1 MGKDGRNISRREFMRQAGIGAAALAVAS-STPLKGALASTVK 41
+                                6777789*********999888777654.5577777776665 PP
+
+  == domain 2  score: 0.7 bits;  conditional E-value: 0.49
+  rdhAprofile_alignment_trim   6 selsrrdFlKalglagaglgaaaaa..apvfhdldelvssssat 47 
+                                 s l+ rd lK + + g gl a+ aa  a + +++ e+v+ + a+
+             k87_12677922_29 254 SVLDMRDVLKEAKASGIGLVAMKAAnkAYTPENVHEIVKGELAK 297
+                                 6788999***9999999999888874433345566666655444 PP
+
+>> k87_22070027_5  # 4093 # 4293 # -1 # ID=303_5;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.7   9.6    0.0076      0.62     351     414 ..      10      53 ..       6      53 .. 0.75
+   2 !    7.9   1.5    0.0034      0.28     350     367 ..      41      58 ..      36      65 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.0076
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 C  CkkC d CP +  ++dk+ ++               t  ++C         +Cg+C+  Cp
+              k87_22070027_5  10 CIGCKKCYDLCPIDVFTMDKQTNMP---------AA---TYNEEC--------WHCGICWMECP 53 
+                                 999****************766652.........22...224678........47888888887 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 0.0034
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIs 367
+                                  C  C++C  +CP  aI 
+              k87_22070027_5  41 ECWHCGICWMECPKRAID 58 
+                                 5999*********99996 PP
+
+>> k87_18565050_1  # 3 # 200 # 1 # ID=475_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.439
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.7   9.2    0.0076      0.62     350     414 ..       8      52 ..       5      52 .. 0.73
+   2 !    7.9   1.6    0.0033      0.27     350     367 ..      40      57 ..      34      64 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.0076
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                  C  CkkC d CP +  ++d+  ++        p   ++    ++C         +Cg+C+  Cp
+              k87_18565050_1   8 KCIGCKKCYDLCPIDVFTMDETTNM--------P-AATY---NEEC--------WHCGICWMECP 52 
+                                 5999****************43333........2.2222...4678........47888888888 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 0.0033
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIs 367
+                                  C  C++C  +CP  aI 
+              k87_18565050_1  40 ECWHCGICWMECPKRAID 57 
+                                 599999999999999996 PP
+
+>> k87_6005889_2  # 434 # 2191 # -1 # ID=411_2;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.495
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.1   0.00029     0.023       6      36 ..      10      40 ..       1      59 [. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00029
+  rdhAprofile_alignment_trim  6 selsrrdFlKalglagaglgaaaaaapvfhd 36
+                                ++ +rrdF+K++gl +a+l + ++   + + 
+               k87_6005889_2 10 FNCNRRDFMKVAGLGAAALSISGMGLATNAG 40
+                                568**************99998886443333 PP
+
+>> k87_16892110_2  # 2147 # 4000 # -1 # ID=140_2;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;gc_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.4   9.8    0.0012     0.096     349     416 ..     567     612 ..     565     616 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 9.4 bits;  conditional E-value: 0.0012
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFn 416
+                                 e C  C  CA +CP +a+s +k ++               + d++kC         +Cg+C++ C F 
+              k87_16892110_2 567 ESCTGCHLCAVKCPQDAVSGEK-KE-------------LHQIDQEKC--------IKCGICYEGCKFD 612
+                                 67*******************4.34.............469******........89********997 PP
+
+>> k87_5057534_3  # 3214 # 3435 # 1 # ID=158_3;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.446
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.4   3.5    0.0098       0.8     390     414 ..       6      22 ..       5      33 .. 0.80
+   2 ?    9.5   2.3    0.0011     0.087     348     368 ..      40      60 ..      30      68 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 6.4 bits;  conditional E-value: 0.0098
+  rdhAprofile_alignment_trim 390 tdlkkClsfwaeegsgCgaCqavCp 414
+                                  d +kC         gCg+C+a+Cp
+               k87_5057534_3   6 IDNEKC--------IGCGTCVATCP 22 
+                                 688888........89999999999 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.0011
+  rdhAprofile_alignment_trim 348 reFCktCkkCAdaCPsgaIsk 368
+                                 +e C+ C  C   CP++aIs 
+               k87_5057534_3  40 QEDCQICHLCRIYCPVDAISI 60 
+                                 677****************96 PP
+
+>> k87_561677_1  # 1 # 1485 # -1 # ID=264_1;partial=10;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.4   4.8    0.0024      0.19     351     414 ..     166     222 ..     164     271 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 8.4 bits;  conditional E-value: 0.0024
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape.asnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 C+ C+kC  aC      kd  p   a++ ++      + ++d  +C         +Cg C+  Cp
+                k87_561677_1 166 CQDCGKCSSACSLTLAGKDFSPRAMASSiIAGDYTSTTVQNDVWSC--------LTCGLCYDRCP 222
+                                 ********************99998888555677778899******........79********9 PP
+
+>> k87_4980303_2  # 1442 # 1642 # 1 # ID=122_2;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.40
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.6  10.5     0.033       2.7     350     390 ..       9      45 ..       2      58 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 4.6 bits;  conditional E-value: 0.033
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrt 390
+                                  C  C+kC + CP++   +d+e ++    +    g++ W++
+               k87_4980303_2   9 KCIGCQKCYKICPMDVFAMDEEMNM----PVVEHGYECWHC 45 
+                                 5999****************99888....677888887765 PP
+
+>> k87_31295682_2  # 1642 # 1869 # -1 # ID=222_2;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.6   0.5    0.0021      0.17     387     414 ..       3      22 ..       1      33 [. 0.87
+   2 ?    3.3   2.0     0.081       6.7     348     364 ..      40      56 ..      34      68 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 8.6 bits;  conditional E-value: 0.0021
+  rdhAprofile_alignment_trim 387 rWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                  ++ d++kC         gCg+C+ +Cp
+              k87_31295682_2   3 VYKIDTDKC--------IGCGTCVLTCP 22 
+                                 5889999**........89********9 PP
+
+  == domain 2  score: 3.3 bits;  conditional E-value: 0.081
+  rdhAprofile_alignment_trim 348 reFCktCkkCAdaCPsg 364
+                                 +e C+ C  C   CP+g
+              k87_31295682_2  40 QEDCQICHLCRVYCPVG 56 
+                                 667************97 PP
+
+>> k87_2464077_11  # 10967 # 11203 # -1 # ID=55_11;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.1  17.1     0.023       1.9     348     414 ..      14      69 ..      13      72 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 5.1 bits;  conditional E-value: 0.023
+  rdhAprofile_alignment_trim 348 reFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 +e Ck C  C   CP + Is  k+p+ +    +    +    +d k C          Cg+C   Cp
+              k87_2464077_11  14 QEICKGCCLCKSVCPNEKISISKKPNQQ---GYYPAEFSDNENDGKVC--------IACGNCAIICP 69 
+                                 588*********************9995...555567777889*****........89********9 PP
+
+>> k87_14946800_15  # 22215 # 23288 # 1 # ID=302_15;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1  11.8     0.093       7.6     349     417 ..     194     239 ..     192     245 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 3.1 bits;  conditional E-value: 0.093
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnk 417
+                                 + C  C+kC + CP +aI++ +  ++                 ++kC         gCg C+avC F +
+             k87_14946800_15 194 RRCTACEKCMRWCPENAIEQRDGSSF---------------ILAEKC--------IGCGECIAVCRFEA 239
+                                 56*******************88887...............457888........78999999998876 PP
+
+>> k87_19545871_4  # 4461 # 7481 # -1 # ID=256_4;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;gc_c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.6   6.6     0.001     0.085     351     414 ..     112     175 ..     109     185 .. 0.82
+   2 ?    1.5   0.7       0.3        25     404     417 ..     941     954 ..     934     969 .. 0.68
+   3 ?    5.1   2.1     0.023       1.9     351     367 ..     970     986 ..     967     998 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.001
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape....asnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 C  C+ C ++CP +  s+  e+   +++     + +   ++   d+++C  f +  + +Cg+C +vCp
+              k87_19545871_4 112 CTGCGLCEEKCPKKVSSEY-EQGLTNRKaifsLFPQAFPNTRVIDKENCI-FLT--KGKCGTCEKVCP 175
+                                 99**********8865555.999988888887556666666689*****4.444..69*********9 PP
+
+  == domain 2  score: 1.5 bits;  conditional E-value: 0.3
+  rdhAprofile_alignment_trim 404 sgCgaCqavCpFnk 417
+                                 ++C +C+  CpF +
+              k87_19545871_4 941 MSCLTCLRLCPFDS 954
+                                 57888888888876 PP
+
+  == domain 3  score: 5.1 bits;  conditional E-value: 0.023
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIs 367
+                                 C+ C++CA  CP++a +
+              k87_19545871_4 970 CMGCGICAGICPAKAFQ 986
+                                 99***********9976 PP
+
+>> k87_6005889_1  # 156 # 380 # -1 # ID=411_1;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.444
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.0  11.3      0.84        68     349     393 ..       9      44 ..       7      54 .. 0.71
+   2 ?    1.6   4.0      0.27        22     351     363 ..      43      55 ..      36      66 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -0.0 bits;  conditional E-value: 0.84
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlk 393
+                                 + C  C+ C  +CP++ I +d+e +         + v ++  d +
+               k87_6005889_1   9 DTCIGCGECELSCPMDVIRMDTEGE---------KPVIKFPEDCQ 44 
+                                 56999****************6533.........34555555544 PP
+
+  == domain 2  score: 1.6 bits;  conditional E-value: 0.27
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPs 363
+                                 C+tCk C   CP 
+               k87_6005889_1  43 CQTCKLCEFFCPE 55 
+                                 ***********96 PP
+
+>> k87_6228131_1  # 1 # 1524 # 1 # ID=435_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.440
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.9  14.8       1.5   1.2e+02     350     417 ..     441     487 ..     438     489 .. 0.83
+   2 ?    4.0   4.3      0.05       4.1     350     365 ..     472     487 ..     469     497 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -0.9 bits;  conditional E-value: 1.5
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnk 417
+                                  C  C+kC daCP ga   d e               +  ++   C        +gCg C avCp n+
+               k87_6228131_1 441 ICSLCQKCIDACPYGARALDIE-------------LDQISVNPVMC--------QGCGSCAAVCPNNA 487
+                                 5**************9888832.............45668999999........89999999999876 PP
+
+  == domain 2  score: 4.0 bits;  conditional E-value: 0.05
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsga 365
+                                 +C+ C+ CA  CP +a
+               k87_6228131_1 472 MCQGCGSCAAVCPNNA 487
+                                 69***********998 PP
+
+>> k87_2651240_4  # 1902 # 3350 # 1 # ID=146_4;partial=00;start_type=TTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.449
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.7   0.4       2.8   2.3e+02     391     413 ..     211     225 ..     204     239 .. 0.71
+   2 ?    1.2   0.0      0.35        29       7      44 ..     274     311 ..     268     320 .. 0.84
+   3 ?    3.5   2.8     0.071       5.8     349     367 ..     321     339 ..     314     341 .. 0.89
+   4 ?    8.6   0.7     0.002      0.17     351     369 ..     362     381 ..     361     399 .. 0.81
+   5 ?    6.5   5.4    0.0086      0.71     352     413 ..     408     451 ..     407     454 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: -1.7 bits;  conditional E-value: 2.8
+  rdhAprofile_alignment_trim 391 dlkkClsfwaeegsgCgaCqavC 413
+                                   +kC         +C+ C++ C
+               k87_2651240_4 211 ENEKC--------VSCPSCVSLC 225
+                                 55556........6677777777 PP
+
+  == domain 2  score: 1.2 bits;  conditional E-value: 0.35
+  rdhAprofile_alignment_trim   7 elsrrdFlKalglagaglgaaaaaapvfhdldelvsss 44 
+                                  +srr+Fl   g a  g  +++ +ap +++ ++++  +
+               k87_2651240_4 274 HMSRRKFLAWGGSAVIGSTMLTPFAPRLNASKDIIRPP 311
+                                 79********99999999999999**999999998766 PP
+
+  == domain 3  score: 3.5 bits;  conditional E-value: 0.071
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIs 367
+                                 + C  C+ C ++CP++a +
+               k87_2651240_4 321 DLCIRCQACVNTCPTNALQ 339
+                                 67*************9987 PP
+
+  == domain 4  score: 8.6 bits;  conditional E-value: 0.002
+  rdhAprofile_alignment_trim 351 Ckt.CkkCAdaCPsgaIskd 369
+                                 Ckt C kC + CP+gaI   
+               k87_2651240_4 362 CKTgCAKCSEVCPTGAIGVF 381
+                                 6666*************655 PP
+
+  == domain 5  score: 6.5 bits;  conditional E-value: 0.0086
+  rdhAprofile_alignment_trim 352 ktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavC 413
+                                 k+C+kC  +CP+gaI++ +e  ++          k  + d+  C        +gCg+C   C
+               k87_2651240_4 408 KKCGKCIPECPTGAIEYINENGMD----------KPLKIDYLLC--------TGCGICENLC 451
+                                 68***************9887775..........4456666677........6677776666 PP
+
+>> k87_14609168_3  # 2287 # 3357 # -1 # ID=180_3;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   0.4   0.00075     0.062     349     369 ..     307     327 ..     305     337 .. 0.86
+   2 ?   -0.7   6.3       1.4   1.1e+02     351     367 ..     338     354 ..     334     356 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.00075
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskd 369
+                                 + C  C++C ++CP++a s+ 
+              k87_14609168_3 307 NLCLGCGICVEKCPVSALSMI 327
+                                 57999************9986 PP
+
+  == domain 2  score: -0.7 bits;  conditional E-value: 1.4
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIs 367
+                                 C +C  C ++CP  aI+
+              k87_14609168_3 338 CIVCFCCQENCPERAIQ 354
+                                 99**************8 PP
+
+>> k87_14324298_29  # 32838 # 33038 # 1 # ID=44_29;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   5.1     0.088       7.2     391     414 ..       6      21 ..       4      33 .. 0.79
+   2 ?    7.7   2.5    0.0038      0.31     351     367 ..      42      58 ..      32      63 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.088
+  rdhAprofile_alignment_trim 391 dlkkClsfwaeegsgCgaCqavCp 414
+                                 d++kC        +gC++C++ Cp
+             k87_14324298_29   6 DTEKC--------NGCKNCYTICP 21 
+                                 78888........89999999998 PP
+
+  == domain 2  score: 7.7 bits;  conditional E-value: 0.0038
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIs 367
+                                 C  C++C  +CP  aI 
+             k87_14324298_29  42 CSHCGICWMECPKRAID 58 
+                                 99999999999999996 PP
+
+>> k87_9949866_2  # 652 # 2439 # -1 # ID=234_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2  13.8     0.044       3.6     350     414 ..     548     590 ..     546     592 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 4.2 bits;  conditional E-value: 0.044
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                  C +C+ C + CP++aI+ +k+ +               r d++kC         +C +C +vCp
+               k87_9949866_2 548 QCSKCGMCFRRCPVDAIEWKKKESA--------------RIDKAKC--------VKCLTCFSVCP 590
+                                 5*******************99888..............9******........89********9 PP
+
+>> k87_22096636_2  # 109 # 585 # 1 # ID=308_2;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.444
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.7   7.9     0.062         5     351     445 ..      29     116 ..      21     125 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 3.7 bits;  conditional E-value: 0.062
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape..asnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnkkedswiHelvkatv 431
+                                 C tC+ C   CP+  + +d +p   + +    + + v+  ++ ++ C          C+ C  vCp   k + +  el k ++
+              k87_22096636_2  29 CYTCGACTGICPVHEVIEDFDPRLIIYKilLGKREEVLSSHLIWFCC---------LCNECFFVCPQEIKFSRVATELRKIAL 102
+                                 **************9999999*9977776666888899999989989.........799999999988887888888888888 PP
+
+  rdhAprofile_alignment_trim 432 sttplfnsflknmd 445
+                                 s+ ++ ++fl +++
+              k87_22096636_2 103 SEGHADKEFLIKLE 116
+                                 88888888888877 PP
+
+>> k87_21764206_6  # 4501 # 4737 # -1 # ID=204_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_co
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.6  12.9      0.54        44     348     390 ..      13      42 ..      12      74 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 0.6 bits;  conditional E-value: 0.54
+  rdhAprofile_alignment_trim 348 reFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrt 390
+                                 re Ck C++C   CP +  + d+  ++             +  
+              k87_21764206_6  13 REWCKGCGICVHFCPKEVLELDETDKV-------------FAA 42 
+                                 689**************9999954333.............444 PP
+
+>> k87_2704713_1  # 1 # 2346 # -1 # ID=170_1;partial=10;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.9   6.8     0.056       4.5     350     414 ..     688     756 ..     685     764 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 3.9 bits;  conditional E-value: 0.056
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkeptweape..........asnnpgvkrWrtdlk..kClsfwaeegsgCgaCqavCp 414
+                                  C +C+ C   CP   I     ++++ +e          + +  + +++r   +  +C        +gCg+C +vCp
+               k87_2704713_1 688 NCIQCNQCSFVCPHAVIRPVLAKEEDLKEapkefvtvdaKGKELKGLKYRIQISplDC--------TGCGNCAQVCP 756
+                                 599**************98876666666666788866653344444556554432278........99********9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                       3022  (884290 residues searched)
+Passed MSV filter:                       219  (0.0724686); expected 60.4 (0.02)
+Passed bias filter:                      187  (0.0618795); expected 60.4 (0.02)
+Passed Vit filter:                        88  (0.0291198); expected 3.0 (0.001)
+Passed Fwd filter:                        46  (0.0152217); expected 0.0 (1e-05)
+Initial search space (Z):               3022  [actual number of targets]
+Domain search space  (domZ):              37  [number of targets reported over threshold]
+# CPU time: 0.16u 0.00s 00:00:00.16 Elapsed: 00:00:00.09
+# Mc/sec: 4591.49
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        A02_01_coassembly_bin.3-proteins.faa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/A02_01_genomes/A02_01_coassembly_bin.3-proteins_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+   1.1e-134  446.4   0.0   1.3e-134  446.1   0.0    1.0  1  k87_8027221_5    # 2564 # 3967 # -1 # ID=120_5;partial=00;sta
+   1.6e-132  439.3   0.0   1.9e-132  438.9   0.0    1.0  1  k87_26918667_3   # 1075 # 2478 # 1 # ID=108_3;partial=00;star
+   1.3e-131  436.2   0.0   1.5e-131  436.0   0.0    1.0  1  k87_31293565_3   # 1035 # 2402 # 1 # ID=63_3;partial=01;start
+    8.8e-06   21.3   1.6    8.8e-06   21.3   1.6    2.1  2  k87_26156861_8   # 8531 # 8809 # -1 # ID=6_8;partial=00;start
+    1.4e-05   20.6  21.2     0.0056   12.1   0.7    4.4  4  k87_7439411_11   # 10148 # 12241 # 1 # ID=48_11;partial=00;st
+    1.9e-05   20.2   7.2    0.00034   16.1   1.1    2.3  2  k87_13066697_12  # 10293 # 11129 # -1 # ID=142_12;partial=01;
+    0.00034   16.1   2.4    0.00034   16.1   2.4    2.1  2  k87_24212138_2   # 1363 # 2595 # -1 # ID=68_2;partial=00;star
+    0.00038   15.9   2.0    0.00038   15.9   2.0    1.3  1  k87_29457437_5   # 1300 # 1512 # 1 # ID=125_5;partial=00;star
+     0.0013   14.1  11.6     0.0035   12.7  11.6    1.6  1  k87_4808391_7    # 3205 # 5124 # 1 # ID=9_7;partial=00;start_
+     0.0065   11.8  14.2       0.05    8.9   5.1    2.2  2  k87_24137390_13  # 11679 # 13373 # 1 # ID=53_13;partial=00;st
+  ------ inclusion threshold ------
+      0.015   10.6   8.7     0.0069   11.8   1.3    2.5  2  k87_29041677_10  # 8365 # 10473 # 1 # ID=80_10;partial=00;sta
+      0.016   10.6   8.0      0.028    9.8   8.0    1.6  1  k87_743_3        # 656 # 886 # 1 # ID=1_3;partial=00;start_ty
+      0.038    9.3  14.3       0.13    7.6  14.3    1.7  1  k87_26918667_6   # 4089 # 4787 # -1 # ID=108_6;partial=00;sta
+      0.083    8.2   7.1       0.14    7.5   7.1    1.3  1  k87_29385280_1   # 2 # 1075 # 1 # ID=118_1;partial=10;start_t
+       0.13    7.5  10.7      0.036    9.4   1.0    2.3  2  k87_26918667_7   # 4956 # 6644 # -1 # ID=108_7;partial=01;sta
+       0.24    6.7  12.2      0.052    8.9   8.0    1.9  1  k87_31475014_3   # 1314 # 1748 # -1 # ID=87_3;partial=01;star
+        0.7    5.1   8.7        1.8    3.7   8.7    1.6  1  k87_33772426_5   # 2180 # 3511 # -1 # ID=78_5;partial=01;star
+       0.78    5.0  18.6      0.033    9.5   0.7    2.4  3  k87_10249513_3   # 2070 # 2543 # 1 # ID=104_3;partial=00;star
+        1.2    4.3  22.9       0.17    7.1   3.7    3.1  3  k87_24137390_9   # 7204 # 7719 # 1 # ID=53_9;partial=00;start
+
+
+Domain annotation for each sequence (and alignments):
+>> k87_8027221_5  # 2564 # 3967 # -1 # ID=120_5;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.54
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  446.1   0.0  2.1e-136  1.3e-134       3     471 ..       3     459 ..       1     462 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 446.1 bits;  conditional E-value: 2.1e-136
+  rdhAprofile_alignment_trim   3 kfhselsrrdFlKalglagaglgaaaaaapvfhdldelvssssatnkrpwwvkerdlgdptveidwsllkridgkkegqakpv 85 
+                                 kfhs+  r   l++  l   glg        ++dlde++ss+++++krpww+k+   ++ptv idw++++r+d++k +q+   
+               k87_8027221_5   3 KFHSTTGRG-VLRG-LLSKIGLG-------KARDLDEIASSPESEWKRPWWIKTV--NKPTVDIDWDVVERFDETKIQQV--S 72 
+                                 555554443.5555.44455555.......579*******************995..99****************77775..4 PP
+
+  rdhAprofile_alignment_trim  86 dakylgagvvkaetaeqakalvkalkeeepgftlrdralaaaakagllpeeiqlgglaga..avltsllgpevvgtpeelgvp 166
+                                  +ky+g+++ k+ ++++a+++ ++++e+ p++tlrdral+ a+ +g++++   + g+a++   v + + g     tpe++gvp
+               k87_8027221_5  73 FSKYVGEEENKRLRKQKAERTREWIQENRPNYTLRDRALDIAVRQGAVGN--SFLGFANDpeHVKDGWGG--ALITPESIGVP 151
+                                 5668999999999999999*************************988753..233355553235588888..478999***** PP
+
+  rdhAprofile_alignment_trim 167 kwegtpeenskmikaaarflGadeVGiaeldekwkklihkkektgkplvfedvdeayetdtkivipeklkyvivvtvrqskel 249
+                                  w+gtpe+n++m++aa++++Ga++V+++elde+ kk+i++++++gk l fedvd+aye++t  vip++ +++iv+tv++s+el
+               k87_8027221_5 152 PWQGTPEDNAMMMRAALKMFGASQVAFLELDEYNKKFIYSVDNDGKRLDFEDVDQAYEEETRRVIPNNARWIIVFTVQMSEEL 234
+                                 *********************************************************************************** PP
+
+  rdhAprofile_alignment_trim 250 traspg....gissaasgkaYsrsaviavklqefirgLGYqalasgn.dgeapsvplavlaGlGElgRtgdllitpeyGprvr 327
+                                 +++  g     +s aa+g+aY+r+ vi   +q f++ LGY+ l   + +g +++ ++av++G+GEl+R +  +itpeyGp+vr
+               k87_8027221_5 235 LKRRVGktptPFSAAAAGNAYARARVIFDDTQIFLHCLGYYGLMAYWfNGLGIADAFAVMSGIGELSRLN-RVITPEYGPMVR 316
+                                 **9876666699***************************99877666477********************.6*********** PP
+
+  rdhAprofile_alignment_trim 328 lakvlTDLPLapdkPidfGvreFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCq 410
+                                 +++++T+LPLap+kPi++G+ +FCktCkkCA++CPsg  s+ +ep+we++ ++n pg k+W+ d++kC+ +w + +++C++C 
+               k87_8027221_5 317 IFRLVTNLPLAPSKPINAGIMRFCKTCKKCATECPSGTLSEATEPSWEVKGPWNSPGHKTWYEDSPKCMAYWLKATASCATCF 399
+                                 *********************************************************************************** PP
+
+  rdhAprofile_alignment_trim 411 avCpFnkkedswiHelvkatvsttplfnsflknmdkafgYgrkeeekeewWdedepvygid 471
+                                 avCpF+kk++s++H +v+atv++tp+fns++++md ++gY   + ++e+wW +++p ygid
+               k87_8027221_5 400 AVCPFSKKDKSFMHHFVEATVAKTPIFNSLFTKMDGLLGYDIPK-DPESWWGSNMPPYGID 459
+                                 ******************************************99.8*************98 PP
+
+>> k87_26918667_3  # 1075 # 2478 # 1 # ID=108_3;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.56
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  438.9   0.0  3.3e-134  1.9e-132       3     471 ..       2     459 ..       1     464 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 438.9 bits;  conditional E-value: 3.3e-134
+  rdhAprofile_alignment_trim   3 kfhselsrrdFlKalglagaglgaaaaaapvfhdldelvssssatnkrpwwvkerdlgdptveidwsllkridgkkegqakpv 85 
+                                 k+hs+ s+ +++K++gl  ag           +dlde++ss+ a++krpwwv++  +++pt+eidw+ ++r+d++k +q+   
+              k87_26918667_3   2 KYHSTTSKNKYMKTVGLDKAG-----------NDLDEVISSPVAEWKRPWWVRT--VEKPTMEIDWDATERFDARKIQQV--S 69 
+                                 5899999******99987775...........689*****************77..69*****************87775..4 PP
+
+  rdhAprofile_alignment_trim  86 dakylgagvvkaetaeqakalvkalkeeepgftlrdralaaaakagllpeeiqlgglagaavltsllgpe.vvgtpeelgvpk 167
+                                   ky+g+++  + ++  a++  ++++e+ p++tlrdra++ a  +g + +++     ++ +v +   g+  +  +pe lgvp+
+              k87_26918667_3  70 FYKYVGEEENLRLRKLGAERSKQWIEENRPNYTLRDRAVDLAGRRGSVRTRFIN-EWENRPVGQASGGWGgQLLSPELLGVPR 151
+                                 5568889998888999999***********************998876544433.24444555555555446788999***** PP
+
+  rdhAprofile_alignment_trim 168 wegtpeenskmikaaarflGadeVGiaeldekwkklihkke.ktgkplvfedvdeayetdtkivipeklkyvivvtvrqskel 249
+                                 weg+peens+mi+a+ar +Ga++VG++elde+ +kl+++++ ++g +l fedvd+aye++   vip+k +++iv++v++s+el
+              k87_26918667_3 152 WEGSPEENSRMIRAVARNFGASQVGFVELDEHGRKLVYSYDaRDGAKLDFEDVDKAYEEEGRRVIPNKAQWAIVFSVQMSEEL 234
+                                 ************************************9*997678899************************************ PP
+
+  rdhAprofile_alignment_trim 250 traspg....gissaasgkaYsrsaviavklqefirgLGYqalasgndg.eapsvplavlaGlGElgRtgdllitpeyGprvr 327
+                                 +++  g     +ss+++g aY+r  ++  +lq+f+  +GYq l +++++  a++++l+++aGlGE++R ++ +++peyGp  r
+              k87_26918667_3 235 YKRMVGhaptPLSSSTTGLAYARGRNVLDRLQTFLYLIGYQGLMGTWENgLAMAPALGIMAGLGEYSRLNK-VVSPEYGPIQR 316
+                                 99986656669************************************777********************5.*********** PP
+
+  rdhAprofile_alignment_trim 328 lakvlTDLPLapdkPidfGvreFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCq 410
+                                 ++k++TDLPLap++Pid+G+ +FC+tCkkCA+aCPsg I++d++p we++ +++npg + W  d+++Cl +w +++s+C++C+
+              k87_26918667_3 317 VFKMITDLPLAPTQPIDAGIMRFCRTCKKCAEACPSGTIPMDTDPFWEVKGPWHNPGHRAWFDDAPSCLAYWMKSTSSCATCL 399
+                                 *********************************************************************************** PP
+
+  rdhAprofile_alignment_trim 411 avCpFnkkedswiHelvkatvsttplfnsflknmdkafgYgrkeeekeewWdedepvygid 471
+                                 avCpF kk++s+iH +v+at+++t++fn+++++md ++gY   + ++e+wWd d p +gi+
+              k87_26918667_3 400 AVCPFAKKDKSFIHHFVEATIAKTSIFNGLFTKMDGLMGYDIPK-DPESWWDLDLPPFGIN 459
+                                 ******************************************99.8*********999987 PP
+
+>> k87_31293565_3  # 1035 # 2402 # 1 # ID=63_3;partial=01;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  436.0   0.0  2.6e-133  1.5e-131       3     471 ..       2     455 ..       1     456 [] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 436.0 bits;  conditional E-value: 2.6e-133
+  rdhAprofile_alignment_trim   3 kfhselsrrdFlKalglagaglgaaaaaapvfhdldelvssssatnkrpwwvkerdlgdptveidwsllkridgkkegqakpv 85 
+                                 k+hs+ s r+ +K  gl  a            hdlde+++s++a++kr+w vk   +++pt+e+dw+ ++r+d +   q++  
+              k87_31293565_3   2 KYHSTTSNRSDMKNTGLSHA-----------GHDLDEIAASAEAEWKRSWRVKY--VDEPTIEVDWDNMERYDSRVVPQVY-- 69 
+                                 47888888888888777666...........499******************87..69*****************877754.. PP
+
+  rdhAprofile_alignment_trim  86 dakylgagvvkaetaeqakalvkalkeeepgftlrdralaaaakagllpeeiqlgglagaavltsllgpevvgtpeelgvpkw 168
+                                   +y+g +v+++ ++ ++++  k++ e++pg+tlrdral+ +a++g + +++   ++     ++    +++v  p+++gvp+w
+              k87_31293565_3  70 YPNYVGHEVAEKLNKLSETRRNKWIIENKPGYTLRDRALEIGANRGSVMPTFIPDFA----HAKISSRASKVYGPDDIGVPRW 148
+                                 55688888888888888999999*********************9766443333222....222222334688899******* PP
+
+  rdhAprofile_alignment_trim 169 egtpeenskmikaaarflGadeVGiaeldekwkklihkkektgkplvfedvdeayetdtkivipeklkyvivvtvrqskeltr 251
+                                 egtpeen+++++aaar++Ga eVG+++ld+k+ kli++++++gk++ fedvd ayet++k v+p+k ++viv++v++s+el++
+              k87_31293565_3 149 EGTPEENARVVRAAARYFGAGEVGFVKLDQKTEKLIYSYDADGKKIEFEDVDLAYETEDKRVVPNKARWVIVFSVQMSEELLK 231
+                                 *********************************************************************************** PP
+
+  rdhAprofile_alignment_trim 252 aspg....gissaasgkaYsrsaviavklqefirgLGYqalasgn.dgeapsvplavlaGlGElgRtgdllitpeyGprvrla 329
+                                 +  g     +s+  +   Ys+  ++  +lq+f++ LGYq l+s + +g +++++l+++aGlGEl+R + lli+peyGp  r++
+              k87_31293565_3 232 RRDGlyatALSGTPNSLGYSQGRNVLDRLQTFLHVLGYQGLGSPWfNGLGIAPALGIMAGLGELSRLN-LLISPEYGPLQRIF 313
+                                 **997777788888999**************************99666********************.9************* PP
+
+  rdhAprofile_alignment_trim 330 kvlTDLPLapdkPidfGvreFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrW.rtdlkkClsfwaeegsgCgaCqa 411
+                                 +++TDLPLap+kPid+G+ +FC+tCkkCA  CP++  s +++p+we++ +++npg k + + +++kC+++w+ ++ gC++C++
+              k87_31293565_3 314 RLITDLPLAPTKPIDAGIMRFCRTCKKCALLCPAKVLSVEDDPSWETTGKWSNPGHKAYhYINSAKCMTQWKVSSVGCSTCLS 396
+                                 **********************************************************9458********************* PP
+
+  rdhAprofile_alignment_trim 412 vCpFnkkedswiHelvkatvsttplfnsflknmdkafgYgrkeeekeewWdedepvygid 471
+                                 vCpF+kk++s++H+lv+ t+++tp+fn ++++md ++gY   + ++e wWd+d+p yg+d
+              k87_31293565_3 397 VCPFSKKHKSFVHSLVETTIAKTPIFNALFTKMDGLLGYDIPK-DAEYWWDMDMPPYGMD 455
+                                 *****************************************99.79************98 PP
+
+>> k87_26156861_8  # 8531 # 8809 # -1 # ID=6_8;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.1   4.2     0.025       1.5     351     371 ..      38      58 ..      34      64 .. 0.85
+   2 !   21.3   1.6   1.5e-07   8.8e-06     349     372 ..      65      88 ..      63      92 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 4.1 bits;  conditional E-value: 0.025
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdke 371
+                                 C  C+ C   CPsg+I+++ +
+              k87_26156861_8  38 CCRCGWCYLYCPSGCITEQGD 58 
+                                 999*************99865 PP
+
+  == domain 2  score: 21.3 bits;  conditional E-value: 1.5e-07
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkep 372
+                                 ++Ck C+ CA +CP++aI++  e+
+              k87_26156861_8  65 DYCKGCGLCAAECPVDAIQMVPER 88 
+                                 79*****************98665 PP
+
+>> k87_7439411_11  # 10148 # 12241 # 1 # ID=48_11;partial=00;start_type=GTG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.1   0.7   9.4e-05    0.0056     389     419 ..     282     304 ..     266     312 .. 0.88
+   2 ?    5.1   0.2     0.012      0.71     353     376 ..     342     365 ..     333     382 .. 0.78
+   3 ?    4.9  10.0     0.014      0.82     351     414 ..     632     674 ..     628     674 .. 0.92
+   4 !    6.1   2.5    0.0062      0.36     350     369 ..     662     681 ..     659     696 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 9.4e-05
+  rdhAprofile_alignment_trim 389 rtdlkkClsfwaeegsgCgaCqavCpFnkke 419
+                                 ++d +kC        +gCg+Cq+ CpF++++
+              k87_7439411_11 282 YVDFDKC--------TGCGICQEKCPFKAPN 304
+                                 6899999........9***********9874 PP
+
+  == domain 2  score: 5.1 bits;  conditional E-value: 0.012
+  rdhAprofile_alignment_trim 353 tCkkCAdaCPsgaIskdkeptwea 376
+                                 +C+ CA+ C ++aI ++++ ++ +
+              k87_7439411_11 342 KCGACAKFCEVDAIDFEQKEEIVE 365
+                                 6***************98766544 PP
+
+  == domain 3  score: 4.9 bits;  conditional E-value: 0.014
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 C  C+ C + CP  a+s+d+e+++               ++++ C        +gCg+C+a+Cp
+              k87_7439411_11 632 CSGCQVCVTLCPYMAVSFDEERKVS-------------SVNQALC--------KGCGTCVAACP 674
+                                 9******************999884.............7899***........89********9 PP
+
+  == domain 4  score: 6.1 bits;  conditional E-value: 0.0062
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskd 369
+                                  Ck C+ C  aCPs a++  
+              k87_7439411_11 662 LCKGCGTCVAACPSAAVTGR 681
+                                 6***************9866 PP
+
+>> k87_13066697_12  # 10293 # 11129 # -1 # ID=142_12;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.1   0.6     0.003      0.18     394     418 ..     211     227 ..     205     231 .. 0.78
+   2 !   16.1   1.1   5.8e-06   0.00034     351     372 ..     245     266 ..     242     274 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 7.1 bits;  conditional E-value: 0.003
+  rdhAprofile_alignment_trim 394 kClsfwaeegsgCgaCqavCpFnkk 418
+                                  C          Cg+C+a Cp+ ++
+             k87_13066697_12 211 VC--------GRCGVCVAICPYEAT 227
+                                 44........78*********9875 PP
+
+  == domain 2  score: 16.1 bits;  conditional E-value: 5.8e-06
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkep 372
+                                 Ck C++C  aCP++aIs ++e 
+             k87_13066697_12 245 CKRCGICVAACPVDAISIKDEL 266
+                                 *****************98775 PP
+
+>> k87_24212138_2  # 1363 # 2595 # -1 # ID=68_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_con
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.1   2.4   5.7e-06   0.00034     350     370 ..     317     337 ..     315     345 .. 0.87
+   2 ?   -0.5   3.3      0.62        37     340     368 ..     340     368 ..     338     390 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 5.7e-06
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdk 370
+                                  C+ C+ CA++CP++aI++ +
+              k87_24212138_2 317 VCDGCGVCAEKCPWQAIEMSD 337
+                                 5****************9974 PP
+
+  == domain 2  score: -0.5 bits;  conditional E-value: 0.62
+  rdhAprofile_alignment_trim 340 dkPidfGvreFCktCkkCAdaCPsgaIsk 368
+                                 dkPi +   + C  C+ CA  C  +aI +
+              k87_24212138_2 340 DKPIAAIDPDKCWGCGSCALWCQPQAIVM 368
+                                 77777777788***************976 PP
+
+>> k87_29457437_5  # 1300 # 1512 # 1 # ID=125_5;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.9   2.0   6.5e-06   0.00038     349     369 ..      48      68 ..      37      69 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 6.5e-06
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskd 369
+                                  +Ck C  C +aCP++aIs++
+              k87_29457437_5  48 SMCKACSDCVKACPFDAISMK 68 
+                                 68*****************85 PP
+
+>> k87_4808391_7  # 3205 # 5124 # 1 # ID=9_7;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.522
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.7  11.6   5.9e-05    0.0035     351     414 ..     572     613 ..     570     620 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 5.9e-05
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 Ck C++CA++CPs+aI+ +k+              +    d++kC          Cg+C++ Cp
+               k87_4808391_7 572 CKACMICARNCPSEAIKGGKK--------------LIHVIDQDKC--------IRCGVCLEKCP 613
+                                 *******************54..............456899****........89******999 PP
+
+>> k87_24137390_13  # 11679 # 13373 # 1 # ID=53_13;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.5   1.6    0.0012     0.068     351     418 ..     495     510 ..     487     527 .. 0.56
+   2 !    8.9   5.1   0.00084      0.05     350     369 ..     527     546 ..     523     556 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 8.5 bits;  conditional E-value: 0.0012
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnkk 418
+                                 C                                                      Cg+C+ +CpFn+ 
+             k87_24137390_13 495 C----------------------------------------------------VACGTCVLACPFNAI 510
+                                 4....................................................456666666666652 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.00084
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskd 369
+                                 +Ck C+ C  +CPsgaI+++
+             k87_24137390_13 527 MCKGCGTCVATCPSGAIQQK 546
+                                 7*****************97 PP
+
+>> k87_29041677_10  # 8365 # 10473 # 1 # ID=80_10;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_con
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   1.1     0.075       4.4     394     417 ..     495     510 ..     454     520 .. 0.87
+   2 ?   11.8   1.3   0.00012    0.0069     350     373 ..     525     547 ..     523     560 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 2.5 bits;  conditional E-value: 0.075
+  rdhAprofile_alignment_trim 394 kClsfwaeegsgCgaCqavCpFnk 417
+                                 kC        ++C +C+ vCp+  
+             k87_29041677_10 495 KC--------ASCLTCLRVCPYDV 510
+                                 34........89*********975 PP
+
+  == domain 2  score: 11.8 bits;  conditional E-value: 0.00012
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkept 373
+                                  C+ C++C  +CP++aI + k p+
+             k87_29041677_10 525 QCQACGICIAECPAKAIVMRK-PS 547
+                                 5****************9995.44 PP
+
+>> k87_743_3  # 656 # 886 # 1 # ID=1_3;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=3-4bp;gc_cont=0.537
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   8.0   0.00047     0.028     349     371 ..      19      41 ..      17      75 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 9.8 bits;  conditional E-value: 0.00047
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdke 371
+                                 + Ck C +C +aCP +a   +++
+                   k87_743_3  19 DWCKRCHICVEACPKQALILKND 41 
+                                 78**************9866655 PP
+
+>> k87_26918667_6  # 4089 # 4787 # -1 # ID=108_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.6  14.3    0.0022      0.13     351     414 ..     162     203 ..     160     206 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 7.6 bits;  conditional E-value: 0.0022
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 Ck C+ CA+ CP++aI+  k               +    d++kC          C +C++vCp
+              k87_26918667_6 162 CKACMMCAKRCPVDAIESAKG--------------LIHVIDQDKC--------IRCETCYEVCP 203
+                                 *****************9953..............345899****........89********9 PP
+
+>> k87_29385280_1  # 2 # 1075 # 1 # ID=118_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.480
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.5   7.1    0.0023      0.14     351     413 ..      30      92 ..      20      98 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 7.5 bits;  conditional E-value: 0.0023
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape....asnnpgvkrWrtdlkkClsfwaeegsgCgaCqavC 413
+                                 C  C+ C ++CP++  ++  +++ ++++    ++ +   ++   d + C+ + +  + +Cg C +vC
+              k87_29385280_1  30 CTGCEECVEKCPVKTDNEF-NQKLDKRKaiyiPFAQAVPRKVVIDGEICR-YIT--SEKCGLCKKVC 92 
+                                 9************998888.7888888888888899999999*******4.444..59********* PP
+
+>> k87_26918667_7  # 4956 # 6644 # -1 # ID=108_7;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.513
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   2.9     0.083       4.9     390     417 ..     484     503 ..     481     510 .. 0.84
+   2 ?    9.4   1.0    0.0006     0.036     351     369 ..     522     540 ..     518     550 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 2.4 bits;  conditional E-value: 0.083
+  rdhAprofile_alignment_trim 390 tdlkkClsfwaeegsgCgaCqavCpFnk 417
+                                 +d kkC         gCgaC+++C++ +
+              k87_26918667_7 484 VDEKKC--------IGCGACVTACTYGA 503
+                                 688888........89********9965 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.0006
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskd 369
+                                 Ck C+ C  +CPs aI+ +
+              k87_26918667_7 522 CKGCGLCNAKCPSAAIQLK 540
+                                 ****************976 PP
+
+>> k87_31475014_3  # 1314 # 1748 # -1 # ID=87_3;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.538
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.9   8.0   0.00088     0.052     350     415 ..      14      60 ..       9      67 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 8.9 bits;  conditional E-value: 0.00088
+  rdhAprofile_alignment_trim 350 FCktCkk..CAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpF 415
+                                  C++C    C   CP++aI kd++               r  +d+++C         gC++C+ +CpF
+              k87_31475014_3  14 LCRQCDVpfCTAVCPVNAIYKDED-------------LGRVVVDYDRC--------VGCRMCVLACPF 60 
+                                 6****9666*************54.............345689*****........9*********** PP
+
+>> k87_33772426_5  # 2180 # 3511 # -1 # ID=78_5;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.505
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.7   8.7     0.031       1.8     351     414 ..      69     142 ..      67     148 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 3.7 bits;  conditional E-value: 0.031
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape.....asnnpgvkrWrtdlkkClsfwae.....egsgCgaCqavCp 414
+                                 C +C+ C daCP+ a +k  +p++ +++         pg+++   d+ +   +  +     + ++C+aC++ Cp
+              k87_33772426_5  69 CISCGRCQDACPAYASEKPLNPKELIQDlnkhlRKVAPGILKGEEDSVSLVGQVIQeetiwSCTTCRACMELCP 142
+                                 99****************99999998887777655668888888888887766666556666799********9 PP
+
+>> k87_10249513_3  # 2070 # 2543 # 1 # ID=104_3;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.5   0.7   0.00056     0.033     350     369 ..      16      35 ..      14      53 .. 0.87
+   2 ?    6.2   5.0    0.0055      0.33     351     364 ..      64      77 ..      56     108 .. 0.87
+   3 ?   -3.8   0.4       6.3   3.7e+02     346     359 ..     131     146 ..     131     147 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 0.00056
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskd 369
+                                 +C  C+kC   CP++ I  d
+              k87_10249513_3  16 YCVECGKCVAGCPMNVIYDD 35 
+                                 7***************9876 PP
+
+  == domain 2  score: 6.2 bits;  conditional E-value: 0.0055
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsg 364
+                                 C +C+ CAd CP+g
+              k87_10249513_3  64 CLNCNLCADVCPAG 77 
+                                 99**********98 PP
+
+  == domain 3  score: -3.8 bits;  conditional E-value: 6.3
+  rdhAprofile_alignment_trim 346 GvreFCktCkk..CAd 359
+                                 G ++ C +Ck   CA+
+              k87_10249513_3 131 GYTKLCPSCKLasCAE 146
+                                 7889999999544887 PP
+
+>> k87_24137390_9  # 7204 # 7719 # 1 # ID=53_9;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.50
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   1.9      0.41        24     390     414 ..       7      23 ..       6      30 .. 0.87
+   2 ?    5.6  10.7    0.0084       0.5     350     415 ..      52      98 ..      47      98 .. 0.86
+   3 ?    7.1   3.7    0.0029      0.17     351     370 ..      86     105 ..      82     142 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 0.1 bits;  conditional E-value: 0.41
+  rdhAprofile_alignment_trim 390 tdlkkClsfwaeegsgCgaCqavCp 414
+                                 +d +kC        +gC++C  vC+
+              k87_24137390_9   7 VDPTKC--------TGCRTCEMVCS 23 
+                                 588899........89********6 PP
+
+  == domain 2  score: 5.6 bits;  conditional E-value: 0.0084
+  rdhAprofile_alignment_trim 350 FCktCkk..CAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpF 415
+                                  C++C    CA  CP+ aI+ d+e  ++               d++kC          C++C+ +CpF
+              k87_24137390_9  52 LCQQCDDapCAAVCPVRAITRDEEMGIN-------------IIDHDKC--------IVCKMCVLACPF 98 
+                                 599997444*************887773.............68*****........89*********9 PP
+
+  == domain 3  score: 7.1 bits;  conditional E-value: 0.0029
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdk 370
+                                 C +Ck C  aCP+ga ++d 
+              k87_24137390_9  86 CIVCKMCVLACPFGAMKYDV 105
+                                 99*************99985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                       1124  (299426 residues searched)
+Passed MSV filter:                        96  (0.0854093); expected 22.5 (0.02)
+Passed bias filter:                       80  (0.0711744); expected 22.5 (0.02)
+Passed Vit filter:                        37  (0.0329181); expected 1.1 (0.001)
+Passed Fwd filter:                        23  (0.0204626); expected 0.0 (1e-05)
+Initial search space (Z):               1124  [actual number of targets]
+Domain search space  (domZ):              19  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# Mc/sec: 1924.14
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        A02_01_coassembly_bin.4-proteins.faa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/A02_01_genomes/A02_01_coassembly_bin.4-proteins_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+    5.9e-07   26.8   3.1    7.5e-07   26.4   3.1    1.1  1  k87_23764234_13  # 10316 # 10729 # 1 # ID=1_13;partial=01;sta
+  ------ inclusion threshold ------
+      0.029   11.3   3.8          1    6.2   0.1    2.4  2  k87_8848010_8    # 5881 # 8286 # -1 # ID=340_8;partial=01;sta
+       0.08    9.8   4.4        4.2    4.1   0.3    2.0  2  k87_24312249_2   # 579 # 923 # -1 # ID=170_2;partial=00;start
+       0.29    8.0   6.4      0.058   10.3   0.9    1.9  2  k87_29037111_5   # 4426 # 4749 # 1 # ID=163_5;partial=00;star
+
+
+Domain annotation for each sequence (and alignments):
+>> k87_23764234_13  # 10316 # 10729 # 1 # ID=1_13;partial=01;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_con
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.4   3.1   8.8e-10   7.5e-07     351     414 ..      57     113 ..      53     120 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 26.4 bits;  conditional E-value: 8.8e-10
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeas.nnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 C  C+ CA aCP++aI  +   + ++++ s    + + ++ ++ +C         gCg C+++Cp
+             k87_23764234_13  57 CIGCELCAWACPADAIYVEGADNTDTERYSpGERYGRVYQINYLRC--------IGCGLCIEACP 113
+                                 999**************999777777775425556688********........9*********9 PP
+
+>> k87_8848010_8  # 5881 # 8286 # -1 # ID=340_8;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.702
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.3   0.7    0.0021       1.8     389     417 ..     130     151 ..     116     157 .. 0.85
+   2 ?    6.2   0.1    0.0012         1     350     364 ..     240     254 ..     228     274 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 5.3 bits;  conditional E-value: 0.0021
+  rdhAprofile_alignment_trim 389 rtdlkkClsfwaeegsgCgaCqavCp.Fnk 417
+                                 ++dl++C        ++Cg+Cq+ Cp +n+
+               k87_8848010_8 130 YLDLTTC--------TECGRCQSQCPaWNT 151
+                                 5788888........89********97776 PP
+
+  == domain 2  score: 6.2 bits;  conditional E-value: 0.0012
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsg 364
+                                  C tC+ C ++CP++
+               k87_8848010_8 240 SCTTCGACVEQCPVD 254
+                                 5************96 PP
+
+>> k87_24312249_2  # 579 # 923 # -1 # ID=170_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.626
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   6.8     0.018        15     355     375 ..      15      34 ..      13      50 .. 0.75
+   2 ?    4.1   0.3     0.005       4.2     351     376 ..      40      65 ..      36      77 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 2.3 bits;  conditional E-value: 0.018
+  rdhAprofile_alignment_trim 355 kkCAdaCPsgaIskdkeptwe 375
+                                 k CA++CP+++I ++ ++t+ 
+              k87_24312249_2  15 KACAQECPVDCIYEG-DRTMY 34 
+                                 67************9.67763 PP
+
+  == domain 2  score: 4.1 bits;  conditional E-value: 0.005
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptwea 376
+                                 C  C+ C   C ++aI +++e  +++
+              k87_24312249_2  40 CVECGACKLLCEVDAIYHESELPEDE 65 
+                                 99*****************9876665 PP
+
+>> k87_29037111_5  # 4426 # 4749 # 1 # ID=163_5;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.63
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.9   0.5     0.047        40     355     370 ..      15      30 ..      13      39 .. 0.85
+   2 ?   10.3   0.9   6.8e-05     0.058     351     372 ..      40      61 ..      36      76 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 0.9 bits;  conditional E-value: 0.047
+  rdhAprofile_alignment_trim 355 kkCAdaCPsgaIskdk 370
+                                 k C ++CP+++I +++
+              k87_29037111_5  15 KACIEECPVDCIYEGS 30 
+                                 6799********8875 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 6.8e-05
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkep 372
+                                 C  C+ C   CP++aI ++++ 
+              k87_29037111_5  40 CVDCGACEPVCPVEAIYYEDDV 61 
+                                 99***************99753 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                       3410  (1053753 residues searched)
+Passed MSV filter:                       148  (0.0434018); expected 68.2 (0.02)
+Passed bias filter:                      129  (0.0378299); expected 68.2 (0.02)
+Passed Vit filter:                        24  (0.00703812); expected 3.4 (0.001)
+Passed Fwd filter:                         5  (0.00146628); expected 0.0 (1e-05)
+Initial search space (Z):               3410  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 21062.82
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        A02_01_coassembly_bin.5-proteins.faa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/A02_01_genomes/A02_01_coassembly_bin.5-proteins_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+    2.7e-07   28.0   2.0    3.2e-07   27.7   2.0    1.1  1  k87_2559681_22   # 24183 # 24656 # -1 # ID=25_22;partial=00;s
+      8e-07   26.4   3.3    1.1e-06   26.0   3.3    1.1  1  k87_10357497_27  # 25830 # 26348 # -1 # ID=88_27;partial=00;s
+  ------ inclusion threshold ------
+      0.097    9.6   4.7        1.4    5.8   0.1    2.3  2  k87_32643943_18  # 17080 # 19971 # 1 # ID=148_18;partial=00;s
+       0.33    7.9   4.4       0.84    6.5   0.6    2.0  2  k87_33537309_4   # 1744 # 2088 # -1 # ID=35_4;partial=00;star
+
+
+Domain annotation for each sequence (and alignments):
+>> k87_2559681_22  # 24183 # 24656 # -1 # ID=25_22;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.67
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.7   2.0   3.6e-10   3.2e-07     351     414 ..      37      93 ..      33     106 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 27.7 bits;  conditional E-value: 3.6e-10
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape.asnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 C  C+ CA aCP++aI  +   + ea++ +    + + ++ ++ +C         gCg C+++Cp
+              k87_2559681_22  37 CIGCELCAWACPADAIYVEGADNTEAERySPGERYGRVYQINYLRC--------IGCGLCIEACP 93 
+                                 999*************9998666655552445666689********........9*********9 PP
+
+>> k87_10357497_27  # 25830 # 26348 # -1 # ID=88_27;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0   3.3   1.2e-09   1.1e-06     351     414 ..      54     110 ..      50     118 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 26.0 bits;  conditional E-value: 1.2e-09
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdk.eptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 C  C+ CA aCP++aI  +  + t+e++ +    + + ++ ++ +C         gCg C+++Cp
+             k87_10357497_27  54 CIGCELCAWACPADAIYVEGaDNTEEQRFSPGERYGRVYQINYLRC--------IGCGLCIEACP 110
+                                 999*************9987355555554556677789********........9*********9 PP
+
+>> k87_32643943_18  # 17080 # 19971 # 1 # ID=148_18;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.8   0.9    0.0032       2.8     389     417 ..     294     315 ..     279     322 .. 0.84
+   2 ?    5.8   0.1    0.0016       1.4     350     364 ..     403     417 ..     395     434 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 4.8 bits;  conditional E-value: 0.0032
+  rdhAprofile_alignment_trim 389 rtdlkkClsfwaeegsgCgaCqavCp.Fnk 417
+                                 ++d ++C        ++Cg+Cq+ Cp +n+
+             k87_32643943_18 294 YLDFTTC--------TECGRCQSQCPaWNT 315
+                                 4677788........899999999997776 PP
+
+  == domain 2  score: 5.8 bits;  conditional E-value: 0.0016
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsg 364
+                                  C tC+ C ++CP++
+             k87_32643943_18 403 SCTTCGACVEQCPVD 417
+                                 5************86 PP
+
+>> k87_33537309_4  # 1744 # 2088 # -1 # ID=35_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.675
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.5   0.6   0.00094      0.84     355     374 ..      15      33 ..      13      39 .. 0.83
+   2 ?    3.1   0.2     0.011       9.5     351     373 ..      40      62 ..      36      77 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 6.5 bits;  conditional E-value: 0.00094
+  rdhAprofile_alignment_trim 355 kkCAdaCPsgaIskdkeptw 374
+                                 k CA +CP+++I ++ ++t+
+              k87_33537309_4  15 KACAAECPMDCIYEG-DRTM 33 
+                                 67***********99.6666 PP
+
+  == domain 2  score: 3.1 bits;  conditional E-value: 0.011
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkept 373
+                                 C  C+ C   C ++aI ++++  
+              k87_33537309_4  40 CVDCGACRLLCEVDAIFYEDDLP 62 
+                                 99**************9998754 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                       3578  (1132064 residues searched)
+Passed MSV filter:                       154  (0.0430408); expected 71.6 (0.02)
+Passed bias filter:                      138  (0.038569); expected 71.6 (0.02)
+Passed Vit filter:                        26  (0.00726663); expected 3.6 (0.001)
+Passed Fwd filter:                         4  (0.00111794); expected 0.0 (1e-05)
+Initial search space (Z):               3578  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 24672.59
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        A02_01_coassembly_bin.6-proteins.faa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/A02_01_genomes/A02_01_coassembly_bin.6-proteins_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+    1.5e-06   25.6   3.3    1.9e-06   25.2   3.3    1.1  1  k87_10172303_15  # 13797 # 14318 # -1 # ID=151_15;partial=00;
+  ------ inclusion threshold ------
+       0.13    9.3   4.3       0.11    9.5   0.5    1.9  2  k87_3599606_6    # 7039 # 7383 # 1 # ID=220_6;partial=00;star
+       0.22    8.6   4.8        0.1    9.7   0.8    1.9  2  k87_31447067_3   # 2849 # 3172 # 1 # ID=133_3;partial=00;star
+       0.22    8.5   6.1        1.3    6.0   0.1    2.5  2  k87_13029762_13  # 8672 # 11404 # 1 # ID=215_13;partial=01;st
+       0.53    7.3   8.3        1.1    6.2   8.3    1.5  1  k87_19687100_7   # 9132 # 10727 # 1 # ID=153_7;partial=00;sta
+
+
+Domain annotation for each sequence (and alignments):
+>> k87_10172303_15  # 13797 # 14318 # -1 # ID=151_15;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.2   3.3   2.5e-09   1.9e-06     351     414 ..      54     110 ..      50     118 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 25.2 bits;  conditional E-value: 2.5e-09
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdk.eptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 C  C+ CA aCP++aI  +  + t +++ +    + + ++ ++ +C         gCg C+++Cp
+             k87_10172303_15  54 CIGCELCAWACPADAIFVEGaDNTQDERYSPGERYGRVYQINYLRC--------IGCGLCIEACP 110
+                                 999*************9886366666666667777899********........9*********9 PP
+
+>> k87_3599606_6  # 7039 # 7383 # 1 # ID=220_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.623
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.2     0.042        32     356     370 ..      16      30 ..      15      39 .. 0.83
+   2 ?    9.5   0.5   0.00015      0.11     351     373 ..      40      62 ..      38      77 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 0.042
+  rdhAprofile_alignment_trim 356 kCAdaCPsgaIskdk 370
+                                  C ++CP+++I +++
+               k87_3599606_6  16 SCVEECPVDCIYEGE 30 
+                                 59*********9984 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.00015
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkept 373
+                                 C  C+ C   CP++aI ++++  
+               k87_3599606_6  40 CVDCGACEPVCPVEAIFYEDDLP 62 
+                                 99**************9998644 PP
+
+>> k87_31447067_3  # 2849 # 3172 # 1 # ID=133_3;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.60
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.2     0.077        59     355     369 ..      15      29 ..      14      35 .. 0.85
+   2 ?    9.7   0.8   0.00013       0.1     351     372 ..      40      61 ..      37      78 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 0.5 bits;  conditional E-value: 0.077
+  rdhAprofile_alignment_trim 355 kkCAdaCPsgaIskd 369
+                                 k C ++CP+++I ++
+              k87_31447067_3  15 KSCIEECPVDCIYEG 29 
+                                 5799********877 PP
+
+  == domain 2  score: 9.7 bits;  conditional E-value: 0.00013
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkep 372
+                                 C  C+ C   CP++aI ++++ 
+              k87_31447067_3  40 CVDCGACEPVCPVEAIFYEDDV 61 
+                                 99**************999753 PP
+
+>> k87_13029762_13  # 8672 # 11404 # 1 # ID=215_13;partial=01;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   2.2     0.011       8.3     390     417 ..     293     313 ..     286     318 .. 0.80
+   2 ?    6.0   0.1    0.0017       1.3     350     364 ..     408     422 ..     397     442 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 3.4 bits;  conditional E-value: 0.011
+  rdhAprofile_alignment_trim 390 tdlkkClsfwaeegsgCgaCqavCp.Fnk 417
+                                 +d ++C        ++Cg+Cq+ Cp +n+
+             k87_13029762_13 293 LDFTTC--------TECGRCQSQCPaWNT 313
+                                 677777........899999999996776 PP
+
+  == domain 2  score: 6.0 bits;  conditional E-value: 0.0017
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsg 364
+                                  C tC+ C ++CP++
+             k87_13029762_13 408 SCTTCGACVEQCPVD 422
+                                 5************96 PP
+
+>> k87_19687100_7  # 9132 # 10727 # 1 # ID=153_7;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.2   8.3    0.0015       1.1     349     407 ..     180     243 ..     173     247 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 6.2 bits;  conditional E-value: 0.0015
+  rdhAprofile_alignment_trim 349 eFCktCk..kCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwae......egsgCg 407
+                                 + C+ C    CA aCPsgaI k +e  +       ++  ++Wr+  + C   + +      +  +C+
+              k87_19687100_7 180 RICEHCLnpSCAAACPSGAIYKRSEDGI---VLVDQDRCRGWRQCVTGCPYKKIYfnhktgKAEKCT 243
+                                 6799996336*************77666...456666667777666666433333333333444555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                       3821  (1158295 residues searched)
+Passed MSV filter:                       115  (0.0300968); expected 76.4 (0.02)
+Passed bias filter:                      108  (0.0282649); expected 76.4 (0.02)
+Passed Vit filter:                        17  (0.0044491); expected 3.8 (0.001)
+Passed Fwd filter:                         6  (0.00157027); expected 0.0 (1e-05)
+Initial search space (Z):               3821  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 23801.37
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        A02_01_coassembly_bin.7-proteins.faa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/A02_01_genomes/A02_01_coassembly_bin.7-proteins_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+   5.3e-102  339.3   0.0   6.5e-102  339.0   0.0    1.0  1  k87_9816217_3    # 1853 # 3022 # -1 # ID=69_3;partial=00;star
+      1e-97  325.1   0.0    1.2e-97  324.9   0.0    1.0  1  k87_9816217_4    # 3083 # 4237 # -1 # ID=69_4;partial=00;star
+    1.7e-96  321.1   0.0    2.2e-96  320.8   0.0    1.1  1  k87_29129428_2   # 1646 # 2830 # 1 # ID=133_2;partial=00;star
+    4.8e-15   52.6   6.3    6.1e-15   52.2   0.2    3.2  3  k87_19510389_2   # 650 # 1429 # 1 # ID=106_2;partial=00;start
+      3e-07   26.9  22.5    0.00094   15.3   2.0    4.1  4  k87_21606201_5   # 2690 # 3859 # 1 # ID=48_5;partial=00;start
+    2.6e-06   23.8  11.0    0.00028   17.1   1.6    2.1  2  k87_5226526_6    # 6588 # 6947 # -1 # ID=101_6;partial=01;sta
+      1e-05   21.8  23.8     0.0038   13.3   0.6    3.3  3  k87_7686973_3    # 916 # 2883 # -1 # ID=118_3;partial=00;star
+      3e-05   20.3   4.0    6.5e-05   19.2   0.3    2.0  2  k87_28781605_6   # 6511 # 6804 # 1 # ID=60_6;partial=00;start
+    0.00015   18.0  19.6      0.039   10.0   0.9    4.0  4  k87_1613520_4    # 1934 # 3895 # 1 # ID=227_4;partial=00;star
+    0.00092   15.4  18.6      0.032   10.3   1.3    4.2  4  k87_6384683_1    # 2 # 3055 # 1 # ID=229_1;partial=10;start_t
+     0.0017   14.5  11.3      0.013   11.6  11.9    1.7  2  k87_33484614_3   # 1409 # 1618 # 1 # ID=46_3;partial=00;start
+     0.0046   13.1   1.5     0.0046   13.1   1.5    2.1  2  k87_8241810_5    # 4433 # 4726 # 1 # ID=187_5;partial=00;star
+  ------ inclusion threshold ------
+      0.013   11.6   5.5      0.021   10.9   5.5    1.2  1  k87_2688226_6    # 5503 # 6555 # 1 # ID=70_6;partial=00;start
+      0.016   11.3  21.1       0.21    7.6  10.2    4.0  3  k87_34325520_7   # 7644 # 10985 # 1 # ID=173_7;partial=00;sta
+       0.02   10.9   2.6       0.24    7.4   0.6    2.0  2  k87_31344013_3   # 1667 # 2002 # 1 # ID=102_3;partial=00;star
+      0.042    9.9   9.5        1.4    4.9  10.5    2.1  2  k87_25485618_1   # 3 # 1100 # -1 # ID=240_1;partial=10;start_
+        0.1    8.6  12.4          2    4.4  12.2    2.0  2  k87_1990254_3    # 3595 # 3801 # 1 # ID=261_3;partial=00;star
+        0.1    8.6   4.8      0.018   11.1   0.4    1.7  2  k87_7253895_7    # 4562 # 5239 # 1 # ID=30_7;partial=00;start
+       0.11    8.5  25.2      0.028   10.5   8.5    3.8  4  k87_17213898_8   # 4731 # 9104 # -1 # ID=126_8;partial=01;sta
+       0.22    7.5   4.6       0.39    6.7   0.3    2.2  2  k87_14442590_19  # 15176 # 16357 # -1 # ID=41_19;partial=00;s
+       0.35    6.9  12.5      0.037   10.1   1.1    2.1  2  k87_14442590_1   # 1 # 468 # -1 # ID=41_1;partial=10;start_ty
+       0.38    6.8  25.3       0.14    8.2   0.1    3.5  4  k87_14442590_4   # 2429 # 3202 # -1 # ID=41_4;partial=00;star
+       0.41    6.6   5.7       0.78    5.7   5.7    1.6  1  k87_7686973_4    # 3184 # 3549 # 1 # ID=118_4;partial=00;star
+       0.45    6.5   6.6       0.75    5.8   6.7    1.3  1  k87_26636505_3   # 1999 # 2289 # 1 # ID=105_3;partial=00;star
+       0.48    6.4  13.5        5.9    2.8  14.0    1.9  1  k87_9766848_1    # 1 # 525 # -1 # ID=57_1;partial=10;start_ty
+       0.53    6.3   9.1        2.1    4.3   0.7    2.0  2  k87_12937673_2   # 1015 # 1254 # 1 # ID=174_2;partial=00;star
+       0.74    5.8   7.4       0.48    6.4   0.5    2.0  2  k87_514727_3     # 1292 # 1918 # 1 # ID=108_3;partial=00;star
+          1    5.4   8.7        1.9    4.4   8.7    1.5  1  k87_8672682_1    # 46 # 426 # -1 # ID=221_1;partial=00;start_
+        1.1    5.2   8.7       0.24    7.4   1.6    2.1  2  k87_17109273_4   # 2180 # 2869 # 1 # ID=103_4;partial=00;star
+        1.3    5.0   8.1        1.2    5.2   0.0    2.2  2  k87_23994886_4   # 1071 # 2963 # -1 # ID=51_4;partial=00;star
+
+
+Domain annotation for each sequence (and alignments):
+>> k87_9816217_3  # 1853 # 3022 # -1 # ID=69_3;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.487
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  339.0   0.0    1e-103  6.5e-102      95     462 ..      38     388 ..       8     389 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 339.0 bits;  conditional E-value: 1e-103
+  rdhAprofile_alignment_trim  95 vkaetaeqakalvkalkeeepgftlrdralaaaakagllpeeiqlgglagaavltsllgpe..vvgtpee.lgvpkwegtpee 174
+                                  +++++  a+ +  a+ ee +g+t+++ ala+a +   ++ ++  g + g + l  ++++   ++ t +   g +    +  e
+               k87_9816217_3  38 RDMARKYYARYDGLAMPEERAGYTIKELALAMAGWH--VALDFGSGLFIGGEGLEAWEAQPvgKTNTTRMpEGLKIEVDDGAE 118
+                                 34444445555566799******************3..3445555555555555555554432222222213566666***** PP
+
+  rdhAprofile_alignment_trim 175 nskmikaaarflGadeVGiaeldekwkklihkkektgkplvfedvdeayetdtkivipeklkyvivvtvrqskeltraspggi 257
+                                 ++k+ik+aar++Ga+ VG++eld++w+++ +++++  k+           + ++++i++  ky +v++ ++++  +++sp  +
+               k87_9816217_3 119 MTKVIKRAARLFGASLVGVCELDRRWLYS-YSYHTV-KG-----------EHKPVEIGDDFKYTVVMAHEMDYAGIKQSPNSL 188
+                                 ****************************9.655233.22...........45799**************************** PP
+
+  rdhAprofile_alignment_trim 258 ssaasgkaYsrsaviavklqefirgLGYqalasgndgeapsvplavlaGlGElgRtgdllitpeyGprvrlakvlTDLPLapd 340
+                                 s+aa+ + Ysr+avia+ l+++irgLGY+a++ gnd +a svpla+ aGlGEl+R+g l+itpeyGprvrl k++TD+PL+pd
+               k87_9816217_3 189 SEAAASTVYSRMAVIAALLAQYIRGLGYKAIPAGND-TANSVPLAIDAGLGELSRMG-LVITPEYGPRVRLNKIFTDMPLVPD 269
+                                 ***********************************9.9*******************.9************************ PP
+
+  rdhAprofile_alignment_trim 341 kPidfGvreFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnkkedswi 423
+                                  Pi+fGv++FC++C+kCA+ CP +aI  + +pt  ++++ n +g +rW +d++kC +f +++g++Cg+C+ vCpFnk  + ++
+               k87_9816217_3 270 SPIEFGVWDFCMKCEKCAKFCPGQAIMRG-QPTDRINSICNREGLLRWPLDTEKCFTFLSRNGTDCGVCIRVCPFNKL-SGIL 350
+                                 *****************************.9**********************************************9.99** PP
+
+  rdhAprofile_alignment_trim 424 HelvkatvsttplfnsflknmdkafgYgrkeeekeewWd 462
+                                 H++v++ v+ t+ +++++ ++d+++ Ygr+  + e +W+
+               k87_9816217_3 351 HDWVRWGVKSTRWLDPLFIKADDVLSYGRRG-KVEHFWN 388
+                                 *****************************99.7999998 PP
+
+>> k87_9816217_4  # 3083 # 4237 # -1 # ID=69_4;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_co
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  324.9   0.0   1.9e-99   1.2e-97     111     462 ..      50     383 ..      14     384 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 324.9 bits;  conditional E-value: 1.9e-99
+  rdhAprofile_alignment_trim 111 keeepgftlrdralaaaakagllpeeiqlgglagaavltsllgpe...vvgtpeelgvpkwegtpeenskmikaaarflGade 190
+                                  ++ pg+ l+d+a+++a +  + ++ +++g+l+g+  l+s++ p+    + +p     +    +  ++s++ik++a+ +Ga+ 
+               k87_9816217_4  50 PKDRPGYRLEDMAFNQAGW--YAEQAFAMGNLGGNRGLYSWETPKiwySDYRPP-TDLRLAVDDSSKMSQVIKKVAKAYGASL 129
+                                 57789**************..4466788888***********998765455554.4899999********************* PP
+
+  rdhAprofile_alignment_trim 191 VGiaeldekwkklihkkektgkplvfedvdeayetdtkivipeklkyvivvtvrqskeltraspggissaasgkaYsrsavia 273
+                                 VGi+eld++w+++ h ++  +k++            ++++ipe++ky+i++++++++el++ sp+ +  a     Y r+  + 
+               k87_9816217_4 130 VGICELDQRWLYS-HRQNVLEKKY------------EPVEIPEEYKYAIALAFEMNYELIKLSPTHTGAAGPTCVYGRMPLTT 199
+                                 ************9.5443444444............589******************************************** PP
+
+  rdhAprofile_alignment_trim 274 vklqefirgLGYqalasgndgeapsvplavlaGlGElgRtgdllitpeyGprvrlakvlTDLPLapdkPidfGvreFCktCkk 356
+                                  +l++fir+LGY+a+++gnd +a+s+p+av aGlGEl+R+g +lit+eyGprvrl k++TDLPL+pd P++fGv++FC++C+k
+               k87_9816217_4 200 GSLAQFIRYLGYKAIPMGND-TALSIPIAVDAGLGELSRIG-ILITKEYGPRVRLSKIFTDLPLVPDSPMEFGVWDFCMKCEK 280
+                                 *******************9.9*******************.9**************************************** PP
+
+  rdhAprofile_alignment_trim 357 CAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnkkedswiHelvkatvsttplfns 439
+                                 C + CP +aI  +  pt +++++ n +g +rW ++++kC s+wa+++  C++C+ vCpFnk    w+He v+  v++t+ ++s
+               k87_9816217_4 281 CTRFCPGQAIMRG-SPTDKINNICNREGLLRWPVNAEKCFSWWARSEGICSNCIRVCPFNKL-PGWLHETVRCGVKNTRWLDS 361
+                                 *************.8**********************************************9.99****************** PP
+
+  rdhAprofile_alignment_trim 440 flknmdkafgYgrkeeekeewWd 462
+                                 +++++d+++gYg+++ + e +W 
+               k87_9816217_4 362 LFVKADDLLGYGKRS-KVEHFWS 383
+                                 *************99.7999996 PP
+
+>> k87_29129428_2  # 1646 # 2830 # 1 # ID=133_2;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.493
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  320.8   0.0   3.5e-98   2.2e-96     105     471 ..      44     390 ..       7     393 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 320.8 bits;  conditional E-value: 3.5e-98
+  rdhAprofile_alignment_trim 105 alvkalkeeepgftlrdralaaaakagllpeeiqlgglagaavltsllgpe..vvgtpeelgvpkwegtpeenskmikaaarf 185
+                                 al  a+ +e +g+ l + ala+aa+    +  +++g++ g++ l  ++++     + p   g +    +pe  ++ ik++a +
+              k87_29129428_2  44 ALGLATPKEVAGYGLPEVALADAAWYL--EYGFAQGIILGQTGLLAWDSAPigINKMP--EGLKIEAAEPERLTRDIKNVAVY 122
+                                 34445778888999999********52..22345555666667777777654344445..46777779*************** PP
+
+  rdhAprofile_alignment_trim 186 lGadeVGiaeldekwkklihkkektgkplvfedvdeayetdtkivipeklkyvivvtvrqskeltraspggissaasgkaYsr 268
+                                 +Gad VG+ +ld++w+++   +           v+   +++t+++ipe ++yvi+++ +++++l+r +p+ i +a++g+ Y++
+              k87_29129428_2 123 FGADLVGVSKLDRRWLYSNSFN-F---------VS---RESTPVEIPEDYEYVIALAHEMDYNLVRYTPTDIGDASTGMGYTK 192
+                                 *****************92222.2.........22...4579***************************************** PP
+
+  rdhAprofile_alignment_trim 269 saviavklqefirgLGYqalasgndgeapsvplavlaGlGElgRtgdllitpeyGprvrlakvlTDLPLapdkPidfGvreFC 351
+                                 +a++a  l++fir+LGY+al++gnd +a+svp+a++aGlGEl+R+g llit eyGprvrl kv+T+LPLa+d+Pi+fG++eFC
+              k87_29129428_2 193 MAFTAGLLARFIRDLGYKALPCGND-TALSVPIAMQAGLGELARNG-LLITREYGPRVRLGKVFTNLPLAVDQPIEFGITEFC 273
+                                 ************************9.9*******************.9*********************************** PP
+
+  rdhAprofile_alignment_trim 352 ktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnkkedswiHelvkatvstt 434
+                                  +C kCAd+CPs aI  + e+t +  ++sn++g ++W ++ +kCl+fw  +g +C++C+ vCpFnk   + +H+ v +++ + 
+              k87_29129428_2 274 SKCLKCADSCPSRAIIPG-ERTTKPHNISNVSGELKWPVNGEKCLKFWGANGCSCMVCIRVCPFNKR-MNRFHRSVGWIADRV 354
+                                 ******************.99999999***************************************9.99************* PP
+
+  rdhAprofile_alignment_trim 435 plfnsflknmdkafgYgrkeeekeewWdedepvygid 471
+                                 p   ++l ++d+++gYg++  ++e +Wde++p  g++
+              k87_29129428_2 355 PWTAPLLLKVDNLLGYGKQA-NAEYFWDEWQPRAGLK 390
+                                 ********************.699********98875 PP
+
+>> k87_19510389_2  # 650 # 1429 # 1 # ID=106_2;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   0.0      0.32        20     178     196 ..       7      25 ..       3      32 .. 0.89
+   2 !   52.2   0.2   9.8e-17   6.1e-15     233     369 ..      42     187 ..      24     203 .. 0.82
+   3 ?   -0.2   0.5      0.76        47     353     363 ..     245     255 ..     241     258 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 1.1 bits;  conditional E-value: 0.32
+  rdhAprofile_alignment_trim 178 mikaaarflGadeVGiael 196
+                                  ik++a+ lGad VGi++ 
+              k87_19510389_2   7 EIKQVAQGLGADFVGIVNA 25 
+                                 59**************976 PP
+
+  == domain 2  score: 52.2 bits;  conditional E-value: 9.8e-17
+  rdhAprofile_alignment_trim 233 eklkyvivvtvrqskeltraspggissaasgkaYsrsaviavklqefirgLGYqalasgn.............dgeapsvpla 302
+                                 e+ ++viv+ +r+    +++ +  +++ +++  Y++++ i ++l +f+ +  Y a+                  g+++   +a
+              k87_19510389_2  42 ESARSVIVFGIRMLSGSIESPSLRVATTSNLAIYQEIDHIGYNLGRFLEEKSYLAAVIPPyqptemnretlglVGDLSLKHAA 124
+                                 67789999999999999999888999999999999999999999999999999887554433444333333332345567899 PP
+
+  rdhAprofile_alignment_trim 303 vlaGlGElgRtgdllitpeyGprvrlakvlTDLPLapdkPidfGvreFCktCkkCAdaCPsgaIskd 369
+                                 v aGlG  g++  l++tp++Gprvrl +++T+  ++ d+P++   +e C+ C+ C daCP+gaIs  
+              k87_19510389_2 125 VGAGLGAFGKNC-LILTPRWGPRVRLGAIVTNALIPSDQPVS---KEICHDCQLCIDACPVGAISPT 187
+                                 ************.9***************************7...89*****************986 PP
+
+  == domain 3  score: -0.2 bits;  conditional E-value: 0.76
+  rdhAprofile_alignment_trim 353 tCkkCAdaCPs 363
+                                 +C kC + CP+
+              k87_19510389_2 245 NCFKCIEVCPV 255
+                                 46666666665 PP
+
+>> k87_21606201_5  # 2690 # 3859 # 1 # ID=48_5;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.450
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.3   2.0   1.5e-05   0.00094     349     371 ..      17      39 ..      15      43 .. 0.90
+   2 !   11.6   0.3   0.00021     0.013     351     368 ..      50      67 ..      47      88 .. 0.90
+   3 ?    4.5   3.6     0.029       1.8     389     417 ..     191     211 ..     183     218 .. 0.85
+   4 !    6.9   0.1    0.0053      0.33     349     390 ..     224     272 ..     215     276 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 1.5e-05
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdke 371
+                                 e+C  C +C   CP++aI+k+ e
+              k87_21606201_5  17 EYCSRCSICSSLCPFEAINKEPE 39 
+                                 89******************965 PP
+
+  == domain 2  score: 11.6 bits;  conditional E-value: 0.00021
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIsk 368
+                                 C++C+ C  +CP++aIs 
+              k87_21606201_5  50 CQVCGLCYSTCPAKAISS 67 
+                                 ****************97 PP
+
+  == domain 3  score: 4.5 bits;  conditional E-value: 0.029
+  rdhAprofile_alignment_trim 389 rtdlkkClsfwaeegsgCgaCqavCpFnk 417
+                                 ++d++kC         +Cg+C+ +Cp+ +
+              k87_21606201_5 191 KVDKDKC--------ITCGNCVFYCPYHA 211
+                                 6899999........89**********86 PP
+
+  == domain 4  score: 6.9 bits;  conditional E-value: 0.0053
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkeptweape.......asnnpgvkrWrt 390
+                                 + C+ C+ C   CP+ a + ++  ++ +++        +++p+v+ +r+
+              k87_21606201_5 224 DLCRGCGLCVALCPAFALELENSEKERISTlisklslEMEKPKVLIFRC 272
+                                 57****************9997777666656666666556666666665 PP
+
+>> k87_5226526_6  # 6588 # 6947 # -1 # ID=101_6;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.497
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.1   1.6   4.5e-06   0.00028     349     374 ..      52      77 ..      50      83 .. 0.89
+   2 !   12.1   2.4   0.00014    0.0089     350     373 ..      84     107 ..      81     118 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 17.1 bits;  conditional E-value: 4.5e-06
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkeptw 374
+                                 e C  Ck+C   CP +aIs+d+e+++
+               k87_5226526_6  52 ELCSGCKICNPLCPYDAISFDEEKKV 77 
+                                 78*******************99887 PP
+
+  == domain 2  score: 12.1 bits;  conditional E-value: 0.00014
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkept 373
+                                  Ck C+ C  aCPs aI+ ++  t
+               k87_5226526_6  84 LCKGCGVCVAACPSAAITGKHFTT 107
+                                 6****************9885444 PP
+
+>> k87_7686973_3  # 916 # 2883 # -1 # ID=118_3;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_co
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.3   5.4   0.00053     0.033     351     413 ..     246     308 ..     243     317 .. 0.83
+   2 !   13.3   0.6   6.1e-05    0.0038     349     375 ..     588     614 ..     587     620 .. 0.89
+   3 !    9.2   3.1    0.0011      0.07     350     373 ..     620     643 ..     616     654 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.00053
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape....asnnpgvkrWrtdlkkClsfwaeegsgCgaCqavC 413
+                                 C+ C  C ++CP++a+s+ +e    +++    ++ +   +    d++ C  f +    +C+aC   C
+               k87_7686973_3 246 CNGCLVCVEKCPWKAVSEFDE-GLSQRKaiytPFAQAVPNVPVIDTEHCVYFLK---GTCRACERFC 308
+                                 9******************65.5555555777566666777789*****88886...8*****9999 PP
+
+  == domain 2  score: 13.3 bits;  conditional E-value: 6.1e-05
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkeptwe 375
+                                 e C  Ck+C   CP +aI++d+e+++ 
+               k87_7686973_3 588 ELCSGCKICNLLCPYSAITFDEEKKVS 614
+                                 68*******************998874 PP
+
+  == domain 3  score: 9.2 bits;  conditional E-value: 0.0011
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkept 373
+                                  Ck C+ C  aCPs aI+ ++  t
+               k87_7686973_3 620 LCKACGVCVAACPSAAITGKHFTT 643
+                                 5****************9885444 PP
+
+>> k87_28781605_6  # 6511 # 6804 # 1 # ID=60_6;partial=00;start_type=TTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.527
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.4     0.073       4.5     351     369 ..      45      63 ..       6      71 .. 0.81
+   2 !   19.2   0.3     1e-06   6.5e-05     350     371 ..      74      95 ..      72      97 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.073
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskd 369
+                                 C +C+ C   CP  + +++
+              k87_28781605_6  45 CIKCGLCWVFCPEACFHQN 63 
+                                 7777777777776666555 PP
+
+  == domain 2  score: 19.2 bits;  conditional E-value: 1e-06
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdke 371
+                                 +C  C++CA++CP+g I++ +e
+              k87_28781605_6  74 YCYGCGICAKECPTGVITMVEE 95 
+                                 7*****************9865 PP
+
+>> k87_1613520_4  # 1934 # 3895 # 1 # ID=227_4;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.49
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.5   0.2    0.0035      0.22     389     418 ..     238     259 ..     224     273 .. 0.87
+   2 ?    2.3   0.3      0.14       8.5     391     413 ..     287     306 ..     278     320 .. 0.83
+   3 !    7.9  10.1    0.0027      0.17     349     414 ..     586     630 ..     584     630 .. 0.92
+   4 !   10.0   0.9   0.00063     0.039     351     370 ..     619     638 ..     616     651 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 7.5 bits;  conditional E-value: 0.0035
+  rdhAprofile_alignment_trim 389 rtdlkkClsfwaeegsgCgaCqavCpFnkk 418
+                                 ++d + C        +gCg Cq  Cp+ ++
+               k87_1613520_4 238 YVDEALC--------NGCGLCQIKCPWRAD 259
+                                 6778888........9***********987 PP
+
+  == domain 2  score: 2.3 bits;  conditional E-value: 0.14
+  rdhAprofile_alignment_trim 391 dlkkClsfwaeegsgCgaCqavC 413
+                                 d++ C  f +    +C++C +vC
+               k87_1613520_4 287 DSEHCVYFLK---GTCRVCEKVC 306
+                                 8888977776...7999999999 PP
+
+  == domain 3  score: 7.9 bits;  conditional E-value: 0.0027
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 + C  C+ C   CP gaIs+++e ++              r++   C        +gCg C+avCp
+               k87_1613520_4 586 KICTGCQYCKLVCPYGAISFEEENEV-------------CRVNEVLC--------KGCGLCVAVCP 630
+                                 67*******************87777.............69******........9*********9 PP
+
+  == domain 4  score: 10.0 bits;  conditional E-value: 0.00063
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdk 370
+                                 Ck C+ C   CPs+aIs  +
+               k87_1613520_4 619 CKGCGLCVAVCPSDAISLSH 638
+                                 ****************9874 PP
+
+>> k87_6384683_1  # 2 # 3055 # 1 # ID=229_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.462
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.5     0.075       4.7     389     414 ..     105     122 ..      70     129 .. 0.73
+   2 ?    2.5   0.1      0.12       7.6     352     389 ..     164     204 ..     164     218 .. 0.68
+   3 !   10.1   0.6   0.00057     0.036     350     375 ..     951     976 ..     948     982 .. 0.88
+   4 !   10.3   1.3   0.00052     0.032     350     370 ..     982    1002 ..     979    1012 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.075
+  rdhAprofile_alignment_trim 389 rtdlkkClsfwaeegsgCgaCqavCp 414
+                                 ++d +kC         gC++C+++Cp
+               k87_6384683_1 105 YVDEEKC--------LGCPTCIEYCP 122
+                                 68999**........89********9 PP
+
+  == domain 2  score: 2.5 bits;  conditional E-value: 0.12
+  rdhAprofile_alignment_trim 352 ktCkkCAdaCPsgaIskdk.eptweape..asnnpgvkrWr 389
+                                 k C++C   C  +aI + + e+++e++   +   pg++ ++
+               k87_6384683_1 164 KECQICRPVCKNKAIDFHQqEKKVEIEVgsIILAPGYEIFQ 204
+                                 68*************87752444443335555556665554 PP
+
+  == domain 3  score: 10.1 bits;  conditional E-value: 0.00057
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkeptwe 375
+                                  C  C+ C   CP +aI+ dke+++ 
+               k87_6384683_1 951 ICSGCGVCELVCPYKAIQVDKERKVA 976
+                                 6********************99884 PP
+
+  == domain 4  score: 10.3 bits;  conditional E-value: 0.00052
+  rdhAprofile_alignment_trim  350 FCktCkkCAdaCPsgaIskdk 370 
+                                   Ck C+ C  aCPsg Is+++
+               k87_6384683_1  982 LCKGCGSCGAACPSGVISMNH 1002
+                                  6*****************985 PP
+
+>> k87_33484614_3  # 1409 # 1618 # 1 # ID=46_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.6  11.9   0.00021     0.013     350     414 ..      11      60 ..       9      60 .. 0.86
+   2 !    7.9   3.3    0.0026      0.17     351     367 ..      49      65 ..      42      67 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00021
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                  Ck C++C   CP g I+  ++ +          +     +d ++C        +gC++C  vCp
+              k87_33484614_3  11 LCKGCEICTFFCPKGMINSSDKLNP-------SGYRVAVFNDNSEC--------TGCAICAVVCP 60 
+                                 5*******************76555.......556667788999**........9*********9 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 0.0026
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIs 367
+                                 C  C +CA  CP  aI+
+              k87_33484614_3  49 CTGCAICAVVCPEVAIE 65 
+                                 999**********9996 PP
+
+>> k87_8241810_5  # 4433 # 4726 # 1 # ID=187_5;partial=00;start_type=TTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.439
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.1   2.4     0.039       2.4     351     373 ..      45      67 ..      40      73 .. 0.83
+   2 !   13.1   1.5   7.3e-05    0.0046     350     371 ..      74      95 ..      71      97 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 4.1 bits;  conditional E-value: 0.039
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkept 373
+                                 C +C+ C   CP g++++++e  
+               k87_8241810_5  45 CIKCGMCYIFCPEGCVEQNTEGY 67 
+                                 99999999999999999987755 PP
+
+  == domain 2  score: 13.1 bits;  conditional E-value: 7.3e-05
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdke 371
+                                 +Ck C++CA++C   aI++ +e
+               k87_8241810_5  74 YCKGCGICARECWPRAITMVEE 95 
+                                 7****************99865 PP
+
+>> k87_2688226_6  # 5503 # 6555 # 1 # ID=70_6;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_con
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   5.5   0.00033     0.021     353     414 ..     283     327 ..     280     333 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00033
+  rdhAprofile_alignment_trim 353 tCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                  CkkC + C +ga ++++  ++           +r + d++kC        +gCg+C+  Cp
+               k87_2688226_6 283 ECKKCTEICIFGAAQMKHYTEF---------DEERAYIDTEKC--------MGCGNCVVHCP 327
+                                 7****************76666.........467889******........9*********9 PP
+
+>> k87_34325520_7  # 7644 # 10985 # 1 # ID=173_7;partial=00;start_type=GTG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.4   0.1     0.015      0.94     389     440 ..     238     276 ..     217     291 .. 0.71
+   2 ?    2.9   0.6     0.092       5.7     351     378 ..     756     783 ..     753     806 .. 0.83
+   3 ?    7.6  10.2    0.0034      0.21     349     414 ..    1046    1090 ..    1045    1109 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 5.4 bits;  conditional E-value: 0.015
+  rdhAprofile_alignment_trim 389 rtdlkkClsfwaeegsgCgaCqavCpFnkkedswiHelvkatvsttplfnsf 440
+                                 ++d +kC        +gC+ C +vCp + +     He+   +++++ +  +f
+              k87_34325520_7 238 YVDVDKC--------TGCSECEKVCPVSLP-----HEWELKLTQRKAVYRPF 276
+                                 6888889........9**********6655.....55555555555555555 PP
+
+  == domain 2  score: 2.9 bits;  conditional E-value: 0.092
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweape 378
+                                 C  C  C +aC ++ I++d + ++e+ e
+              k87_34325520_7 756 CSECLACIKACEAETINHDMKDEYEEIE 783
+                                 *******************888877655 PP
+
+  == domain 3  score: 7.6 bits;  conditional E-value: 0.0034
+  rdhAprofile_alignment_trim  349 eFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414 
+                                  + C  C++C   CP +a+s+d+e+++              r++ + C        +gCgaC++ Cp
+              k87_34325520_7 1046 RICSGCQICMLVCPYSAVSFDEEKKV-------------CRVNEALC--------KGCGACVGGCP 1090
+                                  57*******************77666.............79******........9*********9 PP
+
+>> k87_31344013_3  # 1667 # 2002 # 1 # ID=102_3;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.44
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.1   0.1     0.039       2.4     387     417 ..       3      25 ..       1      66 [. 0.85
+   2 ?    7.4   0.6    0.0038      0.24     351     369 ..      91     109 ..      88     111 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 4.1 bits;  conditional E-value: 0.039
+  rdhAprofile_alignment_trim 387 rWrtdlkkClsfwaeegsgCgaCqavCpFnk 417
+                                 + + d++kC        +gC++C   C+ ++
+              k87_31344013_3   3 KIQIDAEKC--------TGCRTCEVICSLTH 25 
+                                 567899999........9*********8766 PP
+
+  == domain 2  score: 7.4 bits;  conditional E-value: 0.0038
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskd 369
+                                 C+ C++C + C +ga +++
+              k87_31344013_3  91 CNLCGICTQWCVTGALKTK 109
+                                 ***************9876 PP
+
+>> k87_25485618_1  # 3 # 1100 # -1 # ID=240_1;partial=10;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.490
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9  10.5     0.022       1.4     350     374 ..      16      40 ..      13      59 .. 0.70
+   2 ?    1.3   1.4      0.27        17     353     367 ..      50      64 ..      45      71 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 4.9 bits;  conditional E-value: 0.022
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkeptw 374
+                                  C  C+ CA  CP + I+++ e ++
+              k87_25485618_1  16 LCTDCGTCAAVCPNNVITMNYETEE 40 
+                                 5*****************9955333 PP
+
+  == domain 2  score: 1.3 bits;  conditional E-value: 0.27
+  rdhAprofile_alignment_trim 353 tCkkCAdaCPsgaIs 367
+                                  C+ C d CP + Is
+              k87_25485618_1  50 RCQLCHDVCPGKDIS 64 
+                                 599999999998887 PP
+
+>> k87_1990254_3  # 3595 # 3801 # 1 # ID=261_3;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.449
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4  12.2     0.031         2     349     376 ..       7      33 ..       4      55 .. 0.70
+   2 ?    0.2   4.0      0.58        36     355     365 ..      48      58 ..      36      67 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 4.4 bits;  conditional E-value: 0.031
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkeptwea 376
+                                 e C +C+ C  +CP +aI ++ e t+ +
+               k87_1990254_3   7 EDCAKCGSCELECPNQAIYEG-EATYLI 33 
+                                 66*****************99.666633 PP
+
+  == domain 2  score: 0.2 bits;  conditional E-value: 0.58
+  rdhAprofile_alignment_trim 355 kkCAdaCPsga 365
+                                  kCA+ CP++a
+               k87_1990254_3  48 SKCAEICPVSA 58 
+                                 59******998 PP
+
+>> k87_7253895_7  # 4562 # 5239 # 1 # ID=30_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.454
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.4   0.4       1.7   1.1e+02     351     413 ..     148     158 ..     131     162 .. 0.72
+   2 ?   11.1   0.4   0.00029     0.018     340     368 ..     183     208 ..     167     217 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 1.7
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavC 413
+                                 C                                                      C++C+ +C
+               k87_7253895_7 148 CVL----------------------------------------------------CRRCVRAC 158
+                                 444....................................................55555555 PP
+
+  == domain 2  score: 11.1 bits;  conditional E-value: 0.00029
+  rdhAprofile_alignment_trim 340 dkPidfGvreFCktCkkCAdaCPsgaIsk 368
+                                 d+Pid    + C+ C+ C   CP+ga sk
+               k87_7253895_7 183 DQPIDQ---NVCQDCNVCISFCPTGALSK 208
+                                 788885...56***************998 PP
+
+>> k87_17213898_8  # 4731 # 9104 # -1 # ID=126_8;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.473
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.1     0.035       2.2     389     415 ..      83     101 ..      63     114 .. 0.82
+   2 ?    1.4   3.5      0.25        16     351     374 ..     608     631 ..     604     654 .. 0.73
+   3 ?   -1.4   0.0       1.8   1.1e+02     166     213 ..    1214    1260 ..    1161    1271 .. 0.80
+   4 ?   10.5   8.5   0.00046     0.028     346     414 ..    1379    1432 ..    1333    1434 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 4.2 bits;  conditional E-value: 0.035
+  rdhAprofile_alignment_trim 389 rtdlkkClsfwaeegsgCgaCqavCpF 415
+                                 + dl+kC        +gCgaC++ Cp 
+              k87_17213898_8  83 YIDLSKC--------TGCGACVEKCPI 101
+                                 6788999........899999999995 PP
+
+  == domain 2  score: 1.4 bits;  conditional E-value: 0.25
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptw 374
+                                 C  C+ C +aC ++aI +++e+++
+              k87_17213898_8 608 CCECRECEKACEAEAIIHEEEREE 631
+                                 999*************99986654 PP
+
+  == domain 3  score: -1.4 bits;  conditional E-value: 1.8
+  rdhAprofile_alignment_trim  166 pkwegtpeenskmikaaarflGadeVGiaeldekwkklihkkektgkp 213 
+                                  +  e++p+ n  ++ + +r +G++e  ++e  ek +++   ++ ++kp
+              k87_17213898_8 1214 KIREKSPDTNVFILHRDMRAYGFNEAYYTEAREKGVRFLRYED-NEKP 1260
+                                  4557999**************************9999877664.3344 PP
+
+  == domain 4  score: 10.5 bits;  conditional E-value: 0.00046
+  rdhAprofile_alignment_trim  346 GvreFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414 
+                                   v e C+ C  C d CP +aI+   e             +k   +d + C        +gCg+Cqa+Cp
+              k87_17213898_8 1379 VVDENCDGCAYCIDPCPYEAITLI-EYMK------DGAVKKSVEVDETAC--------KGCGVCQATCP 1432
+                                  56788******************9.4333......367788899******........9*********9 PP
+
+>> k87_14442590_19  # 15176 # 16357 # -1 # ID=41_19;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.3    0.0063      0.39     390     415 ..       5      22 ..       2      27 .. 0.88
+   2 ?    2.3   0.4      0.14       8.5     351     367 ..      38      54 ..      31      77 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.0063
+  rdhAprofile_alignment_trim 390 tdlkkClsfwaeegsgCgaCqavCpF 415
+                                  dl+kC         gCg+C+ +CpF
+             k87_14442590_19   5 IDLDKC--------VGCGNCVPACPF 22 
+                                 688899........89*********9 PP
+
+  == domain 2  score: 2.3 bits;  conditional E-value: 0.14
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIs 367
+                                 C+ C+ C +aC  +a+ 
+             k87_14442590_19  38 CNFCGACQEACDYEAVV 54 
+                                 77777777777666655 PP
+
+>> k87_14442590_1  # 1 # 468 # -1 # ID=41_1;partial=10;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.479
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   1.1   0.00059     0.037     404     420 ..      26      41 ..      21      58 .. 0.74
+   2 ?    1.9   4.2      0.18        11     351     364 ..      67      80 ..      64      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.00059
+  rdhAprofile_alignment_trim 404 sgCgaCqavCpFnkked 420
+                                 ++Cg C+++Cp+n    
+              k87_14442590_1  26 YQCGLCTGACPWNLV-R 41 
+                                 578888888888865.3 PP
+
+  == domain 2  score: 1.9 bits;  conditional E-value: 0.18
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsg 364
+                                 C tC+ C + CP g
+              k87_14442590_1  67 CATCRACVERCPRG 80 
+                                 ************76 PP
+
+>> k87_14442590_4  # 2429 # 3202 # -1 # ID=41_4;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.7   1.6       4.5   2.8e+02     391     413 ..       8      22 ..       6      33 .. 0.74
+   2 ?    7.4  11.0    0.0038      0.23     351     418 ..      69     115 ..      66     120 .. 0.78
+   3 ?    7.1   2.7    0.0049       0.3     349     370 ..      98     119 ..      95     134 .. 0.76
+   4 ?    8.2   0.1    0.0022      0.14     357     371 ..     142     156 ..     140     170 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -2.7 bits;  conditional E-value: 4.5
+  rdhAprofile_alignment_trim 391 dlkkClsfwaeegsgCgaCqavC 413
+                                 d++kC        + C+ Cq +C
+              k87_14442590_4   8 DTSKC--------MACRGCQVAC 22 
+                                 77788........7899999999 PP
+
+  == domain 2  score: 7.4 bits;  conditional E-value: 0.0038
+  rdhAprofile_alignment_trim 351 CktCk..kCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFnkk 418
+                                 C+ C+   C + CP+gaIs+++e  +                d+k+C         gCg C+++CpF   
+              k87_14442590_4  69 CMHCTdaSCEKVCPTGAISHQEEVVI---------------IDQKTC--------IGCGYCVEACPFHVV 115
+                                 555542246678*********77666...............9*****........9***********864 PP
+
+  == domain 3  score: 7.1 bits;  conditional E-value: 0.0049
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdk 370
+                                 + C  C+ C +aCP+  ++kd+
+              k87_14442590_4  98 KTCIGCGYCVEACPFHVVHKDE 119
+                                 4588888888888888888874 PP
+
+  == domain 4  score: 8.2 bits;  conditional E-value: 0.0022
+  rdhAprofile_alignment_trim 357 CAdaCPsgaIskdke 371
+                                 CA++CP+gaI++++ 
+              k87_14442590_4 142 CAKTCPTGAIQFGER 156
+                                 ***********9954 PP
+
+>> k87_7686973_4  # 3184 # 3549 # 1 # ID=118_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.7   5.7     0.012      0.78     351     372 ..      61      84 ..      55     110 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 5.7 bits;  conditional E-value: 0.012
+  rdhAprofile_alignment_trim 351 CktCkk..CAdaCPsgaIskdkep 372
+                                 C +C k  CA+ CP++aI+ d+  
+               k87_7686973_4  61 CLQCYKppCAEICPTEAITRDEAT 84 
+                                 88999888************9543 PP
+
+>> k87_26636505_3  # 1999 # 2289 # 1 # ID=105_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_con
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.8   6.7     0.012      0.75     350     414 ..      26      75 ..      23      81 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 5.8 bits;  conditional E-value: 0.012
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                  Ck C+ C + CP +  ++ +e +        + +   +    ++C         +Cg C   Cp
+              k87_26636505_3  26 KCKGCRFCIEFCPRQVLEESTEFNR-------KGYHPVYAARGDDC--------VNCGLCELICP 75 
+                                 5****************99965444.......455568999999**........89*****9999 PP
+
+>> k87_9766848_1  # 1 # 525 # -1 # ID=57_1;partial=10;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=3-4bp;gc_cont=0.46
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8  14.0     0.094       5.9     348     414 ..      41      97 ..      37      98 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.094
+  rdhAprofile_alignment_trim 348 reFCktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrt.dlkkClsfwaeegsgCgaCqavCp 414
+                                 ++ C +C  CA+aCP++ +     p +  +    + g   + +  +  C        ++C+aC+  Cp
+               k87_9766848_1  41 FKLCWQCSLCATACPWNIVRSFIIPRMLRQ---AQFGLVDFESeEWWLC--------ATCNACVRRCP 97 
+                                 578*****************9988888544...4556666655145679........8999**99999 PP
+
+>> k87_12937673_2  # 1015 # 1254 # 1 # ID=174_2;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   9.6      0.22        13     351     416 ..      15      62 ..      12      66 .. 0.70
+   2 ?    4.3   0.7     0.033       2.1     349     367 ..      47      65 ..      43      77 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 1.6 bits;  conditional E-value: 0.22
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCpFn 416
+                                 C  C+ C d+CP+g  +     t+         +++    dl+ C         gC +C   Cp+ 
+              k87_12937673_2  15 CTGCGTCVDECPMGVYEIV---TV-------GRKKQSRVKDLDMC--------LGCHTCELRCPYE 62 
+                                 999*********9976555...33.......22223334578888........6788888888886 PP
+
+  == domain 2  score: 4.3 bits;  conditional E-value: 0.033
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIs 367
+                                 ++C  C  C   CP +a++
+              k87_12937673_2  47 DMCLGCHTCELRCPYEAVK 65 
+                                 5788888888888888876 PP
+
+>> k87_514727_3  # 1292 # 1918 # 1 # ID=108_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.426
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.4   0.5    0.0077      0.48     350     364 ..      50      64 ..      47      80 .. 0.88
+   2 ?    2.9   1.3     0.088       5.5     351     363 ..      95     107 ..      87     109 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 6.4 bits;  conditional E-value: 0.0077
+  rdhAprofile_alignment_trim 350 FCktCkkCAdaCPsg 364
+                                  C +CkkC   CP +
+                k87_514727_3  50 VCYQCKKCTSGCPIS 64 
+                                 59***********75 PP
+
+  == domain 2  score: 2.9 bits;  conditional E-value: 0.088
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPs 363
+                                 C +C+ C + CP 
+                k87_514727_3  95 CASCETCSTRCPQ 107
+                                 ************7 PP
+
+>> k87_8672682_1  # 46 # 426 # -1 # ID=221_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.441
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   8.7     0.031       1.9     349     374 ..      59      84 ..      58     121 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 4.4 bits;  conditional E-value: 0.031
+  rdhAprofile_alignment_trim 349 eFCktCkkCAdaCPsgaIskdkeptw 374
+                                 e C  Ck C +aCP g  ++d+e+  
+               k87_8672682_1  59 ELCTGCKDCIEACPLGVMQFDEEKGL 84 
+                                 78*******************88765 PP
+
+>> k87_17109273_4  # 2180 # 2869 # 1 # ID=103_4;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.8      0.19        12     404     414 ..     114     124 ..     103     130 .. 0.76
+   2 ?    7.4   1.6    0.0039      0.24     351     368 ..     151     168 ..     147     171 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 1.8 bits;  conditional E-value: 0.19
+  rdhAprofile_alignment_trim 404 sgCgaCqavCp 414
+                                  gC++C+++Cp
+              k87_17109273_4 114 FGCNNCTKTCP 124
+                                 45777777776 PP
+
+  == domain 2  score: 7.4 bits;  conditional E-value: 0.0039
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIsk 368
+                                 C  C+ CA  CP g +++
+              k87_17109273_4 151 CVMCGLCAARCPQGIVPY 168
+                                 99************9986 PP
+
+>> k87_23994886_4  # 1071 # 2963 # -1 # ID=51_4;partial=00;start_type=TTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   5.1      0.49        30     351     369 ..      53      71 ..      49      91 .. 0.85
+   2 ?    5.2   0.0     0.018       1.2     351     369 ..     554     572 ..     551     584 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 0.5 bits;  conditional E-value: 0.49
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskd 369
+                                 C  C  C ++CP g I+++
+              k87_23994886_4  53 CSGCITCVKSCPQGTIKMQ 71 
+                                 9999999999999999987 PP
+
+  == domain 2  score: 5.2 bits;  conditional E-value: 0.018
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskd 369
+                                 C  C+ C + CP  a s+d
+              k87_23994886_4 554 CVFCGLCVEMCPRHALSMD 572
+                                 999**************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                       1871  (472199 residues searched)
+Passed MSV filter:                       120  (0.0641368); expected 37.4 (0.02)
+Passed bias filter:                      111  (0.0593266); expected 37.4 (0.02)
+Passed Vit filter:                        67  (0.0358097); expected 1.9 (0.001)
+Passed Fwd filter:                        39  (0.0208445); expected 0.0 (1e-05)
+Initial search space (Z):               1871  [actual number of targets]
+Domain search space  (domZ):              30  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.07
+# Mc/sec: 2870.93
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        A02_01_coassembly_bin.8-proteins.faa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/A02_01_genomes/A02_01_coassembly_bin.8-proteins_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    0.00022   17.9  11.3    0.00033   17.4  11.3    1.2  1  k87_12270929_8  # 7429 # 7956 # -1 # ID=158_8;partial=00;star
+
+
+Domain annotation for each sequence (and alignments):
+>> k87_12270929_8  # 7429 # 7956 # -1 # ID=158_8;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_co
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.4  11.3   1.2e-07   0.00033     351     414 ..      65     116 ..      56     123 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 17.4 bits;  conditional E-value: 1.2e-07
+  rdhAprofile_alignment_trim 351 CktCkkCAdaCPsgaIskdkeptweapeasnnpgvkrWrtdlkkClsfwaeegsgCgaCqavCp 414
+                                 C  C  CA+aCP+++I  +ke+       s+  +v ++  d++kC        + C+ C++ Cp
+              k87_12270929_8  65 CIACDQCAKACPVDCIYIGKEKPA----GSKGFQVTGFTIDYSKC--------MFCALCVEPCP 116
+                                 99*****************86555....566777889********........89********9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                       2651  (868867 residues searched)
+Passed MSV filter:                       105  (0.0396077); expected 53.0 (0.02)
+Passed bias filter:                       90  (0.0339495); expected 53.0 (0.02)
+Passed Vit filter:                        19  (0.00716711); expected 2.7 (0.001)
+Passed Fwd filter:                         2  (0.000754432); expected 0.0 (1e-05)
+Initial search space (Z):               2651  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 25560.50
+//
+[ok]

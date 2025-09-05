@@ -1,0 +1,38 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 30:00:00
+#SBATCH --ntasks-per-node 64
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+cd /ocean/projects/ees240004p/hkittner/gtdbtk_chloroflexi_genomes
+
+module load prodigal/2.6.3
+for file1 in *.fna
+do
+    out=${file1%%.fna}
+    rm ${out}_${out}*
+    prodigal -i ${file1} -o ${out}-coords.gbk -a ${out}-proteins.faa -d ${out}-nucleotides.fa
+done
+module remove prodigal/2.6.3
+
+source /jet/home/hkittner/miniforge3/bin/activate
+conda activate /jet/home/hkittner/miniforge3/envs/anvio-8
+
+## This filters the hits based on evalue 1e-7. The output has a lot of other stuff so you will clean it up multiple times later 
+
+##### hmmscan pfam ##### 
+
+for file1 in *-proteins.faa
+do 
+     out=${file1/-proteins.faa/}
+     hmmscan -o ${out}_hmm.pfam --tblout ${out}_hmm_tab.pfam --noali -E 1e-7 --cpu 64 /ocean/projects/ees240004p/hkittner/databases/pfam_database/Pfam-A.hmm ${file1}
+done
+
+for file1 in *_hmm_tab.pfam
+do
+    out=${file1%%_hmm_tab.pfam}
+    awk '!x[$3]++' ${file1} > ${out}_hmm_best_hits.pfam
+done

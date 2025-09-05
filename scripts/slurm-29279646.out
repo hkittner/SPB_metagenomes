@@ -1,0 +1,22 @@
+[2025-02-21 00:48:59] INFO: GTDB-Tk v2.1.1
+[2025-02-21 00:48:59] INFO: gtdbtk classify --genome_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_A02_01/metawrap_80_5_bins -x fa --align_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_align_A02_01 --out_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_classify_A02_01 --cpus 32
+[2025-02-21 00:48:59] INFO: Using GTDB-Tk reference data version r207: /jet/home/hkittner/.conda/envs/gtdbtk/share/gtdbtk-2.1.1/db
+[2025-02-21 00:48:59] ERROR: Input directory does not exist: /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_align_A02_01
+[2025-02-21 00:48:59] ERROR: Controlled exit resulting from an unrecoverable error or warning.
+
+================================================================================
+EXCEPTION: BioLibDirNotFound
+  MESSAGE: Input directory does not exist: /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_align_A02_01
+________________________________________________________________________________
+
+Traceback (most recent call last):
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/__main__.py", line 98, in main
+    gt_parser.parse_options(args)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/main.py", line 854, in parse_options
+    self.classify(options)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/main.py", line 448, in classify
+    check_dir_exists(options.align_dir)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/common.py", line 121, in check_dir_exists
+    raise BioLibDirNotFound('Input directory does not exist: ' + input_dir)
+gtdbtk.biolib_lite.exceptions.BioLibDirNotFound: Input directory does not exist: /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_align_A02_01
+================================================================================

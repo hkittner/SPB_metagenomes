@@ -1,0 +1,54 @@
+metawrap classify_bins -b /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_refinement_S4_04_L001only/metawrap_80_5_bins -o /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_classification_S4_04_L001only -t 64
+
+########################################################################################################################
+#####                                   ALIGN CONTIGS TO DATABASE WITH MEGABLAST                                   #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            setting up ouput folder                                           -----
+-----        /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_classification_S4_04_L001only         -----
+-----                                     and merging contigs from all bins...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+Warning: /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_classification_S4_04_L001only already exists.
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                   aligning                                                   -----
+----- /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_classification_S4_04_L001only/all_contigs.fa -----
+-----          to /ocean/projects/ees240004p/hkittner/databases/NCBI_nt database with MEGABLAST. This is           -----
+-----             the longest step - please be patient. You may look at the classification progress in             -----
+-----/ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_classification_S4_04_L001only/megablast_out.raw.tab-----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                  removing unnecessary lines that lead to bad tax IDs (without a proper rank)                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                              making mapping file                                             -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                              GET TAXONOMY FROM MEGABLAST OUTPUT WITH TAXATOR-TK                              #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                   pulling out classifications with taxator                                   -----
+------------------------------------------------------------------------------------------------------------------------
+
+/jet/home/hkittner/programs/metaWRAP/bin/metawrap-modules/classify_bins.sh: line 150:  7340 Broken pipe             cat ${out}/megablast_out.tab
+      7341 Segmentation fault      (core dumped) | taxator -a megan-lca -t 0.3 -e 0.01 -g ${out}/mapping.tax > ${out}/predictions.gff3
+
+************************************************************************************************************************
+*****                                       Failed to run taxator. Exiting...                                      *****
+************************************************************************************************************************
+
+
+real	354m27.768s
+user	170m18.146s
+sys	9m31.590s

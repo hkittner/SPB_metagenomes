@@ -1,0 +1,12 @@
+from the HMMER results (column 1)
+awk '{print $1}' "$tbl" > "$output_dir/filtered_orfs.txt"
+
+# Extract matching sequences from the .faa file
+grep -A1 -F -f "$output_dir/filtered_orfs.txt" "$faa_file" > "$output_dir/${bin_name}_rdhA.faa"
+
+# Cleanup temporary file
+rm "$output_dir/filtered_orfs.txt"
+
+echo "echo "echo "filtered_orfs.txt"
+
+echo "echo "

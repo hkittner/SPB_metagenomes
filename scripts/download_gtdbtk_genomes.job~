@@ -1,0 +1,30 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 30:00:00
+#SBATCH --ntasks-per-node 1
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+source /ocean/projects/oce200003p/earring/programs/miniforge/bin/activate
+conda activate /ocean/projects/oce200003p/earring/programs/miniforge/envs/ncbi_datasets
+
+rm -rf anvio_output
+rm -rf raw_genomes
+rm -rf gtdbtk_genomes
+
+for file1 in $(cat < download_these)
+do
+out=${file1%%.1}
+
+	datasets download genome accession ${file1} --filename ${out}_download.zip
+done
+
+for file1 in $(cat < download_these)
+do
+    out=${file1%%.1}
+    
+    unzip ${out}*.zip
+    mv ncbi_dataset ${out}_ncbi_dataset
+done
+cp */*/*/*.fna .

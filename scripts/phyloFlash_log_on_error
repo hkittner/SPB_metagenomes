@@ -1,0 +1,51 @@
+[17:06:07] Checking for required tools.
+[17:06:07] Using barrnapHGV found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/barrnap_HGV".
+[17:06:07] Using vsearch found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/bin/vsearch".
+[17:06:07] Using grep found at "/usr/bin/grep".
+[17:06:07] Using bbmask found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/bin/bbmask.sh".
+[17:06:07] Using bbduk found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/bin/bbduk.sh".
+[17:06:07] Using bbmap found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/bin/bbmap.sh".
+[17:06:07] Using bowtiebuild found at
+	   "/jet/home/hkittner/miniforge3/envs/phyloflash/bin/bowtie-build".
+[17:06:07] All required tools found.
+[17:06:07] using local copy of univec:
+	   /ocean/projects/ees240004p/hkittner/databases/univec/UniVec
+[17:06:07] using local copy of Silva SSU RefNR:
+	   /ocean/projects/ees240004p/hkittner/databases/silva/138.1/SILVA_138.1_SSURef_NR99.fasta
+[17:06:07] unpacking SILVA database
+[17:06:10] searching for LSU contamination in SSU RefNR
+[17:06:10] running subcommand:
+	   /jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/barrnap_HGV
+	     --kingdom bac --threads 128 --evalue 1e-10 --gene lsu --reject
+	   0.01 ./138.1/SILVA_SSU.fasta  >tmp.barrnap_hits.bac.gff
+	   2>tmp.barrnap_hits.bac.barrnap.out
+[17:09:49] running subcommand:
+	   /jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/barrnap_HGV
+	     --kingdom arch --threads 128 --evalue 1e-10 --gene lsu
+	   --reject 0.01 ./138.1/SILVA_SSU.fasta 
+	   >tmp.barrnap_hits.arch.gff 2>tmp.barrnap_hits.arch.barrnap.out
+[17:13:52] running subcommand:
+	   /jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/barrnap_HGV
+	     --kingdom euk --threads 128 --evalue 1e-10 --gene lsu --reject
+	   0.01 ./138.1/SILVA_SSU.fasta  >tmp.barrnap_hits.euk.gff
+	   2>tmp.barrnap_hits.euk.barrnap.out
+[17:19:02] Removing sequences with potential LSU contamination
+[17:19:02] Number of sequences to skip: 1
+[17:19:08] masking low entropy regions in SSU RefNR
+[17:19:08] running subcommand:
+	   /jet/home/hkittner/miniforge3/envs/phyloflash/bin/bbmask.sh	
+	   overwrite=t -Xmx10g threads=128
+	   in=./138.1//SILVA_SSU.noLSU.fasta
+	   out=./138.1//SILVA_SSU.noLSU.masked.fasta minkr=4 maxkr=8 mr=t
+	   minlen=20 minke=4 maxke=8 fastawrap=0 
+	   2>tmp.bbmask_mask_repeats.log
+[17:19:48] FATAL: Tool execution failed!.
+	   Error was 'No such file or directory' and return code '35072'
+	   Check error log file tmp.bbmask_mask_repeats.log
+	   Aborting.
+[17:19:48] Saving log to file phyloFlash_log_on_error

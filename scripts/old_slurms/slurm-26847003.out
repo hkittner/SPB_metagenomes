@@ -1,0 +1,42 @@
+metawrap binning -o /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S4_04 -t 128 -m 500 -a /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S4_04/final.contigs.fa --concoct /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_paired_trim_1.fastq /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_paired_trim_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+----- /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S4_04/final.contigs.fa -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 58.90 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=17879764656, availableWord=1270085904
+[BWTIncConstructFromPacked] 10 iterations done. 100000000 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 200000000 characters processed.
+BWTIncConstructFromPacked() : Can't read from /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S4_04/work_files/assembly.fa.pac : Unexpected end of file
+
+************************************************************************************************************************
+*****                           Something went wrong with indexing the assembly. Exiting.                          *****
+************************************************************************************************************************
+
+
+real	5m20.406s
+user	1m38.027s
+sys	0m33.539s

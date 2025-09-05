@@ -1,0 +1,227 @@
+metawrap bin_refinement -o /ocean/projects/ees240004p/hkittner/bin_refinement_S4_04_L001only -t 64 -m 128 -A /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/metabat2_bins/ -B /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/maxbin2_bins/ -C /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins/ -c 80 -x 5
+
+------------------------------------------------------------------------------------------------------------------------
+-----           There is 128 RAM and 64 threads available, and each pplacer thread uses >40GB, so I will           -----
+-----                                          use 3 threads for pplacer                                           -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                                BEGIN PIPELINE!                                               #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                               setting up output folder and copying over bins...                              -----
+------------------------------------------------------------------------------------------------------------------------
+
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/metabat2_bins//bin.19.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/metabat2_bins//bin.21.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/metabat2_bins//bin.unbinned.fa because the bin size is not between 50kb and 20Mb
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          there are 98 bins in binsA                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          there are 172 bins in binsB                                         -----
+------------------------------------------------------------------------------------------------------------------------
+
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.1.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.100.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.108.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.109.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.110.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.111.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.115.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.116.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.119.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.121.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.133.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.14.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.141.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.147.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.151.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.154.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.157.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.158.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.160.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.171.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.172.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.173.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.177.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.178.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.181.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.187.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.190.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.199.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.201.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.203.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.209.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.210.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.214.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.217.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.22.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.229.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.230.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.31.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.37.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.42.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.44.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.45.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.54.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.60.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.65.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.66.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.68.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.69.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.7.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.70.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.71.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.75.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.77.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.79.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.91.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//bin.96.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/concoct_bins//unbinned.fa because the bin size is not between 50kb and 20Mb
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          there are 175 bins in binsC                                         -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                             There are 3 bin sets!                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              Fix contig naming by removing special characters...                             -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                             BEGIN BIN REFINEMENT                                             #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----              There are three bin folders, so there 4 ways we can refine the bins (A+B, B+C, A+C,             -----
+-----                                    A+B+C). Will try all four in parallel!                                    -----
+------------------------------------------------------------------------------------------------------------------------
+
+Specified 2 input bin sets: -1 binsA -2 binsC
+Add folder/bin name to contig name for binsA bins
+Add folder/bin name to contig name for binsC bins
+Combine all bins together
+The number of refined bins: 47
+Exporting refined bins...
+Extracting refined bin: Refined_1.fastaExtracting refined bin: Refined_2.fastaExtracting refined bin: Refined_3.fastaExtracting refined bin: Refined_4.fastaExtracting refined bin: Refined_5.fastaExtracting refined bin: Refined_6.fastaExtracting refined bin: Refined_7.fastaExtracting refined bin: Refined_8.fastaExtracting refined bin: Refined_9.fastaExtracting refined bin: Refined_10.fastaExtracting refined bin: Refined_11.fastaExtracting refined bin: Refined_12.fastaExtracting refined bin: Refined_13.fastaExtracting refined bin: Refined_14.fastaExtracting refined bin: Refined_15.fastaExtracting refined bin: Refined_16.fastaExtracting refined bin: Refined_17.fastaExtracting refined bin: Refined_18.fastaExtracting refined bin: Refined_19.fastaExtracting refined bin: Refined_20.fastaExtracting refined bin: Refined_21.fastaExtracting refined bin: Refined_22.fastaExtracting refined bin: Refined_23.fastaExtracting refined bin: Refined_24.fastaExtracting refined bin: Refined_25.fastaExtracting refined bin: Refined_26.fastaExtracting refined bin: Refined_27.fastaExtracting refined bin: Refined_28.fastaExtracting refined bin: Refined_29.fastaExtracting refined bin: Refined_30.fastaExtracting refined bin: Refined_31.fastaExtracting refined bin: Refined_32.fastaExtracting refined bin: Refined_33.fastaExtracting refined bin: Refined_34.fastaExtracting refined bin: Refined_35.fastaExtracting refined bin: Refined_36.fastaExtracting refined bin: Refined_37.fastaExtracting refined bin: Refined_38.fastaExtracting refined bin: Refined_39.fastaExtracting refined bin: Refined_40.fastaExtracting refined bin: Refined_41.fastaExtracting refined bin: Refined_42.fastaExtracting refined bin: Refined_43.fastaExtracting refined bin: Refined_44.fastaExtracting refined bin: Refined_45.fastaExtracting refined bin: Refined_46.fastaExtracting refined bin: Refined_47.fasta
+Deleting temporary files
+
+All done!
+Specified 3 input bin sets: -1 binsA -2 binsB -3 binsC
+Add folder/bin name to contig name for binsA bins
+Add folder/bin name to contig name for binsB bins
+Add folder/bin name to contig name for binsC bins
+Combine all bins together
+The number of refined bins: 50
+Exporting refined bins...
+Extracting refined bin: Refined_1.fastaExtracting refined bin: Refined_2.fastaExtracting refined bin: Refined_3.fastaExtracting refined bin: Refined_4.fastaExtracting refined bin: Refined_5.fastaExtracting refined bin: Refined_6.fastaExtracting refined bin: Refined_7.fastaExtracting refined bin: Refined_8.fastaExtracting refined bin: Refined_9.fastaExtracting refined bin: Refined_10.fastaExtracting refined bin: Refined_11.fastaExtracting refined bin: Refined_12.fastaExtracting refined bin: Refined_13.fastaExtracting refined bin: Refined_14.fastaExtracting refined bin: Refined_15.fastaExtracting refined bin: Refined_16.fastaExtracting refined bin: Refined_17.fastaExtracting refined bin: Refined_18.fastaExtracting refined bin: Refined_19.fastaExtracting refined bin: Refined_20.fastaExtracting refined bin: Refined_21.fastaExtracting refined bin: Refined_22.fastaExtracting refined bin: Refined_23.fastaExtracting refined bin: Refined_24.fastaExtracting refined bin: Refined_25.fastaExtracting refined bin: Refined_26.fastaExtracting refined bin: Refined_27.fastaExtracting refined bin: Refined_28.fastaExtracting refined bin: Refined_29.fastaExtracting refined bin: Refined_30.fastaExtracting refined bin: Refined_31.fastaExtracting refined bin: Refined_32.fastaExtracting refined bin: Refined_33.fastaExtracting refined bin: Refined_34.fastaExtracting refined bin: Refined_35.fastaExtracting refined bin: Refined_36.fastaExtracting refined bin: Refined_37.fastaExtracting refined bin: Refined_38.fastaExtracting refined bin: Refined_39.fastaExtracting refined bin: Refined_40.fastaExtracting refined bin: Refined_41.fastaExtracting refined bin: Refined_42.fastaExtracting refined bin: Refined_43.fastaExtracting refined bin: Refined_44.fastaExtracting refined bin: Refined_45.fastaExtracting refined bin: Refined_46.fastaExtracting refined bin: Refined_47.fastaExtracting refined bin: Refined_48.fastaExtracting refined bin: Refined_49.fastaExtracting refined bin: Refined_50.fasta
+Deleting temporary files
+
+All done!
+Specified 2 input bin sets: -1 binsA -2 binsB
+Add folder/bin name to contig name for binsA bins
+Add folder/bin name to contig name for binsB bins
+Combine all bins together
+The number of refined bins: 68
+Exporting refined bins...
+Extracting refined bin: Refined_1.fastaExtracting refined bin: Refined_2.fastaExtracting refined bin: Refined_3.fastaExtracting refined bin: Refined_4.fastaExtracting refined bin: Refined_5.fastaExtracting refined bin: Refined_6.fastaExtracting refined bin: Refined_7.fastaExtracting refined bin: Refined_8.fastaExtracting refined bin: Refined_9.fastaExtracting refined bin: Refined_10.fastaExtracting refined bin: Refined_11.fastaExtracting refined bin: Refined_12.fastaExtracting refined bin: Refined_13.fastaExtracting refined bin: Refined_14.fastaExtracting refined bin: Refined_15.fastaExtracting refined bin: Refined_16.fastaExtracting refined bin: Refined_17.fastaExtracting refined bin: Refined_18.fastaExtracting refined bin: Refined_19.fastaExtracting refined bin: Refined_20.fastaExtracting refined bin: Refined_21.fastaExtracting refined bin: Refined_22.fastaExtracting refined bin: Refined_23.fastaExtracting refined bin: Refined_24.fastaExtracting refined bin: Refined_25.fastaExtracting refined bin: Refined_26.fastaExtracting refined bin: Refined_27.fastaExtracting refined bin: Refined_28.fastaExtracting refined bin: Refined_29.fastaExtracting refined bin: Refined_30.fastaExtracting refined bin: Refined_31.fastaExtracting refined bin: Refined_32.fastaExtracting refined bin: Refined_33.fastaExtracting refined bin: Refined_34.fastaExtracting refined bin: Refined_35.fastaExtracting refined bin: Refined_36.fastaExtracting refined bin: Refined_37.fastaExtracting refined bin: Refined_38.fastaExtracting refined bin: Refined_39.fastaExtracting refined bin: Refined_40.fastaExtracting refined bin: Refined_41.fastaExtracting refined bin: Refined_42.fastaExtracting refined bin: Refined_43.fastaExtracting refined bin: Refined_44.fastaExtracting refined bin: Refined_45.fastaExtracting refined bin: Refined_46.fastaExtracting refined bin: Refined_47.fastaExtracting refined bin: Refined_48.fastaExtracting refined bin: Refined_49.fastaExtracting refined bin: Refined_50.fastaExtracting refined bin: Refined_51.fastaExtracting refined bin: Refined_52.fastaExtracting refined bin: Refined_53.fastaExtracting refined bin: Refined_54.fastaExtracting refined bin: Refined_55.fastaExtracting refined bin: Refined_56.fastaExtracting refined bin: Refined_57.fastaExtracting refined bin: Refined_58.fastaExtracting refined bin: Refined_59.fastaExtracting refined bin: Refined_60.fastaExtracting refined bin: Refined_61.fastaExtracting refined bin: Refined_62.fastaExtracting refined bin: Refined_63.fastaExtracting refined bin: Refined_64.fastaExtracting refined bin: Refined_65.fastaExtracting refined bin: Refined_66.fastaExtracting refined bin: Refined_67.fastaExtracting refined bin: Refined_68.fasta
+Deleting temporary files
+
+All done!
+Specified 2 input bin sets: -1 binsC -2 binsB
+Add folder/bin name to contig name for binsC bins
+Add folder/bin name to contig name for binsB bins
+Combine all bins together
+The number of refined bins: 213
+Exporting refined bins...
+Extracting refined bin: Refined_1.fastaExtracting refined bin: Refined_2.fastaExtracting refined bin: Refined_3.fastaExtracting refined bin: Refined_4.fastaExtracting refined bin: Refined_5.fastaExtracting refined bin: Refined_6.fastaExtracting refined bin: Refined_7.fastaExtracting refined bin: Refined_8.fastaExtracting refined bin: Refined_9.fastaExtracting refined bin: Refined_10.fastaExtracting refined bin: Refined_11.fastaExtracting refined bin: Refined_12.fastaExtracting refined bin: Refined_13.fastaExtracting refined bin: Refined_14.fastaExtracting refined bin: Refined_15.fastaExtracting refined bin: Refined_16.fastaExtracting refined bin: Refined_17.fastaExtracting refined bin: Refined_18.fastaExtracting refined bin: Refined_19.fastaExtracting refined bin: Refined_20.fastaExtracting refined bin: Refined_21.fastaExtracting refined bin: Refined_22.fastaExtracting refined bin: Refined_23.fastaExtracting refined bin: Refined_24.fastaExtracting refined bin: Refined_25.fastaExtracting refined bin: Refined_26.fastaExtracting refined bin: Refined_27.fastaExtracting refined bin: Refined_28.fastaExtracting refined bin: Refined_29.fastaExtracting refined bin: Refined_30.fastaExtracting refined bin: Refined_31.fastaExtracting refined bin: Refined_32.fastaExtracting refined bin: Refined_33.fastaExtracting refined bin: Refined_34.fastaExtracting refined bin: Refined_35.fastaExtracting refined bin: Refined_36.fastaExtracting refined bin: Refined_37.fastaExtracting refined bin: Refined_38.fastaExtracting refined bin: Refined_39.fastaExtracting refined bin: Refined_40.fastaExtracting refined bin: Refined_41.fastaExtracting refined bin: Refined_42.fastaExtracting refined bin: Refined_43.fastaExtracting refined bin: Refined_44.fastaExtracting refined bin: Refined_45.fastaExtracting refined bin: Refined_46.fastaExtracting refined bin: Refined_47.fastaExtracting refined bin: Refined_48.fastaExtracting refined bin: Refined_49.fastaExtracting refined bin: Refined_50.fastaExtracting refined bin: Refined_51.fastaExtracting refined bin: Refined_52.fastaExtracting refined bin: Refined_53.fastaExtracting refined bin: Refined_54.fastaExtracting refined bin: Refined_55.fastaExtracting refined bin: Refined_56.fastaExtracting refined bin: Refined_57.fastaExtracting refined bin: Refined_58.fastaExtracting refined bin: Refined_59.fastaExtracting refined bin: Refined_60.fastaExtracting refined bin: Refined_61.fastaExtracting refined bin: Refined_62.fastaExtracting refined bin: Refined_63.fastaExtracting refined bin: Refined_64.fastaExtracting refined bin: Refined_65.fastaExtracting refined bin: Refined_66.fastaExtracting refined bin: Refined_67.fastaExtracting refined bin: Refined_68.fastaExtracting refined bin: Refined_69.fastaExtracting refined bin: Refined_70.fastaExtracting refined bin: Refined_71.fastaExtracting refined bin: Refined_72.fastaExtracting refined bin: Refined_73.fastaExtracting refined bin: Refined_74.fastaExtracting refined bin: Refined_75.fastaExtracting refined bin: Refined_76.fastaExtracting refined bin: Refined_77.fastaExtracting refined bin: Refined_78.fastaExtracting refined bin: Refined_79.fastaExtracting refined bin: Refined_80.fastaExtracting refined bin: Refined_81.fastaExtracting refined bin: Refined_82.fastaExtracting refined bin: Refined_83.fastaExtracting refined bin: Refined_84.fastaExtracting refined bin: Refined_85.fastaExtracting refined bin: Refined_86.fastaExtracting refined bin: Refined_87.fastaExtracting refined bin: Refined_88.fastaExtracting refined bin: Refined_89.fastaExtracting refined bin: Refined_90.fastaExtracting refined bin: Refined_91.fastaExtracting refined bin: Refined_92.fastaExtracting refined bin: Refined_93.fastaExtracting refined bin: Refined_94.fastaExtracting refined bin: Refined_95.fastaExtracting refined bin: Refined_96.fastaExtracting refined bin: Refined_97.fastaExtracting refined bin: Refined_98.fastaExtracting refined bin: Refined_99.fastaExtracting refined bin: Refined_100.fastaExtracting refined bin: Refined_101.fastaExtracting refined bin: Refined_102.fastaExtracting refined bin: Refined_103.fastaExtracting refined bin: Refined_104.fastaExtracting refined bin: Refined_105.fastaExtracting refined bin: Refined_106.fastaExtracting refined bin: Refined_107.fastaExtracting refined bin: Refined_108.fastaExtracting refined bin: Refined_109.fastaExtracting refined bin: Refined_110.fastaExtracting refined bin: Refined_111.fastaExtracting refined bin: Refined_112.fastaExtracting refined bin: Refined_113.fastaExtracting refined bin: Refined_114.fastaExtracting refined bin: Refined_115.fastaExtracting refined bin: Refined_116.fastaExtracting refined bin: Refined_117.fastaExtracting refined bin: Refined_118.fastaExtracting refined bin: Refined_119.fastaExtracting refined bin: Refined_120.fastaExtracting refined bin: Refined_121.fastaExtracting refined bin: Refined_122.fastaExtracting refined bin: Refined_123.fastaExtracting refined bin: Refined_124.fastaExtracting refined bin: Refined_125.fastaExtracting refined bin: Refined_126.fastaExtracting refined bin: Refined_127.fastaExtracting refined bin: Refined_128.fastaExtracting refined bin: Refined_129.fastaExtracting refined bin: Refined_130.fastaExtracting refined bin: Refined_131.fastaExtracting refined bin: Refined_132.fastaExtracting refined bin: Refined_133.fastaExtracting refined bin: Refined_134.fastaExtracting refined bin: Refined_135.fastaExtracting refined bin: Refined_136.fastaExtracting refined bin: Refined_137.fastaExtracting refined bin: Refined_138.fastaExtracting refined bin: Refined_139.fastaExtracting refined bin: Refined_140.fastaExtracting refined bin: Refined_141.fastaExtracting refined bin: Refined_142.fastaExtracting refined bin: Refined_143.fastaExtracting refined bin: Refined_144.fastaExtracting refined bin: Refined_145.fastaExtracting refined bin: Refined_146.fastaExtracting refined bin: Refined_147.fastaExtracting refined bin: Refined_148.fastaExtracting refined bin: Refined_149.fastaExtracting refined bin: Refined_150.fastaExtracting refined bin: Refined_151.fastaExtracting refined bin: Refined_152.fastaExtracting refined bin: Refined_153.fastaExtracting refined bin: Refined_154.fastaExtracting refined bin: Refined_155.fastaExtracting refined bin: Refined_156.fastaExtracting refined bin: Refined_157.fastaExtracting refined bin: Refined_158.fastaExtracting refined bin: Refined_159.fastaExtracting refined bin: Refined_160.fastaExtracting refined bin: Refined_161.fastaExtracting refined bin: Refined_162.fastaExtracting refined bin: Refined_163.fastaExtracting refined bin: Refined_164.fastaExtracting refined bin: Refined_165.fastaExtracting refined bin: Refined_166.fastaExtracting refined bin: Refined_167.fastaExtracting refined bin: Refined_168.fastaExtracting refined bin: Refined_169.fastaExtracting refined bin: Refined_170.fastaExtracting refined bin: Refined_171.fastaExtracting refined bin: Refined_172.fastaExtracting refined bin: Refined_173.fastaExtracting refined bin: Refined_174.fastaExtracting refined bin: Refined_175.fastaExtracting refined bin: Refined_176.fastaExtracting refined bin: Refined_177.fastaExtracting refined bin: Refined_178.fastaExtracting refined bin: Refined_179.fastaExtracting refined bin: Refined_180.fastaExtracting refined bin: Refined_181.fastaExtracting refined bin: Refined_182.fastaExtracting refined bin: Refined_183.fastaExtracting refined bin: Refined_184.fastaExtracting refined bin: Refined_185.fastaExtracting refined bin: Refined_186.fastaExtracting refined bin: Refined_187.fastaExtracting refined bin: Refined_188.fastaExtracting refined bin: Refined_189.fastaExtracting refined bin: Refined_190.fastaExtracting refined bin: Refined_191.fastaExtracting refined bin: Refined_192.fastaExtracting refined bin: Refined_193.fastaExtracting refined bin: Refined_194.fastaExtracting refined bin: Refined_195.fastaExtracting refined bin: Refined_196.fastaExtracting refined bin: Refined_197.fastaExtracting refined bin: Refined_198.fastaExtracting refined bin: Refined_199.fastaExtracting refined bin: Refined_200.fastaExtracting refined bin: Refined_201.fastaExtracting refined bin: Refined_202.fastaExtracting refined bin: Refined_203.fastaExtracting refined bin: Refined_204.fastaExtracting refined bin: Refined_205.fastaExtracting refined bin: Refined_206.fastaExtracting refined bin: Refined_207.fastaExtracting refined bin: Refined_208.fastaExtracting refined bin: Refined_209.fastaExtracting refined bin: Refined_210.fastaExtracting refined bin: Refined_211.fastaExtracting refined bin: Refined_212.fastaExtracting refined bin: Refined_213.fasta
+Deleting temporary files
+
+All done!
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                      there are 68 refined bins in binsAB                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     there are 213 refined bins in binsBC                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                      there are 47 refined bins in binsAC                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     there are 50 refined bins in binsABC                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                     Bin refinement finished successfully!                                    -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                            fixing bin naming to .fa convention for consistancy...                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              making sure every refined bin set contains bins...                              -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                      RUNNING CHECKM ON ALL SETS OF BINS                                      #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         Running CheckM on binsA bins                                         -----
+------------------------------------------------------------------------------------------------------------------------
+
+It seems that the CheckM data folder has not been set yet or has been removed. Running: 'checkm data setRoot'.
+Where should CheckM store it's data?
+Please specify a location or type 'abort' to stop trying: 
+Traceback (most recent call last):
+  File "/jet/home/hkittner/miniforge3/envs/metawrap-env/bin/checkm", line 36, in <module>
+    from checkm import main
+  File "/jet/home/hkittner/miniforge3/envs/metawrap-env/lib/python2.7/site-packages/checkm/main.py", line 25, in <module>
+    from checkm.defaultValues import DefaultValues
+  File "/jet/home/hkittner/miniforge3/envs/metawrap-env/lib/python2.7/site-packages/checkm/defaultValues.py", line 26, in <module>
+    class DefaultValues():
+  File "/jet/home/hkittner/miniforge3/envs/metawrap-env/lib/python2.7/site-packages/checkm/defaultValues.py", line 29, in DefaultValues
+    __DBM = DBManager()
+  File "/jet/home/hkittner/miniforge3/envs/metawrap-env/lib/python2.7/site-packages/checkm/checkmData.py", line 114, in __init__
+    if not self.setRoot():
+  File "/jet/home/hkittner/miniforge3/envs/metawrap-env/lib/python2.7/site-packages/checkm/checkmData.py", line 140, in setRoot
+    path = self.confirmPath(path=path)
+  File "/jet/home/hkittner/miniforge3/envs/metawrap-env/lib/python2.7/site-packages/checkm/checkmData.py", line 162, in confirmPath
+    path = raw_input("Where should CheckM store it's data?\n" \
+EOFError: EOF when reading a line
+
+************************************************************************************************************************
+*****                             Something went wrong with running CheckM. Exiting...                             *****
+************************************************************************************************************************
+
+
+real	30m39.628s
+user	36m33.268s
+sys	0m56.861s

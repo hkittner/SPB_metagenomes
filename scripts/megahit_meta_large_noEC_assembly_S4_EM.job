@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p EM
+#SBATCH -t 24:00:00
+#SBATCH --ntasks-per-node 96
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+module load anaconda3/2022.10
+
+conda activate megahit
+
+### Using preset for meta-large which uses options: '--min-count 2 --k-list 27,37,47,57,67,77,87'
+
+megahit -t 96 -m 3900000 -1 /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_forward_paired_trim.fastq.gz -2 /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_reverse_paired_trim.fastq.gz --presets meta-large -o /ocean/projects/ees240004p/hkittner/megahit_meta_large_noEC_EM

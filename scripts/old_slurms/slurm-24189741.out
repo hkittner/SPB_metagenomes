@@ -1,0 +1,2 @@
+/var/spool/slurm/d/job24189741/slurm_script: line 10: 31251 Killed                  cp /ocean/projects/ees240004p/hkittner/raw_metagenomes/slimsdata.genomecenter.ucdavis.edu/Data/g29kxkj2ci/Un_DTSA915/Project_DVHK_Nova1050P_Kittner_L4/*.fastq.gz /ocean/projects/ees240004p/hkittner/FASTQ
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=24189741.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

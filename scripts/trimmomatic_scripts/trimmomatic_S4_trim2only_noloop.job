@@ -1,0 +1,53 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 25:00:00
+#SBATCH --ntasks-per-node 64
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+cd /ocean/projects/ees240004p/hkittner/trimmomatic_output
+
+module load Trimmomatic/0.39
+
+### trim 2 is for adapters and quality scores
+
+
+trimmomatic PE -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L001_trimlog2.txt S4_04_A_S35_L001_forward_paired_trim1.fastq.gz S4_04_A_S35_L001_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L001_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L001_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L001_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L001_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+
+
+trimmomatic PE -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L002_trimlog2.txt S4_04_A_S35_L002_forward_paired_trim1.fastq.gz S4_04_A_S35_L002_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L002_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L002_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L002_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L002_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+
+
+trimmomatic PE -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L003_trimlog2.txt S4_04_A_S35_L003_forward_paired_trim1.fastq.gz S4_04_A_S35_L003_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L003_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L003_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L003_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L003_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+
+
+trimmomatic PE -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L005_trimlog2.txt S4_04_A_S35_L005_forward_paired_trim1.fastq.gz S4_04_A_S35_L005_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L005_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L005_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L005_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_A_S35_L005_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+
+
+trimmomatic PE -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L001_trimlog2.txt S4_04_B_S36_L001_forward_paired_trim1.fastq.gz S4_04_B_S36_L001_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L001_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L001_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L001_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L001_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+
+
+trimmomatic PE -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L002_trimlog2.txt S4_04_B_S36_L002_forward_paired_trim1.fastq.gz S4_04_B_S36_L002_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L002_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L002_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L002_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L002_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+
+
+trimmomatic PE -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L003_trimlog2.txt S4_04_B_S36_L003_forward_paired_trim1.fastq.gz S4_04_B_S36_L003_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L003_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L003_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L003_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L003_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+
+
+trimmomatic PE -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L005_trimlog2.txt S4_04_B_S36_L005_forward_paired_trim1.fastq.gz S4_04_B_S36_L005_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L005_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L005_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L005_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_B_S36_L005_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+
+
+
+module remove Trimmomatic/0.39
+
+module load FastQC/0.11.9
+
+
+for file1 in *_forward_paired_trim.fastq.gz
+do
+file2=${file1/_forward_paired_trim.fastq.gz/_reverse_paired_trim.fastq.gz}
+
+fastqc ${file1} -o /ocean/projects/ees240004p/hkittner/fastqc_output
+fastqc ${file2} -o /ocean/projects/ees240004p/hkittner/fastqc_output
+done

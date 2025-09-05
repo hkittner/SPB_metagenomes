@@ -1,0 +1,40 @@
+metawrap binning -o /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only -t 128 -m 500 -a /ocean/projects/ees240004p/hkittner/subsample_megahit_meta_large_noEC_S4_04_L001 --metabat2 --maxbin2 --concoct /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_L001_forward_paired_trim_1.fastq /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_L001_reverse_paired_trim_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only already exists.
+rm: cannot remove '/ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/*checkm': No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----               /ocean/projects/ees240004p/hkittner/subsample_megahit_meta_large_noEC_S4_04_L001               -----
+------------------------------------------------------------------------------------------------------------------------
+
+cp: -r not specified; omitting directory '/ocean/projects/ees240004p/hkittner/subsample_megahit_meta_large_noEC_S4_04_L001'
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+/jet/home/hkittner/programs/metaWRAP/bin/metawrap-modules/binning.sh: line 215: bwa: command not found
+
+************************************************************************************************************************
+*****                           Something went wrong with indexing the assembly. Exiting.                          *****
+************************************************************************************************************************
+
+
+real	0m0.153s
+user	0m0.048s
+sys	0m0.064s

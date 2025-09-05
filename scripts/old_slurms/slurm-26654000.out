@@ -1,0 +1,89 @@
+TrimmomaticPE: Started with arguments:
+ -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S2_05_B_S34_L001_trimlog2.txt S2_05_B_S34_L001_forward_paired_trim1.fastq.gz S2_05_B_S34_L001_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S2_05_B_S34_L001_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S2_05_B_S34_L001_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S2_05_B_S34_L001_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S2_05_B_S34_L001_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+Quality encoding detected as phred33
+Input Read Pairs: 113032278 Both Surviving: 104646271 (92.58%) Forward Only Surviving: 1269085 (1.12%) Reverse Only Surviving: 1756786 (1.55%) Dropped: 5360136 (4.74%)
+TrimmomaticPE: Completed successfully
+Started analysis of S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 5% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 10% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 15% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 20% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 25% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 30% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 35% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 40% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 45% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 50% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 55% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 60% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 65% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 70% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 75% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 80% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 85% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 90% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Approx 95% complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Analysis complete for S2_05_A_S33_L001_forward_paired_trim.fastq.gz
+Started analysis of S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 5% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 10% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 15% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 20% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 25% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 30% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 35% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 40% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 45% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 50% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 55% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 60% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 65% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 70% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 75% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 80% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 85% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 90% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Approx 95% complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Analysis complete for S2_05_A_S33_L001_reverse_paired_trim.fastq.gz
+Started analysis of S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 5% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 10% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 15% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 20% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 25% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 30% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 35% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 40% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 45% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 50% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 55% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 60% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 65% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 70% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 75% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 80% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 85% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 90% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Approx 95% complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Analysis complete for S2_05_B_S34_L001_forward_paired_trim.fastq.gz
+Started analysis of S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 5% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 10% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 15% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 20% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 25% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 30% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 35% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 40% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 45% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 50% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 55% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 60% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 65% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 70% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 75% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 80% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 85% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 90% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Approx 95% complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz
+Analysis complete for S2_05_B_S34_L001_reverse_paired_trim.fastq.gz

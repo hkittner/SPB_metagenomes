@@ -1,0 +1,12 @@
+Continue mode activated. Ignore all options except for -o/--out-dir.
+2024-06-24 01:47:43 - MEGAHIT v1.2.9
+2024-06-24 01:47:43 - Using megahit_core with POPCNT and BMI2 support
+2024-06-24 01:47:43 - passing check point 0
+2024-06-24 01:47:43 - passing check point 1
+2024-06-24 01:47:43 - k-max reset to: 127 
+2024-06-24 01:47:43 - Start assembly. Number of CPU threads 128 
+2024-06-24 01:47:43 - k list: 27,37,47,57,67,77,87,97,107,117,127 
+2024-06-24 01:47:43 - Memory used: 486665013657
+2024-06-24 01:47:43 - passing check point 2
+2024-06-24 01:47:43 - Assemble contigs from SdBG for k = 27
+slurmstepd: error: *** JOB 24282530 ON l014 CANCELLED AT 2024-06-24T11:48:00 DUE TO TIME LIMIT ***

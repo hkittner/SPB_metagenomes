@@ -1,0 +1,26 @@
+java -ea -Xmx10g -Xms10g -cp /jet/home/hkittner/miniforge3/envs/phyloflash/opt/bbmap-39.26-0/current/ jgi.BBDuk ref=/ocean/projects/ees240004p/hkittner/databases/univec/UniVec overwrite=t -Xmx10g threads=128 fastawrap=0 ktrim=r ow=t minlength=800 mink=11 hdist=1 in=./138.1//SILVA_SSU.noLSU.masked.fasta out=./138.1//SILVA_SSU.noLSU.masked.trimmed.fasta stats=./138.1//SILVA_SSU.noLSU.masked.trimmed.fasta.UniVec_contamination_stats.txt
+Executing jgi.BBDuk [ref=/ocean/projects/ees240004p/hkittner/databases/univec/UniVec, overwrite=t, -Xmx10g, threads=128, fastawrap=0, ktrim=r, ow=t, minlength=800, mink=11, hdist=1, in=./138.1//SILVA_SSU.noLSU.masked.fasta, out=./138.1//SILVA_SSU.noLSU.masked.trimmed.fasta, stats=./138.1//SILVA_SSU.noLSU.masked.trimmed.fasta.UniVec_contamination_stats.txt]
+Version 39.26
+
+Set threads to 128
+maskMiddle was disabled because useShortKmers=true
+Allocating kmer table: 	0.040 seconds.
+Initial:
+Memory: max=10737m, total=10737m, free=10699m, used=38m
+
+Warning: Did not find expected fasta file extension for filename /ocean/projects/ees240004p/hkittner/databases/univec/UniVec
+Added 74080233 kmers; time: 	6.548 seconds.
+Memory: max=10737m, total=10737m, free=8727m, used=2010m
+
+Input is being processed as unpaired
+Started output streams:	0.006 seconds.
+Processing time:   		12.629 seconds.
+
+Input:                  	421417 reads 		609727540 bases.
+KTrimmed:               	4344 reads (1.03%) 	55349 bases (0.01%)
+Total Removed:          	2 reads (0.00%) 	55349 bases (0.01%)
+Result:                 	421415 reads (100.00%) 	609672191 bases (99.99%)
+
+Time:                         	19.223 seconds.
+Reads Processed:        421k 	21.92k reads/sec
+Bases Processed:        609m 	31.72m bases/sec

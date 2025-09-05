@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-512
+#SBATCH -t 72:00:00
+#SBATCH --ntasks-per-node 128
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+source /jet/home/hkittner/miniforge3/bin/activate
+conda activate /jet/home/hkittner/miniforge3/envs/metawrap-env
+
+metawrap reassemble_bins -o /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_reassembly_S4_04_L001 -1 /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_L001_paired_trim_1.fastq -2 /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_L001_paired_trim_2.fastq -t 128 -m 500 -c 80 -x 5 -b /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_refinement_S4_04_L001only/metawrap_80_5_bins

@@ -1,0 +1,49 @@
+metawrap binning -o /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S4_04_concoct -t 128 -m 500 -a /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S4_04/final.contigs.fa --concoct /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_paired_trim_1.fastq /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_paired_trim_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+Warning: /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S4_04_concoct already exists.
+rm: cannot remove '/ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S4_04_concoct/*checkm': No such file or directory
+
+------------------------------------------------------------------------------------------------------------------------
+-----             Looks like the assembly file is already coppied, but will re-transfer just in case to            -----
+-----                                          avoid truncation problems.                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                       Looks like there is a index of the assembly already. Skipping...                       -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----           Aligning /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_paired_trim_1.fastq          -----
+-----          and /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_paired_trim_2.fastq back           -----
+-----                                                 to assembly                                                  -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwt_restore_sa] fail to open file '/ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S4_04_concoct/work_files/assembly.fa.sa' : No such file or directory
+
+************************************************************************************************************************
+*****                                      Something went wrong with aligning                                      *****
+*****             /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_paired_trim_1.fastq and             *****
+*****          /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_paired_trim_2.fastq reads to           *****
+*****                                            the assembly. Exiting                                             *****
+************************************************************************************************************************
+
+
+real	2m17.442s
+user	0m0.061s
+sys	0m21.221s

@@ -1,0 +1,24 @@
+java -ea -Xmx10g -Xms10g -cp /jet/home/hkittner/miniforge3/envs/phyloflash/opt/bbmap-39.26-0/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 -Xmx10g threads=128 ref=./138.1/SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta path=./138.1/
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, -Xmx10g, threads=128, ref=./138.1/SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta, path=./138.1/]
+Version 39.26
+
+Set threads to 128
+No output file.
+Writing reference.
+Executing dna.FastaToChromArrays2 [./138.1/SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta, 1, writeinthread=false, genscaffoldinfo=true, retain, waitforwriting=false, gz=true, maxlen=536670912, writechroms=true, minscaf=1, midpad=300, startpad=8000, stoppad=8000, nodisk=false]
+
+Set genScaffoldInfo=true
+Writing chunk 1
+Writing chunk 2
+Set genome to 1
+
+Loaded Reference:	0.520 seconds.
+Loading index for chunk 1-2, build 1
+No index available; generating from reference genome: /ocean/projects/ees240004p/hkittner/scripts/./138.1/ref/index/1/chr1-2_index_k13_c2_b1.block
+Indexing threads started for block 0-2
+Indexing threads finished for block 0-2
+Generated Index:	28.703 seconds.
+Finished Writing:	8.427 seconds.
+No reads to process; quitting.
+
+Total time:     	42.223 seconds.

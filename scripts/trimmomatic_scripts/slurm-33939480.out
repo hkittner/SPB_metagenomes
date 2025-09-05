@@ -1,0 +1,180 @@
+TrimmomaticPE: Started with arguments:
+ -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_A_S39_L002_trimlog1.txt S6_10_A_S39_L002_R1_001.fastq.gz S6_10_A_S39_L002_R2_001.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_A_S39_L002_forward_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_A_S39_L002_forward_unpaired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_A_S39_L002_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_A_S39_L002_reverse_unpaired_trim1.fastq.gz ILLUMINACLIP:/ocean/projects/ees240004p/hkittner/adapters/adapters_davis_hiseq_8_2019.fa:2:30:15
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAACGTGATTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACACAAGCTATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAAACATCGTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGCATACATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACATTGAGGATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCCATCCTCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCTGAGCCATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGACTGGATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGAGTTAGCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGAGCTGAATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGACACACTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCTGGCATATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCTAAGGTCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGATGAATCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAACAACCATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGGATTGCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACACACAGAATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAAGGTACATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGACTAGTATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGTACGCAATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAGCAGGAATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGAACTTATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCTGTAGCCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGCTGATCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAGCCATGCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACATTGGCTCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGCGAGTAATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGATAGACATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGCTCGGTATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 35 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 108607039 Both Surviving: 102894170 (94.74%) Forward Only Surviving: 5511118 (5.07%) Reverse Only Surviving: 201733 (0.19%) Dropped: 18 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_B_S40_L002_trimlog1.txt S6_10_B_S40_L002_R1_001.fastq.gz S6_10_B_S40_L002_R2_001.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_B_S40_L002_forward_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_B_S40_L002_forward_unpaired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_B_S40_L002_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_B_S40_L002_reverse_unpaired_trim1.fastq.gz ILLUMINACLIP:/ocean/projects/ees240004p/hkittner/adapters/adapters_davis_hiseq_8_2019.fa:2:30:15
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAACGTGATTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACACAAGCTATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAAACATCGTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGCATACATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACATTGAGGATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCCATCCTCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCTGAGCCATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGACTGGATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGAGTTAGCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGAGCTGAATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGACACACTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCTGGCATATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCTAAGGTCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGATGAATCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAACAACCATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGGATTGCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACACACAGAATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAAGGTACATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGACTAGTATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGTACGCAATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAGCAGGAATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGAACTTATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCTGTAGCCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGCTGATCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACAGCCATGCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACATTGGCTCTTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGCGAGTAATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGATAGACATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGCTCGGTATTATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 35 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 99994331 Both Surviving: 95037260 (95.04%) Forward Only Surviving: 4870657 (4.87%) Reverse Only Surviving: 86409 (0.09%) Dropped: 5 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_A_S39_L002_trimlog2.txt S6_10_A_S39_L002_forward_paired_trim1.fastq.gz S6_10_A_S39_L002_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_A_S39_L002_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_A_S39_L002_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_A_S39_L002_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_A_S39_L002_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+Quality encoding detected as phred33
+Input Read Pairs: 102894170 Both Surviving: 95499568 (92.81%) Forward Only Surviving: 1509716 (1.47%) Reverse Only Surviving: 1547869 (1.50%) Dropped: 4337017 (4.22%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_B_S40_L002_trimlog2.txt S6_10_B_S40_L002_forward_paired_trim1.fastq.gz S6_10_B_S40_L002_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_B_S40_L002_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_B_S40_L002_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_B_S40_L002_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_10_B_S40_L002_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+Quality encoding detected as phred33
+Input Read Pairs: 95037260 Both Surviving: 87804070 (92.39%) Forward Only Surviving: 1538607 (1.62%) Reverse Only Surviving: 1373459 (1.45%) Dropped: 4321124 (4.55%)
+TrimmomaticPE: Completed successfully
+Started analysis of S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 5% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 10% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 15% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 20% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 25% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 30% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 35% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 40% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 45% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 50% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 55% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 60% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 65% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 70% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 75% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 80% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 85% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 90% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Approx 95% complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Analysis complete for S6_10_A_S39_L002_forward_paired_trim.fastq.gz
+Started analysis of S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 5% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 10% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 15% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 20% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 25% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 30% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 35% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 40% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 45% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 50% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 55% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 60% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 65% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 70% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 75% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 80% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 85% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 90% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Approx 95% complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Analysis complete for S6_10_A_S39_L002_reverse_paired_trim.fastq.gz
+Started analysis of S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 5% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 10% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 15% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 20% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 25% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 30% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 35% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 40% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 45% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 50% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 55% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 60% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 65% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 70% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 75% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 80% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 85% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 90% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Approx 95% complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Analysis complete for S6_10_B_S40_L002_forward_paired_trim.fastq.gz
+Started analysis of S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 5% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 10% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 15% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 20% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 25% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 30% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 35% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 40% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 45% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 50% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 55% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 60% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 65% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 70% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 75% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 80% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 85% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 90% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Approx 95% complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz
+Analysis complete for S6_10_B_S40_L002_reverse_paired_trim.fastq.gz

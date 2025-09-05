@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 72:00:00
+#SBATCH --ntasks-per-node 64
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+source /jet/home/hkittner/miniforge3/bin/activate
+conda activate /jet/home/hkittner/miniforge3/envs/metawrap-env
+
+metawrap bin_refinement -o /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_A21_01 -t 64 -m 128 -A /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_A21_01_metabat2/metabat2_bins -B /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_A21_01_concoct/concoct_bins -c 80 -x 5

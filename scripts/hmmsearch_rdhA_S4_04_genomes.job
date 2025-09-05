@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 8:00:00
+#SBATCH --ntasks-per-node 64
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+# Load environment
+source /jet/home/hkittner/miniforge3/bin/activate
+conda activate hmmer
+
+# Define working directory
+cd /ocean/projects/ees240004p/hkittner/all_bins_analyses/S4_04
+
+# Run hmmsearch on each genome
+for genome in *.faa
+do
+    filename="${genome%.faa}"  # Remove .faa extension
+    hmmsearch --tblout /ocean/projects/ees240004p/hkittner/rdhA/S4_04_hmmer_results/${filename}_rdhA_hits.tbl /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm $genome
+done

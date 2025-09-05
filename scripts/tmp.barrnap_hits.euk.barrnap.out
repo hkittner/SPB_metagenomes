@@ -1,0 +1,15 @@
+[17:13:52] This is barrnap_HGV 0.7
+[17:13:52] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[17:13:52] Obtained from https://github.com/Victorian-Bioinformatics-Consortium/barrnap
+[17:13:52] Detected operating system: linux
+[17:13:52] Using HMMER binary: /jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/../binaries/linux/nhmmer
+[17:13:52] Will use 128 threads
+[17:13:52] Setting evalue cutoff to 1e-10
+[17:13:52] Will tag genes  < 0.8 of expected length.
+[17:13:52] Will reject genes < 0.01 of expected length.
+[17:13:52] Using database: /jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/../db/lsu/euk.hmm
+[17:13:52] Scanning ./138.1/SILVA_SSU.fasta for lsu euk rRNA genes... please wait
+[17:13:52] Command: /jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/../binaries/linux/nhmmer --cpu 128 -E 1e-10 --w_length 3878  -o /dev/null --tblout /dev/stdout \/jet\/home\/hkittner\/miniforge3\/envs\/phyloflash\/lib\/phyloFlash\/barrnap\-HGV\/bin\/\.\.\/db\/lsu\/euk\.hmm \.\/138\.1\/SILVA_SSU\.fasta
+sh: line 1: 75965 Killed                  /jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/../binaries/linux/nhmmer --cpu 128 -E 1e-10 --w_length 3878 -o /dev/null --tblout /dev/stdout \/jet\/home\/hkittner\/miniforge3\/envs\/phyloflash\/lib\/phyloFlash\/barrnap\-HGV\/bin\/\.\.\/db\/lsu\/euk\.hmm \.\/138\.1\/SILVA_SSU\.fasta 2>&1
+[17:19:02] Found 0 ribosomal RNA features.
+[17:19:02] Sorting features and outputting GFF3...

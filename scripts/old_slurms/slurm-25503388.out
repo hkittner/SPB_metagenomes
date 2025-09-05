@@ -1,0 +1,49 @@
+Continue mode activated. Ignore all options except for -o/--out-dir.
+2024-09-03 18:36:56 - MEGAHIT v1.2.9
+2024-09-03 18:36:56 - Using megahit_core with POPCNT and BMI2 support
+2024-09-03 18:36:56 - passing check point 0
+2024-09-03 18:36:56 - passing check point 1
+2024-09-03 18:36:56 - k-max reset to: 127 
+2024-09-03 18:36:56 - Start assembly. Number of CPU threads 128 
+2024-09-03 18:36:56 - k list: 27,37,47,57,67,77,87,97,107,117,127 
+2024-09-03 18:36:56 - Memory used: 486665009971
+2024-09-03 18:36:56 - passing check point 2
+2024-09-03 18:36:56 - passing check point 3
+2024-09-03 18:36:56 - passing check point 4
+2024-09-03 18:36:56 - passing check point 5
+2024-09-03 18:36:56 - passing check point 6
+2024-09-03 18:36:56 - passing check point 7
+2024-09-03 18:36:56 - passing check point 8
+2024-09-03 18:36:56 - passing check point 9
+2024-09-03 18:36:56 - passing check point 10
+2024-09-03 18:36:56 - passing check point 11
+2024-09-03 18:36:56 - passing check point 12
+2024-09-03 18:36:56 - passing check point 13
+2024-09-03 18:36:56 - passing check point 14
+2024-09-03 18:36:56 - passing check point 15
+2024-09-03 18:36:56 - passing check point 16
+2024-09-03 18:36:56 - passing check point 17
+2024-09-03 18:36:56 - passing check point 18
+2024-09-03 18:36:56 - passing check point 19
+2024-09-03 18:36:56 - passing check point 20
+2024-09-03 18:36:56 - passing check point 21
+2024-09-03 18:36:56 - passing check point 22
+2024-09-03 18:36:56 - passing check point 23
+2024-09-03 18:36:56 - passing check point 24
+2024-09-03 18:36:56 - passing check point 25
+2024-09-03 18:36:56 - passing check point 26
+2024-09-03 18:36:56 - passing check point 27
+2024-09-03 18:36:56 - Local assembly for k = 87
+2024-09-04 05:17:36 - Extract iterative edges from k = 87 to 97 
+2024-09-04 05:51:17 - Build graph for k = 97 
+2024-09-04 06:13:26 - Assemble contigs from SdBG for k = 97
+2024-09-04 08:19:29 - Local assembly for k = 97
+2024-09-04 17:34:12 - Extract iterative edges from k = 97 to 107 
+2024-09-04 17:57:03 - Build graph for k = 107 
+2024-09-04 18:16:00 - Assemble contigs from SdBG for k = 107
+2024-09-04 20:18:22 - Local assembly for k = 107
+2024-09-05 05:55:41 - Extract iterative edges from k = 107 to 117 
+2024-09-05 06:13:55 - Build graph for k = 117 
+2024-09-05 06:22:51 - Assemble contigs from SdBG for k = 117
+2024-09-05 07:58:09 - Local assembly for k = 117
+slurmstepd: error: *** JOB 25503388 ON l005 CANCELLED AT 2024-09-05T10:37:10 DUE TO TIME LIMIT ***

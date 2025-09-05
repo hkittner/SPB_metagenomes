@@ -1,0 +1,4 @@
+Run 'mamba init' to be able to run mamba activate/deactivate
+and start a new shell session. Or use conda to activate/deactivate.
+
+/var/spool/slurm/d/job33940968/slurm_script: line 15: phyloFlash_makedb.pl: command not found

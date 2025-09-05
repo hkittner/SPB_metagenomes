@@ -1,0 +1,14 @@
+[17:09:50] This is barrnap_HGV 0.7
+[17:09:50] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[17:09:50] Obtained from https://github.com/Victorian-Bioinformatics-Consortium/barrnap
+[17:09:50] Detected operating system: linux
+[17:09:50] Using HMMER binary: /jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/../binaries/linux/nhmmer
+[17:09:50] Will use 128 threads
+[17:09:50] Setting evalue cutoff to 1e-10
+[17:09:50] Will tag genes  < 0.8 of expected length.
+[17:09:50] Will reject genes < 0.01 of expected length.
+[17:09:50] Using database: /jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/../db/lsu/arc.hmm
+[17:09:50] Scanning ./138.1/SILVA_SSU.fasta for lsu arc rRNA genes... please wait
+[17:09:50] Command: /jet/home/hkittner/miniforge3/envs/phyloflash/lib/phyloFlash/barrnap-HGV/bin/../binaries/linux/nhmmer --cpu 128 -E 1e-10 --w_length 3878  -o /dev/null --tblout /dev/stdout \/jet\/home\/hkittner\/miniforge3\/envs\/phyloflash\/lib\/phyloFlash\/barrnap\-HGV\/bin\/\.\.\/db\/lsu\/arc\.hmm \.\/138\.1\/SILVA_SSU\.fasta
+[17:13:52] Found 0 ribosomal RNA features.
+[17:13:52] Sorting features and outputting GFF3...

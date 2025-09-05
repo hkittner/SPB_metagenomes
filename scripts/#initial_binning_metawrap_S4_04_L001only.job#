@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-512
+#SBATCH -t 10:00:00
+#SBATCH --ntasks-per-node 128
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+
+metawrap binning -o /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only -t 128 -m 500 -a /ocean/projects/ees240004p/hkittner/subsample_megahit_meta_large_noEC_S4_04_L001 --metabat2 --maxbin2 --concoct /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_L001_forward_paired_trim_1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_L001_reverse_paired_trim_2.fastq.gz

@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 2:00:00
+#SBATCH --ntasks-per-node 64
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+cd /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_A02_01/metawrap_80_5_bins/
+
+module load prodigal/2.6.3
+for file1 in *.fa
+do
+    out=${file1%%.fa}
+    prodigal -i ${file1} -o /ocean/projects/ees240004p/hkittner/all_bins_analyses/A02_01/A02_01_coassembly_${out}-coords.gbk -a /ocean/projects/ees240004p/hkittner/all_bins_analyses/A02_01/A02_01_coassembly_${out}-proteins.faa -d /ocean/projects/ees240004p/hkittner/all_bins_analyses/A02_01/A02_01_coassembly_${out}-nucleotides.fa
+done

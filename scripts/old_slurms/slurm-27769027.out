@@ -1,0 +1,160 @@
+[2024-12-17 13:49:20] INFO: GTDB-Tk v2.1.1
+[2024-12-17 13:49:20] INFO: gtdbtk identify --genome_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_S4_04/metawrap_80_5_bins -x fa --out_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_identify_S4_04 --cpus 32
+[2024-12-17 13:49:20] INFO: Using GTDB-Tk reference data version r207: /jet/home/hkittner/.conda/envs/gtdbtk/share/gtdbtk-2.1.1/db
+[2024-12-17 13:49:20] INFO: Identifying markers in 26 genomes with 32 threads.
+[2024-12-17 13:49:21] TASK: Running Prodigal V2.6.3 to identify genes.
+==> Processed 0/26 genomes (0%) |               | [?genome/s, ETA ?]/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py:378: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.
+  coding_base_mask = np.zeros(self.last_coding_base[seq_id], dtype=np.bool)
+Process Process-2:1:1:
+Traceback (most recent call last):
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/parallel.py", line 107, in __producer
+    rtn = producer_callback(dataItem)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 147, in _producer
+    prodigalParser = ProdigalGeneFeatureParser(gff_file_tmp)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 322, in __init__
+    self.coding_base_masks[seq_id] = self.__build_coding_base_mask(
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 378, in __build_coding_base_mask
+    coding_base_mask = np.zeros(self.last_coding_base[seq_id], dtype=np.bool)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+Process Process-2:
+Traceback (most recent call last):
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/external/prodigal.py", line 143, in _worker
+    rtn_files = self._run_prodigal(genome_id, file_path, usr_tln_table)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/external/prodigal.py", line 109, in _run_prodigal
+    raise Exception("An error was encountered while running Prodigal.")
+Exception: An error was encountered while running Prodigal.
+[2024-12-17 13:49:22] ERROR: Controlled exit resulting from an unrecoverable error or warning.
+
+================================================================================
+EXCEPTION: ProdigalException
+  MESSAGE: An exception was caught while running Prodigal: Prodigal returned a non-zero exit code.
+________________________________________________________________________________
+
+Traceback (most recent call last):
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/external/prodigal.py", line 211, in run
+    raise ProdigalException('Prodigal returned a non-zero exit code.')
+gtdbtk.exceptions.ProdigalException: Prodigal returned a non-zero exit code.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/__main__.py", line 98, in main
+    gt_parser.parse_options(args)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/main.py", line 839, in parse_options
+    self.identify(options)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/main.py", line 271, in identify
+    markers.identify(genomes,
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/markers.py", line 203, in identify
+    genome_dictionary = prodigal.run(genomes, tln_tables)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/external/prodigal.py", line 220, in run
+    raise ProdigalException(f'An exception was caught while running Prodigal: {e}')
+gtdbtk.exceptions.ProdigalException: An exception was caught while running Prodigal: Prodigal returned a non-zero exit code.
+================================================================================
+[2024-12-17 13:49:23] INFO: GTDB-Tk v2.1.1
+[2024-12-17 13:49:23] INFO: gtdbtk align --identify_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_identify_S4_04 --out_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_align_S4_04 --cpus 32
+[2024-12-17 13:49:23] INFO: Using GTDB-Tk reference data version r207: /jet/home/hkittner/.conda/envs/gtdbtk/share/gtdbtk-2.1.1/db
+[2024-12-17 13:49:23] ERROR: Uncontrolled exit resulting from an unexpected error.
+
+================================================================================
+EXCEPTION: FileNotFoundError
+  MESSAGE: [Errno 2] No such file or directory: '/ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_identify_S4_04/identify/intermediate_results/marker_genes/bin.9/bin.9_protein.faa'
+________________________________________________________________________________
+
+Traceback (most recent call last):
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/__main__.py", line 98, in main
+    gt_parser.parse_options(args)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/main.py", line 841, in parse_options
+    self.align(options)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/main.py", line 294, in align
+    markers.align(options.identify_dir,
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/markers.py", line 478, in align
+    genomic_files = self._path_to_identify_data(
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/markers.py", line 268, in _path_to_identify_data
+    if os.path.getsize(aa_gene_path) < 1:
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: '/ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_identify_S4_04/identify/intermediate_results/marker_genes/bin.9/bin.9_protein.faa'
+================================================================================
+/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py:378: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.
+  coding_base_mask = np.zeros(self.last_coding_base[seq_id], dtype=np.bool)
+Process Process-7:1:1:
+Traceback (most recent call last):
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/parallel.py", line 107, in __producer
+    rtn = producer_callback(dataItem)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 147, in _producer
+    prodigalParser = ProdigalGeneFeatureParser(gff_file_tmp)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 322, in __init__
+    self.coding_base_masks[seq_id] = self.__build_coding_base_mask(
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 378, in __build_coding_base_mask
+    coding_base_mask = np.zeros(self.last_coding_base[seq_id], dtype=np.bool)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py:378: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.
+  coding_base_mask = np.zeros(self.last_coding_base[seq_id], dtype=np.bool)
+Process Process-25:1:1:
+Traceback (most recent call last):
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/parallel.py", line 107, in __producer
+    rtn = producer_callback(dataItem)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 147, in _producer
+    prodigalParser = ProdigalGeneFeatureParser(gff_file_tmp)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 322, in __init__
+    self.coding_base_masks[seq_id] = self.__build_coding_base_mask(
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 378, in __build_coding_base_mask
+    coding_base_mask = np.zeros(self.last_coding_base[seq_id], dtype=np.bool)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+usage: gtdbtk
+              {de_novo_wf,classify_wf,identify,align,infer,classify,root,decorate,infer_ranks,ani_rep,test,trim_msa,remove_labels,convert_to_itol,export_msa,check_install}
+              ...
+gtdbtk: error: unrecognized arguments: --mash_db /ocean/projects/ees240004p/hkittner/databases/gtdbtk/mash_db.msh
+/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py:378: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.
+  coding_base_mask = np.zeros(self.last_coding_base[seq_id], dtype=np.bool)
+Process Process-15:1:1:
+Traceback (most recent call last):
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/parallel.py", line 107, in __producer
+    rtn = producer_callback(dataItem)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 147, in _producer
+    prodigalParser = ProdigalGeneFeatureParser(gff_file_tmp)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 322, in __init__
+    self.coding_base_masks[seq_id] = self.__build_coding_base_mask(
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/biolib_lite/prodigal_biolib.py", line 378, in __build_coding_base_mask
+    coding_base_mask = np.zeros(self.last_coding_base[seq_id], dtype=np.bool)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations

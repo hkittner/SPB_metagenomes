@@ -1,0 +1,14 @@
+metawrap classify_bins -b /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_refinement_S4_04_L001only/metawrap_80_5_bins -o /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_classification_S4_04_L001only -t 64
+
+************************************************************************************************************************
+*****            The file /ocean/projects/ees240004p/hkittner/databases/NCBI_nt/nt.00.nhd doesnt exist,            *****
+*****             which likely means that you havent set the correct path to your NCBI_nt database or	             *****
+*****          havent downloaded it. Please look and the the script and manually set the correct path to           *****
+*****                       NCBI_nt, and follow these steps to download the	  database: wget                       *****
+*****           ftp://ftp.ncbi.nlm.nih.gov/blast/db/nt.*.tar.gz; for a in nt.*.tar.gz; do tar xzf ; done           *****
+************************************************************************************************************************
+
+
+real	0m0.073s
+user	0m0.010s
+sys	0m0.022s

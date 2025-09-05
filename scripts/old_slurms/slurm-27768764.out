@@ -1,0 +1,32 @@
+[2024-12-17 13:15:08] INFO: GTDB-Tk v2.1.1
+[2024-12-17 13:15:08] INFO: gtdbtk identify --genome_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_S4_04/metawrap_80_5_bins --out_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_identify_S4_04 --cpus 32
+[2024-12-17 13:15:08] INFO: Using GTDB-Tk reference data version r207: /jet/home/hkittner/.conda/envs/gtdbtk/share/gtdbtk-2.1.1/db
+[2024-12-17 13:15:08] ERROR: No genomes found in directory: /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_S4_04/metawrap_80_5_bins. Check the --extension flag used to identify genomes.
+[2024-12-17 13:15:08] ERROR: Controlled exit resulting from an unrecoverable error or warning.
+[2024-12-17 13:15:08] INFO: GTDB-Tk v2.1.1
+[2024-12-17 13:15:08] INFO: gtdbtk align --identify_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_identify_S4_04 --out_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_align_S4_04 --cpus 32
+[2024-12-17 13:15:08] INFO: Using GTDB-Tk reference data version r207: /jet/home/hkittner/.conda/envs/gtdbtk/share/gtdbtk-2.1.1/db
+[2024-12-17 13:15:09] ERROR: Uncontrolled exit resulting from an unexpected error.
+
+================================================================================
+EXCEPTION: FileNotFoundError
+  MESSAGE: [Errno 2] No such file or directory: '/ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_identify_S4_04/identify/intermediate_results/marker_genes'
+________________________________________________________________________________
+
+Traceback (most recent call last):
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/__main__.py", line 98, in main
+    gt_parser.parse_options(args)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/main.py", line 841, in parse_options
+    self.align(options)
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/main.py", line 294, in align
+    markers.align(options.identify_dir,
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/markers.py", line 478, in align
+    genomic_files = self._path_to_identify_data(
+  File "/jet/home/hkittner/.conda/envs/gtdbtk/lib/python3.8/site-packages/gtdbtk/markers.py", line 259, in _path_to_identify_data
+    for gid in os.listdir(marker_gene_dir):
+FileNotFoundError: [Errno 2] No such file or directory: '/ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_identify_S4_04/identify/intermediate_results/marker_genes'
+================================================================================
+usage: gtdbtk
+              {de_novo_wf,classify_wf,identify,align,infer,classify,root,decorate,infer_ranks,ani_rep,test,trim_msa,remove_labels,convert_to_itol,export_msa,check_install}
+              ...
+gtdbtk: error: unrecognized arguments: --mash_db /ocean/projects/ees240004p/hkittner/databases/gtdbtk/mash_db.msh

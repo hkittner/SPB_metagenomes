@@ -1,0 +1,21 @@
+2025-08-04 17:55:16 - MEGAHIT v1.2.9
+2025-08-04 17:55:16 - Using megahit_core with POPCNT and BMI2 support
+2025-08-04 17:55:16 - Convert reads to binary library
+2025-08-04 18:09:32 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/ocean/projects/ees240004p/hkittner/trimmomatic_output/S9_01_forward_paired_trim.fastq.gz,/ocean/projects/ees240004p/hkittner/trimmomatic_output/S9_01_reverse_paired_trim.fastq.gz): pe, 953405718 reads, 151 max length'
+2025-08-04 18:09:32 - b'INFO  utils/utils.h                 :  152 - Real: 856.2078\tuser: 717.8825\tsys: 206.4215\tmaxrss: 247076'
+2025-08-04 18:09:32 - k-max reset to: 127 
+2025-08-04 18:09:32 - Start assembly. Number of CPU threads 128 
+2025-08-04 18:09:32 - k list: 27,37,47,57,67,77,87,97,107,117,127 
+2025-08-04 18:09:32 - Memory used: 486664210022
+2025-08-04 18:09:32 - Extracting solid (k+1)-mers and building sdbg for k = 27
+2025-08-04 18:27:17 - Assemble contigs from SdBG for k = 27
+2025-08-05 20:07:25 - Local assembly for k = 27
+2025-08-06 01:06:05 - Extract iterative edges from k = 27 to 37 
+2025-08-06 07:53:19 - Build graph for k = 37 
+2025-08-06 08:47:56 - Assemble contigs from SdBG for k = 37
+2025-08-06 19:01:44 - Local assembly for k = 37
+2025-08-07 03:58:05 - Extract iterative edges from k = 37 to 47 
+2025-08-07 05:37:30 - Build graph for k = 47 
+2025-08-07 06:17:01 - Assemble contigs from SdBG for k = 47
+2025-08-07 13:38:23 - Local assembly for k = 47
+slurmstepd: error: *** JOB 34031062 ON l012 CANCELLED AT 2025-08-07T17:55:33 DUE TO TIME LIMIT ***

@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 48:00:00
+#SBATCH --ntasks-per-node 32
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+
+module load anaconda3/2022.10
+conda activate gtdbtk
+
+
+gtdbtk align --genome_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_S4_04/metawrap_80_5_bins --out_dir gtdbtk_classify_S4_04 --mash_db /ocean/projects/ees240004p/hkittner/databases/gtdbtk/mash_db.msh --cpus 32

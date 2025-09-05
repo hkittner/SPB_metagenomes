@@ -1,0 +1,11 @@
+
+
+cd /ocean/projects/ees240004p/hkittner/FASTQ
+
+for file1 in S4_04_*L005_R1_001.fastq.gz
+do
+    file2=${file1/L005_R1_001.fastq.gz/L005_R2_001.fastq.gz}
+out=${file1%%R1_001.fastq.gz}
+
+fastqc ${file1} ${file2} -o /ocean/projects/ees240004p/hkittner/fastqc_output
+done

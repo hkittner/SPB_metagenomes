@@ -1,0 +1,11 @@
+WARNING: The makeudb_usearch command does not support multithreading.
+Only 1 thread used.
+vsearch v2.29.1_linux_x86_64, 251.6GB RAM, 128 cores
+https://github.com/torognes/vsearch
+
+Reading file ./138.1//SILVA_SSU.noLSU.masked.trimmed.fasta 100%
+609672191 nt in 421415 seqs, min 807, max 3694, avg 1447
+Masking 100%
+Counting k-mers 100%
+Creating k-mer index 100%
+Writing UDB file 100%

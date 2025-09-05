@@ -1,0 +1,52 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 24:00:00
+#SBATCH --ntasks-per-node 64
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+
+
+module load Trimmomatic/0.39
+
+### trim 1 is for adapters
+
+cd /ocean/projects/ees240004p/hkittner/FASTQ
+
+for file1 in A18_03_*L003_R1_001.fastq.gz
+do
+    file2=${file1/L003_R1_001.fastq.gz/L003_R2_001.fastq.gz}
+out=${file1%%_R1_001.fastq.gz}
+
+trimmomatic PE -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/${out}_trimlog1.txt ${file1} ${file2} /ocean/projects/ees240004p/hkittner/trimmomatic_output/${out}_forward_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/${out}_forward_unpaired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/${out}_reverse_paired_trim1.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/${out}_reverse_unpaired_trim1.fastq.gz ILLUMINACLIP:/ocean/projects/ees240004p/hkittner/adapters/adapters_davis_hiseq_8_2019.fa:2:30:15
+
+done
+
+cd /ocean/projects/ees240004p/hkittner/trimmomatic_output
+
+### trim 2 is for adapters and quality scores
+
+for file1 in A18_03*L003_forward_paired_trim1.fastq.gz
+do
+file2=${file1/forward/reverse}
+out=${file1%%_forward_paired_trim1.fastq.gz}
+
+trimmomatic PE -threads 64 -trimlog /ocean/projects/ees240004p/hkittner/trimmomatic_output/${out}_trimlog2.txt ${file1} ${file2} /ocean/projects/ees240004p/hkittner/trimmomatic_output/${out}_forward_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/${out}_forward_unpaired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/${out}_reverse_paired_trim.fastq.gz /ocean/projects/ees240004p/hkittner/trimmomatic_output/${out}_reverse_unpaired_trim.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:15 MINLEN:100
+
+done
+
+
+module remove Trimmomatic/0.39
+
+module load FastQC/0.11.9
+
+for file1 in A18_03*L003_forward_paired_trim.fastq.gz
+do
+file2=${file1/_forward_paired_trim.fastq.gz/_reverse_paired_trim.fastq.gz}
+
+fastqc ${file1} -o /ocean/projects/ees240004p/hkittner/fastqc_output
+fastqc ${file2} -o /ocean/projects/ees240004p/hkittner/fastqc_output
+done
+

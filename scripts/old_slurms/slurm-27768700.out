@@ -1,0 +1,7 @@
+usage: gtdbtk classify (--genome_dir GENOME_DIR | --batchfile BATCHFILE)
+                       --align_dir ALIGN_DIR --out_dir OUT_DIR [-x EXTENSION]
+                       [--prefix PREFIX] [--cpus CPUS]
+                       [--pplacer_cpus PPLACER_CPUS]
+                       [--scratch_dir SCRATCH_DIR] [-f] [--min_af MIN_AF]
+                       [--tmpdir TMPDIR] [--debug] [-h]
+gtdbtk classify: error: the following arguments are required: --align_dir

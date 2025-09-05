@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-512
+#SBATCH -t 40:00:00
+#SBATCH --ntasks-per-node 128
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+
+
+module load SPAdes/3.14.1
+
+
+spades.py --continue -o /ocean/projects/ees240004p/hkittner/spades_output

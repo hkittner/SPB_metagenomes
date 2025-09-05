@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-512
+#SBATCH -t 10:00:00
+#SBATCH --ntasks-per-node 128
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+
+
+module load SPAdes/3.14.1
+
+
+spades.py -t 128 -m 512 -1 /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_forward_paired_trim.fastq.gz -2 /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_reverse_paired_trim.fastq.gz --only-error-correction -o /ocean/projects/ees240004p/hkittner/spades_output

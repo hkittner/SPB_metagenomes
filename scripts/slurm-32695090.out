@@ -1,0 +1,8 @@
+2025-06-03 16:18:09 - MEGAHIT v1.2.9
+2025-06-03 16:18:09 - Using megahit_core with POPCNT and BMI2 support
+2025-06-03 16:18:09 - Convert reads to binary library
+
+gzip: /ocean/projects/ees240004p/hkittner/trimmomatic_output/S2_05_forward_paired_trim.fastq.gz: unexpected end of file
+2025-06-03 16:38:36 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/ocean/projects/ees240004p/hkittner/trimmomatic_output/S2_05_forward_paired_trim.fastq.gz,/ocean/projects/ees240004p/hkittner/trimmomatic_output/S2_05_reverse_paired_trim.fastq.gz): pe, 1367625984 reads, 151 max length'
+2025-06-03 16:38:36 - b'INFO  utils/utils.h                 :  152 - Real: 1226.3302\tuser: 1017.6311\tsys: 288.7065\tmaxrss: 247080'
+2025-06-03 16:38:36 - Error occurs when reading inputs

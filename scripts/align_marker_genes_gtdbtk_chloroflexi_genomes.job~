@@ -1,0 +1,59 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM
+#SBATCH -t 2:00:00
+#SBATCH --ntasks-per-node 1
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+cd /ocean/projects/ees240004p/hkittner/gtdbtk_chloroflexi_genomes
+
+##PFAM##
+##Make file markers_pfam of all pfam hits of interest 
+#Find fasta >header of ribosomal protein matching each in the markers_pfam list  
+
+for file1 in *_hmm_best_hits.pfam 
+do
+    out=${file1%%_hmm_best_hits.pfam}
+    for file2 in $(cat < markers_pfam) 
+    do 
+    grep -i ${file2} ${file1} > ${out}_${file2}_raw.tmp
+    awk '{ print $3}' ${out}_${file2}_raw.tmp > ${out}_${file2}_fasta_header.tmp
+    for file3 in $(cat < ${out}_${file2}_fasta_header.tmp)
+    do
+        awk -v seq=${file3} -v RS='>' '$1 == seq {print RS $0}' ${out}-proteins.faa > ${out}_${file2}
+	    # Print the filename within the fasta >header
+	        sed "s/>.*/>${out}/" ${out}_${file2} > ${out}_${file2}.faa
+		    # Fix files to have a .tmp tag so you can delete them later
+		        rename ${out}_${file2} ${out}_${file2}.tmp ${out}_${file2}
+			    done
+    done
+done
+
+#Delete empty files  
+find . -size 0 -delete
+
+#Concatenate all hits for each pfam marker 
+
+for file1 in $(cat < markers_pfam)
+do
+    cat *_${file1}.faa > ${file1}_raw_concat.faa
+done
+
+#Run muscle alignment, error message about * is fine :) 
+for file1 in *_raw_concat.faa
+do
+    out=${file1%%_raw_concat.faa}
+    /ocean/projects/deb190007p/earring/programs/muscle3.8.31_i86linux64 -in ${file1} -out ${out}_raw_concat_aln.faa
+done
+
+#Use Trimal to eliminate columns in the alignments with more than 95% gaps
+for file1 in *_raw_concat_aln.faa
+do
+    out=${file1%%_raw_concat_aln.faa}
+    /ocean/projects/deb190007p/earring/programs/trimAl/source/trimal -in ${file1} -out ${out}_raw_concat_aln.faa -gt 0.05 -cons 60 
+done
+
+#Clean up all files 
+rm *.tmp
+##### At this point, you should download all *_aln.faa files to your local computer, view/trim in geneious, then highlight all Tools -> Concatenate Sequences or Alignments

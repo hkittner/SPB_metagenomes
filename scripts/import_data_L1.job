@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 24:00:00
+#SBATCH --ntasks-per-node 1
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+cd /ocean/projects/ees240004p/hkittner/raw_metagenomes/
+
+wget -m -c http://slimsdata.genomecenter.ucdavis.edu/Data/gb2hfsrz4z/Un_DTSA915/Project_DVHK_Nova1050P_Kittner/

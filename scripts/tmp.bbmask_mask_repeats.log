@@ -1,0 +1,26 @@
+java -ea -Xmx10g -Xms10g -cp /jet/home/hkittner/miniforge3/envs/phyloflash/opt/bbmap-39.26-0/current/ jgi.BBMask overwrite=t -Xmx10g threads=128 in=./138.1//SILVA_SSU.noLSU.fasta out=./138.1//SILVA_SSU.noLSU.masked.fasta minkr=4 maxkr=8 mr=t minlen=20 minke=4 maxke=8 fastawrap=0
+Executing jgi.BBMask [overwrite=t, -Xmx10g, threads=128, in=./138.1//SILVA_SSU.noLSU.fasta, out=./138.1//SILVA_SSU.noLSU.masked.fasta, minkr=4, maxkr=8, mr=t, minlen=20, minke=4, maxke=8, fastawrap=0]
+
+Set threads to 128
+Loading input
+Loading Time:                 	2.486 seconds.
+
+Masking repeats (to disable, set 'mr=f')
+Repeat Masking Time:          	7.508 seconds.
+Ref Bases:                 609727540 	81.21m bases/sec
+Repeat Bases Masked:               0
+
+Masking low-entropy (to disable, set 'mle=f')
+Low Complexity Masking Time:  	12.131 seconds.
+Ref Bases:                 609727540 	50.26m bases/sec
+Low Complexity Bases:            170
+
+Converting masked bases to N
+Done Masking
+Conversion Time:              	1.056 seconds.
+
+Writing output
+Writing Time:                 	4.711 seconds.
+
+Total Bases Masked:              170/609727540	0.000%
+Total Time:                   	28.018 seconds.

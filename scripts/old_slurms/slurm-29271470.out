@@ -1,0 +1,1042 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.1.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        221  (1699657 residues searched)
+Passed MSV filter:                       216  (0.977376); expected 4.4 (0.02)
+Passed bias filter:                        0  (0); expected 4.4 (0.02)
+Passed Vit filter:                         0  (0); expected 0.2 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                221  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.09u 0.01s 00:00:00.10 Elapsed: 00:00:00.09
+# Mc/sec: 8891.60
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.10.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        271  (2165333 residues searched)
+Passed MSV filter:                       271  (1); expected 5.4 (0.02)
+Passed bias filter:                        0  (0); expected 5.4 (0.02)
+Passed Vit filter:                         0  (0); expected 0.3 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                271  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.12u 0.01s 00:00:00.13 Elapsed: 00:00:00.10
+# Mc/sec: 10002.18
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.11.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        566  (3174670 residues searched)
+Passed MSV filter:                       565  (0.998233); expected 11.3 (0.02)
+Passed bias filter:                        0  (0); expected 11.3 (0.02)
+Passed Vit filter:                         0  (0); expected 0.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                566  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.19u 0.03s 00:00:00.22 Elapsed: 00:00:00.15
+# Mc/sec: 9415.26
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.12.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        359  (3842030 residues searched)
+Passed MSV filter:                       359  (1); expected 7.2 (0.02)
+Passed bias filter:                        0  (0); expected 7.2 (0.02)
+Passed Vit filter:                         0  (0); expected 0.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                359  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.21u 0.04s 00:00:00.25 Elapsed: 00:00:00.17
+# Mc/sec: 10547.04
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.13.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        286  (2263995 residues searched)
+Passed MSV filter:                       286  (1); expected 5.7 (0.02)
+Passed bias filter:                        0  (0); expected 5.7 (0.02)
+Passed Vit filter:                         0  (0); expected 0.3 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                286  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.11
+# Mc/sec: 9382.10
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.14.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        509  (6852669 residues searched)
+Passed MSV filter:                       509  (1); expected 10.2 (0.02)
+Passed bias filter:                        0  (0); expected 10.2 (0.02)
+Passed Vit filter:                         0  (0); expected 0.5 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                509  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.38u 0.11s 00:00:00.49 Elapsed: 00:00:00.25
+# Mc/sec: 12715.43
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.15.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        376  (3207619 residues searched)
+Passed MSV filter:                       376  (1); expected 7.5 (0.02)
+Passed bias filter:                        0  (0); expected 7.5 (0.02)
+Passed Vit filter:                         0  (0); expected 0.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                376  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.19u 0.03s 00:00:00.22 Elapsed: 00:00:00.15
+# Mc/sec: 9616.52
+//
+[ok]
+Fatal exception (source file p7_pipeline.c, line 714):
+Target sequence length > 100K, over comparison pipeline limit.
+(Did you mean to use nhmmer/nhmmscan?)
+/var/spool/slurm/d/job29271470/slurm_script: line 13: 64171 Aborted                 (core dumped) hmmsearch --tblout /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm $genome
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.17.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        117  (1339365 residues searched)
+Passed MSV filter:                       117  (1); expected 2.3 (0.02)
+Passed bias filter:                        0  (0); expected 2.3 (0.02)
+Passed Vit filter:                         0  (0); expected 0.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                117  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.07u 0.01s 00:00:00.08 Elapsed: 00:00:00.08
+# Mc/sec: 7378.61
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.18.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        548  (3191597 residues searched)
+Passed MSV filter:                       548  (1); expected 11.0 (0.02)
+Passed bias filter:                        0  (0); expected 11.0 (0.02)
+Passed Vit filter:                         0  (0); expected 0.5 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                548  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.19u 0.03s 00:00:00.22 Elapsed: 00:00:00.16
+# Mc/sec: 9086.94
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.19.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        356  (3034975 residues searched)
+Passed MSV filter:                       356  (1); expected 7.1 (0.02)
+Passed bias filter:                        0  (0); expected 7.1 (0.02)
+Passed Vit filter:                         0  (0); expected 0.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                356  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.18u 0.02s 00:00:00.20 Elapsed: 00:00:00.15
+# Mc/sec: 9388.57
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.2.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        201  (1870991 residues searched)
+Passed MSV filter:                       201  (1); expected 4.0 (0.02)
+Passed bias filter:                        0  (0); expected 4.0 (0.02)
+Passed Vit filter:                         0  (0); expected 0.2 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                201  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.10u 0.01s 00:00:00.11 Elapsed: 00:00:00.09
+# Mc/sec: 8946.00
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.20.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        233  (2478116 residues searched)
+Passed MSV filter:                       233  (1); expected 4.7 (0.02)
+Passed bias filter:                        0  (0); expected 4.7 (0.02)
+Passed Vit filter:                         0  (0); expected 0.2 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                233  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.13u 0.02s 00:00:00.15 Elapsed: 00:00:00.11
+# Mc/sec: 9975.81
+//
+[ok]
+Fatal exception (source file p7_pipeline.c, line 714):
+Target sequence length > 100K, over comparison pipeline limit.
+(Did you mean to use nhmmer/nhmmscan?)
+/var/spool/slurm/d/job29271470/slurm_script: line 13: 64198 Aborted                 (core dumped) hmmsearch --tblout /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm $genome
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.22.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        785  (2874874 residues searched)
+Passed MSV filter:                       785  (1); expected 15.7 (0.02)
+Passed bias filter:                        0  (0); expected 15.7 (0.02)
+Passed Vit filter:                         0  (0); expected 0.8 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                785  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.17u 0.02s 00:00:00.19 Elapsed: 00:00:00.14
+# Mc/sec: 9288.53
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.23.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        592  (6130964 residues searched)
+Passed MSV filter:                       592  (1); expected 11.8 (0.02)
+Passed bias filter:                        0  (0); expected 11.8 (0.02)
+Passed Vit filter:                         0  (0); expected 0.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                592  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.34u 0.09s 00:00:00.43 Elapsed: 00:00:00.23
+# Mc/sec: 12244.41
+//
+[ok]
+Fatal exception (source file p7_pipeline.c, line 714):
+Target sequence length > 100K, over comparison pipeline limit.
+(Did you mean to use nhmmer/nhmmscan?)
+/var/spool/slurm/d/job29271470/slurm_script: line 13: 64214 Aborted                 (core dumped) hmmsearch --tblout /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm $genome
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.25.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        853  (4321355 residues searched)
+Passed MSV filter:                       853  (1); expected 17.1 (0.02)
+Passed bias filter:                        0  (0); expected 17.1 (0.02)
+Passed Vit filter:                         0  (0); expected 0.9 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                853  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.23u 0.05s 00:00:00.28 Elapsed: 00:00:00.18
+# Mc/sec: 11018.99
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.26.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        901  (2228383 residues searched)
+Passed MSV filter:                       901  (1); expected 18.0 (0.02)
+Passed bias filter:                        0  (0); expected 18.0 (0.02)
+Passed Vit filter:                         0  (0); expected 0.9 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                901  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.08
+# Mc/sec: 11991.20
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.3.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        114  (799003 residues searched)
+Passed MSV filter:                       114  (1); expected 2.3 (0.02)
+Passed bias filter:                        0  (0); expected 2.3 (0.02)
+Passed Vit filter:                         0  (0); expected 0.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                114  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.06
+# Mc/sec: 5523.39
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.4.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        351  (2318644 residues searched)
+Passed MSV filter:                       351  (1); expected 7.0 (0.02)
+Passed bias filter:                        0  (0); expected 7.0 (0.02)
+Passed Vit filter:                         0  (0); expected 0.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                351  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.12
+# Mc/sec: 8882.01
+//
+[ok]
+Fatal exception (source file p7_pipeline.c, line 714):
+Target sequence length > 100K, over comparison pipeline limit.
+(Did you mean to use nhmmer/nhmmscan?)
+/var/spool/slurm/d/job29271470/slurm_script: line 13: 64238 Aborted                 (core dumped) hmmsearch --tblout /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm $genome
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.6.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        729  (3557129 residues searched)
+Passed MSV filter:                       729  (1); expected 14.6 (0.02)
+Passed bias filter:                        0  (0); expected 14.6 (0.02)
+Passed Vit filter:                         0  (0); expected 0.7 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                729  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.20u 0.03s 00:00:00.23 Elapsed: 00:00:00.15
+# Mc/sec: 10830.97
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.7.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        480  (3322752 residues searched)
+Passed MSV filter:                       480  (1); expected 9.6 (0.02)
+Passed bias filter:                        0  (0); expected 9.6 (0.02)
+Passed Vit filter:                         0  (0); expected 0.5 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                480  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.20u 0.03s 00:00:00.23 Elapsed: 00:00:00.16
+# Mc/sec: 9397.01
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.8.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        555  (4423106 residues searched)
+Passed MSV filter:                       555  (1); expected 11.1 (0.02)
+Passed bias filter:                        0  (0); expected 11.1 (0.02)
+Passed Vit filter:                         0  (0); expected 0.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                555  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.26u 0.05s 00:00:00.31 Elapsed: 00:00:00.19
+# Mc/sec: 10722.84
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_coassembly_bin.9.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        262  (2895394 residues searched)
+Passed MSV filter:                       262  (1); expected 5.2 (0.02)
+Passed bias filter:                        0  (0); expected 5.2 (0.02)
+Passed Vit filter:                         0  (0); expected 0.3 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                262  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.15u 0.02s 00:00:00.17 Elapsed: 00:00:00.13
+# Mc/sec: 10043.49
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_subsample_bin.1.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        527  (6927573 residues searched)
+Passed MSV filter:                       527  (1); expected 10.5 (0.02)
+Passed bias filter:                        0  (0); expected 10.5 (0.02)
+Passed Vit filter:                         0  (0); expected 0.5 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                527  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.37u 0.11s 00:00:00.48 Elapsed: 00:00:00.24
+# Mc/sec: 13246.34
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_subsample_bin.2.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        281  (2283584 residues searched)
+Passed MSV filter:                       281  (1); expected 5.6 (0.02)
+Passed bias filter:                        0  (0); expected 5.6 (0.02)
+Passed Vit filter:                         0  (0); expected 0.3 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                281  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.09
+# Mc/sec: 11514.16
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_subsample_bin.3.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        317  (2629635 residues searched)
+Passed MSV filter:                       317  (1); expected 6.3 (0.02)
+Passed bias filter:                        0  (0); expected 6.3 (0.02)
+Passed Vit filter:                         0  (0); expected 0.3 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                317  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.16u 0.02s 00:00:00.18 Elapsed: 00:00:00.13
+# Mc/sec: 9443.79
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_subsample_bin.4.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                       1409  (5244830 residues searched)
+Passed MSV filter:                      1409  (1); expected 28.2 (0.02)
+Passed bias filter:                        0  (0); expected 28.2 (0.02)
+Passed Vit filter:                         0  (0); expected 1.4 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               1409  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.31u 0.07s 00:00:00.38 Elapsed: 00:00:00.27
+# Mc/sec: 9194.77
+//
+[ok]
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /ocean/projects/ees240004p/hkittner/rdhA/rdhAprofile_alignment_trim.hmm
+# target sequence database:        /ocean/projects/ees240004p/hkittner/rdhA/S4_04_genomes/S4_04_subsample_bin.5.fa
+# per-seq hits tabular output:     /ocean/projects/ees240004p/hkittner/rdhA/{out}_rdhA_hits.tbl
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rdhAprofile_alignment_trim  [M=474]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (474 nodes)
+Target sequences:                        618  (3125543 residues searched)
+Passed MSV filter:                       618  (1); expected 12.4 (0.02)
+Passed bias filter:                        0  (0); expected 12.4 (0.02)
+Passed Vit filter:                         0  (0); expected 0.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                618  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.18u 0.03s 00:00:00.21 Elapsed: 00:00:00.15
+# Mc/sec: 9759.76
+//
+[ok]

@@ -1,0 +1,32 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 00:30:00
+#SBATCH --ntasks-per-node 1
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+source /jet/home/hkittner/miniforge3/bin/activate
+conda activate /jet/home/hkittner/miniforge3/envs/ncbi_datasets
+
+cd /ocean/projects/ees240004p/hkittner/gtdbtk_chloroflexi_genomes
+
+rm -rf anvio_output
+rm -rf raw_genomes
+rm -rf gtdbtk_genomes
+
+for file1 in $(cat < download_these)
+do
+out=${file1%%.1}
+
+	datasets download genome accession ${file1} --filename ${out}_download.zip
+done
+
+for file1 in $(cat < download_these)
+do
+    out=${file1%%.1}
+    
+    unzip ${out}*.zip
+    mv ncbi_dataset ${out}_ncbi_dataset
+done
+cp */*/*/*.fna .

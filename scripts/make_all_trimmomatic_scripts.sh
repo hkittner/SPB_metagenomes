@@ -1,0 +1,48 @@
+# Array of values to replace the placeholder
+values=("A02_01" "A08_01" "A13_01" "A18_01" "A18_03" "A18_04" "A19_01" "A21_01" "A21_04" "A21_05" "S1_01" "S2_01" "S2_04" "S2_05" "S3_01" "S4_01" "S5_01" "S6_01" "S6_06" "S6_10" "S9_01")
+
+# Loop through each value
+for val in "${values[@]}"; do
+    # Create a new filename based on the value
+    new_filename1="trimmomatic_${val}_L001.job"
+    
+    # Replace the placeholder in the template and save to a new file
+    sed "s/S4_04/$val/g" trimmomatic_S4_L001.job > $new_filename1
+    
+    # Print message indicating file creation
+    echo "Created $new_filename1"
+
+###
+
+    # Create a new filename based on the value
+    new_filename2="trimmomatic_${val}_L002.job"
+
+    # Replace the placeholder in the template and save to a new file
+    sed "s/S4_04/$val/g" trimmomatic_S4_L002.job > $new_filename2
+
+    # Print message indicating file creation
+    echo "Created $new_filename2"
+
+###
+
+    # Create a new filename based on the value
+    new_filename3="trimmomatic_${val}_L003.job"
+
+    # Replace the placeholder in the template and save to a new file
+    sed "s/S4_04/$val/g" trimmomatic_S4_L003.job > $new_filename3
+
+    # Print message indicating file creation
+    echo "Created $new_filename3"
+
+###
+
+    # Create a new filename based on the value
+    new_filename5="trimmomatic_${val}_L005.job"
+
+    # Replace the placeholder in the template and save to a new file
+    sed "s/S4_04/$val/g" trimmomatic_S4_L005.job > $new_filename5
+
+    # Print message indicating file creation
+    echo "Created $new_filename5"
+
+done

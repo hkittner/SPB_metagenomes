@@ -1,0 +1,139 @@
+metawrap binning -o /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only -t 128 -m 500 -a /ocean/projects/ees240004p/hkittner/subsample_megahit_meta_large_noEC_S4_04_L001/final.contigs.fa --metabat2 --maxbin2 --concoct /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_L001_forward_paired_trim_1.fastq /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_L001_reverse_paired_trim_2.fastq
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                           Entered read type: paired                                          -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                  1 forward and 1 reverse read files detected                                 -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                     ALIGNING READS TO MAKE COVERAGE FILES                                    #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                         making copy of assembly file                                         -----
+-----      /ocean/projects/ees240004p/hkittner/subsample_megahit_meta_large_noEC_S4_04_L001/final.contigs.fa       -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            Indexing assembly file                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+[bwa_index] Pack FASTA... 26.27 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=8345260532, availableWord=599203144
+[BWTIncConstructFromPacked] 10 iterations done. 99999988 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 199999988 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 299999988 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 399999988 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 499999988 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 599999988 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 699999988 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 799999988 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 899999988 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 999999988 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 1099999988 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 1199999988 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 1299999988 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 1399999988 characters processed.
+[BWTIncConstructFromPacked] 150 iterations done. 1499999988 characters processed.
+[BWTIncConstructFromPacked] 160 iterations done. 1599999988 characters processed.
+[BWTIncConstructFromPacked] 170 iterations done. 1699999988 characters processed.
+[BWTIncConstructFromPacked] 180 iterations done. 1799999988 characters processed.
+[BWTIncConstructFromPacked] 190 iterations done. 1899999988 characters processed.
+[BWTIncConstructFromPacked] 200 iterations done. 1999999988 characters processed.
+[BWTIncConstructFromPacked] 210 iterations done. 2099999988 characters processed.
+[BWTIncConstructFromPacked] 220 iterations done. 2199999988 characters processed.
+[BWTIncConstructFromPacked] 230 iterations done. 2299999988 characters processed.
+[BWTIncConstructFromPacked] 240 iterations done. 2399999988 characters processed.
+[BWTIncConstructFromPacked] 250 iterations done. 2499999988 characters processed.
+[BWTIncConstructFromPacked] 260 iterations done. 2599999988 characters processed.
+[BWTIncConstructFromPacked] 270 iterations done. 2699999988 characters processed.
+[BWTIncConstructFromPacked] 280 iterations done. 2799999988 characters processed.
+[BWTIncConstructFromPacked] 290 iterations done. 2899999988 characters processed.
+[BWTIncConstructFromPacked] 300 iterations done. 2999999988 characters processed.
+[BWTIncConstructFromPacked] 310 iterations done. 3099999988 characters processed.
+[BWTIncConstructFromPacked] 320 iterations done. 3199999988 characters processed.
+[BWTIncConstructFromPacked] 330 iterations done. 3299999988 characters processed.
+[BWTIncConstructFromPacked] 340 iterations done. 3399999988 characters processed.
+[BWTIncConstructFromPacked] 350 iterations done. 3499999988 characters processed.
+[BWTIncConstructFromPacked] 360 iterations done. 3599999988 characters processed.
+[BWTIncConstructFromPacked] 370 iterations done. 3699999988 characters processed.
+[BWTIncConstructFromPacked] 380 iterations done. 3799999988 characters processed.
+[BWTIncConstructFromPacked] 390 iterations done. 3899999988 characters processed.
+[BWTIncConstructFromPacked] 400 iterations done. 3999999988 characters processed.
+[BWTIncConstructFromPacked] 410 iterations done. 4099999988 characters processed.
+[BWTIncConstructFromPacked] 420 iterations done. 4199999988 characters processed.
+[BWTIncConstructFromPacked] 430 iterations done. 4299999988 characters processed.
+[BWTIncConstructFromPacked] 440 iterations done. 4399999988 characters processed.
+[BWTIncConstructFromPacked] 450 iterations done. 4499999988 characters processed.
+[BWTIncConstructFromPacked] 460 iterations done. 4599999988 characters processed.
+[BWTIncConstructFromPacked] 470 iterations done. 4699999988 characters processed.
+[BWTIncConstructFromPacked] 480 iterations done. 4799999988 characters processed.
+[BWTIncConstructFromPacked] 490 iterations done. 4899999988 characters processed.
+[BWTIncConstructFromPacked] 500 iterations done. 4999999988 characters processed.
+[BWTIncConstructFromPacked] 510 iterations done. 5099999988 characters processed.
+[BWTIncConstructFromPacked] 520 iterations done. 5199999988 characters processed.
+[BWTIncConstructFromPacked] 530 iterations done. 5299999988 characters processed.
+[BWTIncConstructFromPacked] 540 iterations done. 5399999988 characters processed.
+[BWTIncConstructFromPacked] 550 iterations done. 5499999988 characters processed.
+[BWTIncConstructFromPacked] 560 iterations done. 5599999988 characters processed.
+[BWTIncConstructFromPacked] 570 iterations done. 5699999988 characters processed.
+[BWTIncConstructFromPacked] 580 iterations done. 5799999988 characters processed.
+[BWTIncConstructFromPacked] 590 iterations done. 5899999988 characters processed.
+[BWTIncConstructFromPacked] 600 iterations done. 5999999988 characters processed.
+[BWTIncConstructFromPacked] 610 iterations done. 6099999988 characters processed.
+[BWTIncConstructFromPacked] 620 iterations done. 6199999988 characters processed.
+[BWTIncConstructFromPacked] 630 iterations done. 6299999988 characters processed.
+[BWTIncConstructFromPacked] 640 iterations done. 6399999988 characters processed.
+[BWTIncConstructFromPacked] 650 iterations done. 6499999988 characters processed.
+[BWTIncConstructFromPacked] 660 iterations done. 6599999988 characters processed.
+[BWTIncConstructFromPacked] 670 iterations done. 6699999988 characters processed.
+[BWTIncConstructFromPacked] 680 iterations done. 6799999988 characters processed.
+[BWTIncConstructFromPacked] 690 iterations done. 6899999988 characters processed.
+[BWTIncConstructFromPacked] 700 iterations done. 6999999988 characters processed.
+[BWTIncConstructFromPacked] 710 iterations done. 7099999988 characters processed.
+[BWTIncConstructFromPacked] 720 iterations done. 7199999988 characters processed.
+[BWTIncConstructFromPacked] 730 iterations done. 7299999988 characters processed.
+[BWTIncConstructFromPacked] 740 iterations done. 7399999988 characters processed.
+[BWTIncConstructFromPacked] 750 iterations done. 7499999988 characters processed.
+[BWTIncConstructFromPacked] 760 iterations done. 7599999988 characters processed.
+[BWTIncConstructFromPacked] 770 iterations done. 7699506420 characters processed.
+[BWTIncConstructFromPacked] 780 iterations done. 7790651892 characters processed.
+[BWTIncConstructFromPacked] 790 iterations done. 7871658228 characters processed.
+[BWTIncConstructFromPacked] 800 iterations done. 7943652836 characters processed.
+[BWTIncConstructFromPacked] 810 iterations done. 8007637844 characters processed.
+[BWTIncConstructFromPacked] 820 iterations done. 8064503844 characters processed.
+[BWTIncConstructFromPacked] 830 iterations done. 8115042500 characters processed.
+[BWTIncConstructFromPacked] 840 iterations done. 8159957380 characters processed.
+[BWTIncConstructFromPacked] 850 iterations done. 8199873796 characters processed.
+[BWTIncConstructFromPacked] 860 iterations done. 8235347572 characters processed.
+[BWTIncConstructFromPacked] 870 iterations done. 8266872740 characters processed.
+[BWTIncConstructFromPacked] 880 iterations done. 8294888356 characters processed.
+[BWTIncConstructFromPacked] 890 iterations done. 8319784660 characters processed.
+[BWTIncConstructFromPacked] 900 iterations done. 8341908532 characters processed.
+[bwt_gen] Finished constructing BWT in 902 iterations.
+[bwa_index] 2824.43 seconds elapse.
+[bwa_index] Update BWT... 15.31 sec
+[bwa_index] Pack forward-only FASTA... 17.05 sec
+[bwa_index] Construct SA from BWT and Occ... 1093.80 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /ocean/projects/ees240004p/hkittner/initial_binning_S4_04_L001only/work_files/assembly.fa
+[main] Real time: 4084.644 sec; CPU: 3976.858 sec
+
+************************************************************************************************************************
+*****                                                                                                              *****
+*****        /ocean/projects/ees240004p/hkittner/trimmomatic_output/S4_04_L001_forward_paired_trim_2.fastq         *****
+*****                                          does not exist. Exiting...                                          *****
+************************************************************************************************************************
+
+
+real	72m28.676s
+user	66m2.580s
+sys	0m19.511s

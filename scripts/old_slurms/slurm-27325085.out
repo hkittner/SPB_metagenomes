@@ -1,0 +1,32 @@
+metawrap classify_bins -b /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_refinement_S4_04_L001only/metawrap_80_5_bins -o /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_classification_S4_04_L001only -t 64
+
+########################################################################################################################
+#####                                   ALIGN CONTIGS TO DATABASE WITH MEGABLAST                                   #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                            setting up ouput folder                                           -----
+-----        /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_classification_S4_04_L001only         -----
+-----                                     and merging contigs from all bins...                                     -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                                   aligning                                                   -----
+----- /ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_classification_S4_04_L001only/all_contigs.fa -----
+-----          to /ocean/projects/ees240004p/hkittner/databases/NCBI_nt database with MEGABLAST. This is           -----
+-----             the longest step - please be patient. You may look at the classification progress in             -----
+-----/ocean/projects/ees240004p/hkittner/subsample_analysis/bins/bin_classification_S4_04_L001only/megablast_out.raw.tab-----
+------------------------------------------------------------------------------------------------------------------------
+
+BLAST Database error: Error: Not a valid version 4 database.
+
+************************************************************************************************************************
+*****                                      Failed to run megablast. Exiting...                                     *****
+************************************************************************************************************************
+
+
+real	0m1.226s
+user	0m0.051s
+sys	0m0.127s

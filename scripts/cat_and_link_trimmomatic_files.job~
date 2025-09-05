@@ -1,0 +1,91 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 24:00:00
+#SBATCH --ntasks-per-node 8
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+cd /ocean/projects/ees240004p/hkittner/trimmomatic_output
+
+# Sample names array
+declare -a samples=(
+  "A02_01" "A08_01" "A13_01" "A18_01" "A18_03" "A18_04"
+  "A19_01" "A21_01" "A21_04" "A21_05" "S1_01" "S2_01"
+  "S2_04" "S2_05" "S3_01" "S4_01" "S4_04" "S5_01"
+  "S6_01" "S6_06" "S6_10" "S9_01"
+)
+
+for sample in "${samples[@]}"
+do
+  # Concatenate all lanes for coassembly (forward and reverse)
+  if [ ! -f "${sample}_forward_paired_trim.fastq.gz" ]; then
+    cat ${sample}_*forward_paired_trim.fastq.gz > ${sample}_forward_paired_trim.fastq.gz
+  fi
+
+  if [ ! -f "${sample}_reverse_paired_trim.fastq.gz" ]; then
+    cat ${sample}_*reverse_paired_trim.fastq.gz > ${sample}_reverse_paired_trim.fastq.gz
+  fi
+
+  # Concatenate only one lane (L001) - subsampled version
+  if [ ! -f "${sample}_L001_forward_paired_trim.fastq.gz" ]; then
+    cat ${sample}_*L001_forward_paired_trim.fastq.gz > ${sample}_L001_forward_paired_trim.fastq.gz
+  fi
+
+  if [ ! -f "${sample}_L001_reverse_paired_trim.fastq.gz" ]; then
+    cat ${sample}_*L001_reverse_paired_trim.fastq.gz > ${sample}_L001_reverse_paired_trim.fastq.gz
+  fi
+
+  # Concatenate without coassembly (A and B separately)
+  if [ ! -f "${sample}_A_forward_paired_trim.fastq.gz" ]; then
+    cat ${sample}_A*forward_paired_trim.fastq.gz > ${sample}_A_forward_paired_trim.fastq.gz
+  fi
+
+  if [ ! -f "${sample}_A_reverse_paired_trim.fastq.gz" ]; then
+    cat ${sample}_A*reverse_paired_trim.fastq.gz > ${sample}_A_reverse_paired_trim.fastq.gz
+  fi
+
+  if [ ! -f "${sample}_B_forward_paired_trim.fastq.gz" ]; then
+    cat ${sample}_B*forward_paired_trim.fastq.gz > ${sample}_B_forward_paired_trim.fastq.gz
+  fi
+
+  if [ ! -f "${sample}_B_reverse_paired_trim.fastq.gz" ]; then
+    cat ${sample}_B*reverse_paired_trim.fastq.gz > ${sample}_B_reverse_paired_trim.fastq.gz
+  fi
+
+  # Create symbolic links with 1 and 2 to identify forward and reverse reads
+  if [ ! -L "${sample}_paired_trim_1.fastq.gz" ]; then
+    ln -s ${sample}_forward_paired_trim.fastq.gz ${sample}_paired_trim_1.fastq.gz
+  fi
+
+  if [ ! -L "${sample}_paired_trim_2.fastq.gz" ]; then
+    ln -s ${sample}_reverse_paired_trim.fastq.gz ${sample}_paired_trim_2.fastq.gz
+  fi
+
+  # Create symbolic links for individual assemblies (A and B) and subsample (L001)
+  if [ ! -L "${sample}_A_paired_trim_1.fastq.gz" ]; then
+    ln -s ${sample}_A_forward_paired_trim.fastq.gz ${sample}_A_paired_trim_1.fastq.gz
+  fi
+
+  if [ ! -L "${sample}_A_paired_trim_2.fastq.gz" ]; then
+    ln -s ${sample}_A_reverse_paired_trim.fastq.gz ${sample}_A_paired_trim_2.fastq.gz
+  fi
+
+  if [ ! -L "${sample}_B_paired_trim_1.fastq.gz" ]; then
+    ln -s ${sample}_B_forward_paired_trim.fastq.gz ${sample}_B_paired_trim_1.fastq.gz
+  fi
+
+  if [ ! -L "${sample}_B_paired_trim_2.fastq.gz" ]; then
+    ln -s ${sample}_B_reverse_paired_trim.fastq.gz ${sample}_B_paired_trim_2.fastq.gz
+  fi
+
+  if [ ! -L "${sample}_L001_paired_trim_1.fastq.gz" ]; then
+    ln -s ${sample}_L001_forward_paired_trim.fastq.gz ${sample}_L001_paired_trim_1.fastq.gz
+  fi
+
+  if [ ! -L "${sample}_L001_paired_trim_2.fastq.gz" ]; then
+    ln -s ${sample}_L001_reverse_paired_trim.fastq.gz ${sample}_L001_paired_trim_2.fastq.gz
+  fi
+
+done
