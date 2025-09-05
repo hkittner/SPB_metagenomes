@@ -1,7 +1,11 @@
+# Project overview
+This repo contains scripts and workflows for analyzing San Pedro Basin metagenomes.
 
+# Repo organization
+Scripts for all workflows are in the Scripts directory. Up to 4 different assemblies are done for each sample, and the assemblies and bins for each type of assembly (coassembly (all data for both replicates), individual replicates (A or B), or subsampled coassembly (1/4 of data)) have their own directories. 
 
-Directory Structure
-
+## Directory Structure
+```text
 .
 |-- FASTQ                       # raw data
 |-- SBB_metagenomes             # Santa Barbara Basin data
@@ -45,4 +49,18 @@ Directory Structure
 |-- subsample_analysis          # Analyses done on one lane of both replicates (1/4 of the total data) in order to get cleaner high abundance MAGs     
 |   |-- assemblies      
 |   `-- bins
-`-- trimmomatic_output          # Trimmed reads output   
+`-- trimmomatic_output          # Trimmed reads output
+
+```
+## Dependencies / Environment
+* fastqc
+* trimmomatic
+* megahit
+* CheckM
+* GTDB-Tk
+* phyloFlash
+
+# Progress / To-Do
+- [x] Week 1 (Aug 25-29): Repo setup, README, .gitignore
+- [ ] Week 2 (Sept 1-5): CheckM QC + MAG stats
+- [ ] Week 3 (Sept 8-12): Annotations
