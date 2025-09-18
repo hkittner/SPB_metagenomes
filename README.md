@@ -55,8 +55,11 @@ Scripts for all workflows are in the Scripts directory. Up to 4 different assemb
 * CheckM
 * GTDB-Tk
 * phyloFlash
+* nonpareil
 
 # Progress / To-Do
-- [x] Week 1 (Aug 25-29): Repo setup, README, .gitignore
-- [ ] Week 2 (Sept 1-5): CheckM QC + MAG stats
-- [ ] Week 3 (Sept 8-12): Annotations
+- [x] Repo setup, README, .gitignore
+- [ ] Nonpareil coverage estimate (assess the depth of the metagenome sequencing effort)
+- [ ] CheckM QC + MAG stats
+- [ ] Select and reassemble MAGs of interest?
+- [ ] MAG Annotations
