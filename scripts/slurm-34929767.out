@@ -1,0 +1,11 @@
+2025-09-17 21:42:33 - MEGAHIT v1.2.9
+2025-09-17 21:42:33 - Using megahit_core with POPCNT and BMI2 support
+2025-09-17 21:42:33 - Convert reads to binary library
+2025-09-17 22:06:25 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_06_forward_paired_trim.fastq.gz,/ocean/projects/ees240004p/hkittner/trimmomatic_output/S6_06_reverse_paired_trim.fastq.gz): pe, 1598081198 reads, 151 max length'
+2025-09-17 22:06:25 - b'INFO  utils/utils.h                 :  152 - Real: 1432.1975\tuser: 1198.0508\tsys: 343.4998\tmaxrss: 246952'
+2025-09-17 22:06:25 - k-max reset to: 127 
+2025-09-17 22:06:25 - Start assembly. Number of CPU threads 128 
+2025-09-17 22:06:25 - k list: 27,37,47,57,67,77,87,97,107,117,127 
+2025-09-17 22:06:25 - Memory used: 486664191590
+2025-09-17 22:06:25 - Extracting solid (k+1)-mers and building sdbg for k = 27
+2025-09-17 22:36:25 - Assemble contigs from SdBG for k = 27

@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-512
+#SBATCH -t 72:00:00
+#SBATCH --ntasks-per-node 128
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+source /jet/home/hkittner/miniforge3/bin/activate
+conda activate /jet/home/hkittner/miniforge3/envs/metawrap-env
+
+metawrap binning -o /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S2_01_concoct -t 128 -m 500 -a /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S2_01/final.contigs.fa --concoct /ocean/projects/ees240004p/hkittner/trimmomatic_output/S2_01_paired_trim_1.fastq /ocean/projects/ees240004p/hkittner/trimmomatic_output/S2_01_paired_trim_2.fastq

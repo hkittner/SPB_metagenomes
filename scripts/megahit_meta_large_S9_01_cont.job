@@ -14,4 +14,4 @@ conda activate megahit
 ### Using preset for meta-large which uses options: '--min-count 2 --k-list 27,37,47,57,67,77,87'
 
 
-megahit -t 128 --continue -o /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S6_06
+megahit -t 128 --continue -o /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S9_01

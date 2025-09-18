@@ -1,0 +1,41 @@
+Continue mode activated. Ignore all options except for -o/--out-dir.
+2025-09-08 20:07:08 - MEGAHIT v1.2.9
+2025-09-08 20:07:08 - Using megahit_core with POPCNT and BMI2 support
+2025-09-08 20:07:08 - passing check point 0
+2025-09-08 20:07:08 - passing check point 1
+2025-09-08 20:07:08 - k-max reset to: 127 
+2025-09-08 20:07:08 - Start assembly. Number of CPU threads 128 
+2025-09-08 20:07:08 - k list: 27,37,47,57,67,77,87,97,107,117,127 
+2025-09-08 20:07:08 - Memory used: 486664210022
+2025-09-08 20:07:08 - passing check point 2
+2025-09-08 20:07:08 - passing check point 3
+2025-09-08 20:07:08 - passing check point 4
+2025-09-08 20:07:08 - passing check point 5
+2025-09-08 20:07:08 - passing check point 6
+2025-09-08 20:07:08 - passing check point 7
+2025-09-08 20:07:08 - passing check point 8
+2025-09-08 20:07:08 - passing check point 9
+2025-09-08 20:07:08 - passing check point 10
+2025-09-08 20:07:08 - passing check point 11
+2025-09-08 20:07:08 - Local assembly for k = 47
+2025-09-09 05:37:52 - Extract iterative edges from k = 47 to 57 
+2025-09-09 06:27:08 - Build graph for k = 57 
+2025-09-09 07:01:51 - Assemble contigs from SdBG for k = 57
+2025-09-09 11:02:32 - Local assembly for k = 57
+2025-09-09 21:02:23 - Extract iterative edges from k = 57 to 67 
+2025-09-09 21:41:05 - Build graph for k = 67 
+2025-09-09 21:53:23 - Assemble contigs from SdBG for k = 67
+2025-09-10 00:56:17 - Local assembly for k = 67
+2025-09-10 11:16:15 - Extract iterative edges from k = 67 to 77 
+2025-09-10 12:05:26 - Build graph for k = 77 
+2025-09-10 12:27:47 - Assemble contigs from SdBG for k = 77
+2025-09-10 14:52:05 - Local assembly for k = 77
+2025-09-11 00:23:11 - Extract iterative edges from k = 77 to 87 
+2025-09-11 00:51:36 - Build graph for k = 87 
+2025-09-11 01:09:23 - Assemble contigs from SdBG for k = 87
+2025-09-11 03:30:42 - Local assembly for k = 87
+2025-09-11 11:31:31 - Extract iterative edges from k = 87 to 97 
+2025-09-11 11:53:09 - Build graph for k = 97 
+2025-09-11 12:01:21 - Assemble contigs from SdBG for k = 97
+2025-09-11 13:30:24 - Local assembly for k = 97
+slurmstepd: error: *** JOB 34655053 ON l012 CANCELLED AT 2025-09-11T20:07:03 DUE TO TIME LIMIT ***

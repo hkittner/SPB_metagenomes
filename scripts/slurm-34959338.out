@@ -1,0 +1,21 @@
+Run 'mamba init' to be able to run mamba activate/deactivate
+and start a new shell session. Or use conda to activate/deactivate.
+
+Processing S2_01_A
+/var/spool/slurm/d/job34959338/slurm_script: line 27: nonpareil: command not found
+Done with S2_01_A
+Processing S2_01_B
+/var/spool/slurm/d/job34959338/slurm_script: line 27: nonpareil: command not found
+Done with S2_01_B
+Processing S2_04_A
+/var/spool/slurm/d/job34959338/slurm_script: line 27: nonpareil: command not found
+Done with S2_04_A
+Processing S2_04_B
+/var/spool/slurm/d/job34959338/slurm_script: line 27: nonpareil: command not found
+Done with S2_04_B
+Processing S2_05_A
+/var/spool/slurm/d/job34959338/slurm_script: line 27: nonpareil: command not found
+Done with S2_05_A
+Processing S2_05_B
+/var/spool/slurm/d/job34959338/slurm_script: line 27: nonpareil: command not found
+Done with S2_05_B

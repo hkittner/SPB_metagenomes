@@ -1,0 +1,54 @@
+Continue mode activated. Ignore all options except for -o/--out-dir.
+2025-09-13 23:09:27 - MEGAHIT v1.2.9
+2025-09-13 23:09:27 - Using megahit_core with POPCNT and BMI2 support
+2025-09-13 23:09:27 - passing check point 0
+2025-09-13 23:09:27 - passing check point 1
+2025-09-13 23:09:27 - k-max reset to: 127 
+2025-09-13 23:09:27 - Start assembly. Number of CPU threads 128 
+2025-09-13 23:09:27 - k list: 27,37,47,57,67,77,87,97,107,117,127 
+2025-09-13 23:09:27 - Memory used: 486664239513
+2025-09-13 23:09:27 - passing check point 2
+2025-09-13 23:09:27 - passing check point 3
+2025-09-13 23:09:27 - passing check point 4
+2025-09-13 23:09:27 - passing check point 5
+2025-09-13 23:09:27 - passing check point 6
+2025-09-13 23:09:27 - passing check point 7
+2025-09-13 23:09:27 - passing check point 8
+2025-09-13 23:09:27 - passing check point 9
+2025-09-13 23:09:27 - passing check point 10
+2025-09-13 23:09:27 - passing check point 11
+2025-09-13 23:09:27 - passing check point 12
+2025-09-13 23:09:27 - passing check point 13
+2025-09-13 23:09:27 - passing check point 14
+2025-09-13 23:09:27 - passing check point 15
+2025-09-13 23:09:27 - passing check point 16
+2025-09-13 23:09:27 - passing check point 17
+2025-09-13 23:09:27 - passing check point 18
+2025-09-13 23:09:27 - passing check point 19
+2025-09-13 23:09:27 - passing check point 20
+2025-09-13 23:09:27 - passing check point 21
+2025-09-13 23:09:27 - passing check point 22
+2025-09-13 23:09:27 - passing check point 23
+2025-09-13 23:09:27 - passing check point 24
+2025-09-13 23:09:27 - passing check point 25
+2025-09-13 23:09:27 - passing check point 26
+2025-09-13 23:09:27 - passing check point 27
+2025-09-13 23:09:27 - passing check point 28
+2025-09-13 23:09:27 - passing check point 29
+2025-09-13 23:09:27 - passing check point 30
+2025-09-13 23:09:27 - passing check point 31
+2025-09-13 23:09:27 - Local assembly for k = 97
+2025-09-14 06:26:58 - Extract iterative edges from k = 97 to 107 
+2025-09-14 06:42:50 - Build graph for k = 107 
+2025-09-14 06:49:57 - Assemble contigs from SdBG for k = 107
+2025-09-14 08:06:48 - Local assembly for k = 107
+2025-09-14 15:53:49 - Extract iterative edges from k = 107 to 117 
+2025-09-14 16:05:56 - Build graph for k = 117 
+2025-09-14 16:12:28 - Assemble contigs from SdBG for k = 117
+2025-09-14 17:23:01 - Local assembly for k = 117
+2025-09-15 00:48:31 - Extract iterative edges from k = 117 to 127 
+2025-09-15 00:56:18 - Build graph for k = 127 
+2025-09-15 01:07:06 - Assemble contigs from SdBG for k = 127
+2025-09-15 02:15:00 - Merging to output final contigs 
+2025-09-15 02:19:35 - 32989051 contigs, total 17811305589 bp, min 200 bp, max 241147 bp, avg 539 bp, N50 549 bp
+2025-09-15 02:19:35 - ALL DONE. Time elapsed: 97809.037182 seconds 

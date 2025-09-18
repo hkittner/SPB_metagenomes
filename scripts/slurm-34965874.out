@@ -1,0 +1,115 @@
+metawrap bin_refinement -o /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_S9_01 -t 64 -m 128 -A /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_metabat2/metabat2_bins -B /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins -c 80 -x 5
+
+------------------------------------------------------------------------------------------------------------------------
+-----           There is 128 RAM and 64 threads available, and each pplacer thread uses >40GB, so I will           -----
+-----                                          use 3 threads for pplacer                                           -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+########################################################################################################################
+#####                                                BEGIN PIPELINE!                                               #####
+########################################################################################################################
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                               setting up output folder and copying over bins...                              -----
+------------------------------------------------------------------------------------------------------------------------
+
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_metabat2/metabat2_bins/bin.103.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_metabat2/metabat2_bins/bin.17.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_metabat2/metabat2_bins/bin.218.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_metabat2/metabat2_bins/bin.42.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_metabat2/metabat2_bins/bin.8.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_metabat2/metabat2_bins/bin.unbinned.fa because the bin size is not between 50kb and 20Mb
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          there are 238 bins in binsA                                         -----
+------------------------------------------------------------------------------------------------------------------------
+
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.12.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.120.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.126.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.13.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.133.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.137.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.139.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.142.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.143.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.144.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.146.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.150.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.155.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.156.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.158.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.166.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.167.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.169.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.173.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.178.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.18.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.180.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.186.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.189.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.19.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.197.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.20.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.204.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.205.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.206.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.212.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.216.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.218.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.220.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.228.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.229.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.231.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.232.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.249.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.250.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.256.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.258.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.272.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.277.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.279.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.283.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.287.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.29.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.292.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.296.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.304.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.311.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.312.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.316.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.33.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.34.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.36.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.39.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.48.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.50.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.52.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.54.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.55.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.57.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.64.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.65.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.74.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.76.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.80.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.86.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/bin.87.fa because the bin size is not between 50kb and 20Mb
+Skipping /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/initial_binning_S9_01_concoct/concoct_bins/unbinned.fa because the bin size is not between 50kb and 20Mb
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                          there are 247 bins in binsB                                         -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                                             There are 2 bin sets!                                            -----
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+-----                              Fix contig naming by removing special characters...                             -----
+------------------------------------------------------------------------------------------------------------------------
+
