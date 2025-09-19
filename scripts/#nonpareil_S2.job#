@@ -1,0 +1,31 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 24:00:00
+#SBATCH --ntasks-per-node 32
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+
+source /jet/home/hkittner/miniforge3/bin/activ activate /jet/home/hkittner/miniforge3/envs/nonpareil
+
+cd /ocean/projects/ees240004p/hkittner/trimmomatic_output
+
+OUTDIR="/ocean/projects/ees240004p/hkittner/nonpareil_output"
+
+
+# four sample base names (without _forward_paired_trim.fastq.gz)
+
+SAMPLES=( S2_01_A S2_01_B S2_04_A S2_04_B S2_05_A S2_05_B )
+
+for S in "${SAMPLES[@]}"; do
+  echo "Processing $S"
+  R1="${S}_forward_paired_trim.fastq.gz"
+
+  nonpareil -s "$R1" -T kmer -f fastq \
+    -b "${OUTDIR}/${S}" \
+    -t 32 -R 64000
+
+  echo "Done with $S"
+done

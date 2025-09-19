@@ -1,0 +1,65 @@
+ [      7.6]   The file S2_04_A_forward_paired_trim.fastq.gz.enve-tmp.13651 was created
+ [      7.6]  Reading S2_04_A_forward_paired_trim.fastq.gz.enve-tmp.13651
+ [      7.6]   Picking 10000 random sequences
+ [      7.6]   Counting kmers
+ [     51.4]  Read file with 395604808 sequences
+ [     51.4]  Average read length is 149.677085bp
+ [     51.4]  Sub-sampling library
+ [     51.4]     Sampling at 0.000000%
+ [     51.4]     Sampling at 0.000000%
+ [     51.4]     Sampling at 0.000001%
+ [     51.4]     Sampling at 0.000001%
+ [     51.4]     Sampling at 0.000001%
+ [     51.4]     Sampling at 0.000002%
+ [     51.4]     Sampling at 0.000003%
+ [     51.4]     Sampling at 0.000004%
+ [     51.4]     Sampling at 0.000005%
+ [     51.4]     Sampling at 0.000007%
+ [     51.4]     Sampling at 0.000011%
+ [     51.4]     Sampling at 0.000015%
+ [     51.4]     Sampling at 0.000022%
+ [     51.4]     Sampling at 0.000031%
+ [     51.4]     Sampling at 0.000045%
+ [     51.4]     Sampling at 0.000064%
+ [     51.4]     Sampling at 0.000091%
+ [     51.4]     Sampling at 0.000130%
+ [     51.4]     Sampling at 0.000186%
+ [     51.4]     Sampling at 0.000265%
+ [     51.4]     Sampling at 0.000379%
+ [     51.4]     Sampling at 0.000541%
+ [     51.4]     Sampling at 0.000773%
+ [     51.4]     Sampling at 0.001104%
+ [     51.4]     Sampling at 0.001578%
+ [     51.5]     Sampling at 0.002254%
+ [     51.5]     Sampling at 0.003220%
+ [     51.5]     Sampling at 0.004600%
+ [     51.5]     Sampling at 0.006571%
+ [     51.5]     Sampling at 0.009387%
+ [     51.5]     Sampling at 0.013411%
+ [     51.5]     Sampling at 0.019158%
+ [     51.5]     Sampling at 0.027369%
+ [     51.5]     Sampling at 0.039098%
+ [     51.5]     Sampling at 0.055855%
+ [     51.5]     Sampling at 0.079792%
+ [     51.5]     Sampling at 0.113989%
+ [     51.5]     Sampling at 0.162841%
+ [     51.5]     Sampling at 0.232631%
+ [     51.5]     Sampling at 0.332329%
+ [     51.5]     Sampling at 0.474756%
+ [     51.5]     Sampling at 0.678223%
+ [     51.5]     Sampling at 0.968890%
+ [     51.5]     Sampling at 1.384129%
+ [     51.5]     Sampling at 1.977327%
+ [     51.5]     Sampling at 2.824752%
+ [     51.5]     Sampling at 4.035361%
+ [     51.5]     Sampling at 5.764801%
+ [     51.5]     Sampling at 8.235430%
+ [     51.5]     Sampling at 11.764900%
+ [     51.5]     Sampling at 16.807000%
+ [     51.5]     Sampling at 24.010000%
+ [     51.5]     Sampling at 34.300000%
+ [     51.5]     Sampling at 49.000000%
+ [     51.5]     Sampling at 70.000000%
+ [     51.5]     Sampling at 100.000000%
+ [     51.5]  Evaluating consistency
+ [     51.5]  Everything seems correct
