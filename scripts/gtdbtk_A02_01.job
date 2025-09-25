@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -N 1
 #SBATCH -p RM-shared
-#SBATCH -t 48:00:00
+#SBATCH -t 2:00:00
 #SBATCH --ntasks-per-node 32
 #SBATCH -A ees240004p
 #SBATCH --mail-type=ALL
@@ -11,8 +11,8 @@
 module load anaconda3/2022.10
 conda activate gtdbtk
 
-gtdbtk identify --genome_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_A02_01/metawrap_80_5_bins -x fa --out_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_identify_A02_01 --cpus 32
+gtdbtk identify --genome_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_A02_01/metawrap_80_5_bins -x fa --out_dir /ocean/projects/ees240004p/hkittner/gtdbtk_output/gtdbtk_identify_A02_01_coassembly --cpus 32
 
-gtdbtk align --identify_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_identify_A02_01 --out_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_align_A02_01 --cpus 32
+gtdbtk align --identify_dir /ocean/projects/ees240004p/hkittner/gtdbtk_output/gtdbtk_identify_A02_01_coassembly --out_dir /ocean/projects/ees240004p/hkittner/gtdbtk_output/gtdbtk_align_A02_01_coassembly --cpus 32
 
-gtdbtk classify --genome_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_A02_01/metawrap_80_5_bins -x fa --align_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_align_A02_01 --out_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/gtdbtk_output/gtdbtk_classify_A02_01 --cpus 32
+gtdbtk classify --genome_dir /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_A02_01/metawrap_80_5_bins -x fa --align_dir /ocean/projects/ees240004p/hkittner/gtdbtk_output/gtdbtk_align_A02_01_coassembly --out_dir /ocean/projects/ees240004p/hkittner/gtdbtk_output/gtdbtk_classify_A02_01_coassembly --cpus 32

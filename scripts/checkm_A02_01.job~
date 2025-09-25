@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 12:00:00
+#SBATCH --ntasks-per-node 64
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+
+module load CheckM/1.1.3
+
+checkm lineage_wf -x fa -t 64 /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_A02_01/metawrap_80_5_bins /ocean/projects/ees240004p/hkittner/checkm_output

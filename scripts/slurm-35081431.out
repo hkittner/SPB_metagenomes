@@ -1,0 +1,16 @@
+Continue mode activated. Ignore all options except for -o/--out-dir.
+2025-09-22 16:11:22 - MEGAHIT v1.2.9
+2025-09-22 16:11:22 - Using megahit_core with POPCNT and BMI2 support
+2025-09-22 16:11:22 - passing check point 0
+2025-09-22 16:11:22 - passing check point 1
+2025-09-22 16:11:22 - k-max reset to: 127 
+2025-09-22 16:11:22 - Start assembly. Number of CPU threads 128 
+2025-09-22 16:11:22 - k list: 27,37,47,57,67,77,87,97,107,117,127 
+2025-09-22 16:11:22 - Memory used: 486664202649
+2025-09-22 16:11:22 - passing check point 2
+2025-09-22 16:11:22 - passing check point 3
+2025-09-22 16:11:22 - passing check point 4
+2025-09-22 16:11:22 - Extract iterative edges from k = 27 to 37 
+2025-09-23 01:23:09 - Error occurs, please refer to /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S6_06/log for detail
+2025-09-23 01:23:09 - Command: /ocean/projects/deb190007p/hkittner/.conda/envs/megahit/bin/megahit_core iterate -c /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S6_06/intermediate_contigs/k27.contigs.fa -b /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S6_06/intermediate_contigs/k27.bubble_seq.fa -t 128 -k 27 -s 10 -o /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S6_06/tmp/k37/37 -r /ocean/projects/ees240004p/hkittner/coassembly_analysis/assemblies/megahit_meta_large_S6_06/tmp/reads.lib.bin; Exit code -9
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=35081431.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

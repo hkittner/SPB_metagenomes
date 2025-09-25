@@ -1,0 +1,43 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 24:00:00
+#SBATCH --ntasks-per-node 32
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+
+
+module load anaconda3/2022.10
+conda activate gtdbtk
+
+# List sample IDs here
+SAMPLES=( A02_01 A08_01 A13_01 A18_01 A18_03 A18_04 A19_01 A21_01 A21_04 A21_05 S1_01 S2_01 S2_04 S2_05 S3_01 S4_01 S4_04 S5_01 S6_01 S9_01 )
+
+for SAMPLE in "${SAMPLES[@]}"; do
+  echo "Processing $SAMPLE"
+
+  GENOME_DIR="/ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_${SAMPLE}/metawrap_80_5_bins"
+  OUT_IDENT="/ocean/projects/ees240004p/hkittner/gtdbtk_output/gtdbtk_identify_${SAMPLE}_coassembly"
+  OUT_ALIGN="/ocean/projects/ees240004p/hkittner/gtdbtk_output/gtdbtk_align_${SAMPLE}_coassembly"
+  OUT_CLASS="/ocean/projects/ees240004p/hkittner/gtdbtk_output/gtdbtk_classify_${SAMPLE}_coassembly"
+
+  gtdbtk identify \
+    --genome_dir "$GENOME_DIR" -x fa \
+    --out_dir "$OUT_IDENT" \
+    --cpus 32
+
+  gtdbtk align \
+    --identify_dir "$OUT_IDENT" \
+    --out_dir "$OUT_ALIGN" \
+    --cpus 32
+
+  gtdbtk classify \
+    --genome_dir "$GENOME_DIR" -x fa \
+    --align_dir "$OUT_ALIGN" \
+    --out_dir "$OUT_CLASS" \
+    --cpus 32
+
+  echo "Done with $SAMPLE"
+done

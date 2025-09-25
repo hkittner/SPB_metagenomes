@@ -1,0 +1,32 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH -t 12:00:00
+#SBATCH --ntasks-per-node 64
+#SBATCH -A ees240004p
+#SBATCH --mail-type=ALL
+#echo commands to stdout
+
+
+module load anaconda3/2024.10-1
+conda activate checkm
+
+# All coassembly bin refinement samples, except A02_01, S6_06, and S6_10
+SAMPLES=( A08_01 A13_01 A18_01 A18_03 A18_04 A19_01 A21_01 A21_04 A21_05 S1_01 S2_01 S2_04 S2_05 S3_01 S4_01 S4_04 S5_01 S6_01 S9_01 )
+
+for SAMPLE in "${SAMPLES[@]}"; do
+  echo ">>> Running CheckM on $SAMPLE"
+
+  BIN_DIR="/ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_${SAMPLE}/metawrap_80_5_bins"
+  OUT_DIR="/ocean/projects/ees240004p/hkittner/checkm_output/${SAMPLE}_coassembly"
+
+  # make sure each sample has its own output dir
+  mkdir -p "$OUT_DIR"
+
+  checkm lineage_wf \
+    -x fa \
+    -t 64 \
+    "$BIN_DIR" "$OUT_DIR"
+
+  echo ">>> Done with $SAMPLE"
+done

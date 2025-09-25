@@ -1,0 +1,18 @@
+/jet/home/hkittner/.conda/envs/checkm/lib/python3.9/site-packages/checkm/checkmData.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+[2025-09-22 12:39:55] INFO: CheckM v1.2.4
+[2025-09-22 12:39:55] INFO: checkm lineage_wf -x fa -t 64 /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_A21_05/metawrap_80_5_bins /ocean/projects/ees240004p/hkittner/checkm_output
+[2025-09-22 12:39:55] INFO: CheckM data: /ocean/projects/ees240004p/hkittner/databases/MY_CHECKM_FOLDER
+[2025-09-22 12:39:55] INFO: [CheckM - tree] Placing bins in reference genome tree.
+
+Unexpected error: <class 'FileNotFoundError'>
+Traceback (most recent call last):
+  File "/jet/home/hkittner/.conda/envs/checkm/bin/checkm", line 856, in <module>
+    checkmParser.parseOptions(args)
+  File "/jet/home/hkittner/.conda/envs/checkm/lib/python3.9/site-packages/checkm/main.py", line 979, in parseOptions
+    self.tree(options)
+  File "/jet/home/hkittner/.conda/envs/checkm/lib/python3.9/site-packages/checkm/main.py", line 141, in tree
+    binFiles = self.binFiles(
+  File "/jet/home/hkittner/.conda/envs/checkm/lib/python3.9/site-packages/checkm/main.py", line 103, in binFiles
+    with open(binInput, "r") as oh:
+FileNotFoundError: [Errno 2] No such file or directory: '/ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_A21_05/metawrap_80_5_bins'

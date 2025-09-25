@@ -12,6 +12,10 @@ databases/
 fastqc_output
 rdhA/
 subsample_analysis/
+gtdbtk_output/gtdbtk*
+checkm_output/*coassembly
+gtdbtk_chloroflexi_genomes/
+trimmomatic_output/
 
 # To be safe
 **/*.fastq

@@ -1,0 +1,54 @@
+Continue mode activated. Ignore all options except for -o/--out-dir.
+2025-09-22 18:26:08 - MEGAHIT v1.2.9
+2025-09-22 18:26:08 - Using megahit_core with POPCNT and BMI2 support
+2025-09-22 18:26:08 - passing check point 0
+2025-09-22 18:26:08 - passing check point 1
+2025-09-22 18:26:08 - k-max reset to: 127 
+2025-09-22 18:26:08 - Start assembly. Number of CPU threads 128 
+2025-09-22 18:26:08 - k list: 27,37,47,57,67,77,87,97,107,117,127 
+2025-09-22 18:26:08 - Memory used: 486664191590
+2025-09-22 18:26:08 - passing check point 2
+2025-09-22 18:26:08 - passing check point 3
+2025-09-22 18:26:08 - passing check point 4
+2025-09-22 18:26:08 - passing check point 5
+2025-09-22 18:26:08 - passing check point 6
+2025-09-22 18:26:08 - passing check point 7
+2025-09-22 18:26:08 - passing check point 8
+2025-09-22 18:26:08 - passing check point 9
+2025-09-22 18:26:08 - passing check point 10
+2025-09-22 18:26:08 - passing check point 11
+2025-09-22 18:26:08 - passing check point 12
+2025-09-22 18:26:08 - passing check point 13
+2025-09-22 18:26:08 - passing check point 14
+2025-09-22 18:26:08 - passing check point 15
+2025-09-22 18:26:08 - passing check point 16
+2025-09-22 18:26:08 - passing check point 17
+2025-09-22 18:26:08 - passing check point 18
+2025-09-22 18:26:08 - passing check point 19
+2025-09-22 18:26:08 - passing check point 20
+2025-09-22 18:26:08 - passing check point 21
+2025-09-22 18:26:08 - passing check point 22
+2025-09-22 18:26:08 - passing check point 23
+2025-09-22 18:26:08 - passing check point 24
+2025-09-22 18:26:08 - passing check point 25
+2025-09-22 18:26:08 - passing check point 26
+2025-09-22 18:26:08 - passing check point 27
+2025-09-22 18:26:08 - passing check point 28
+2025-09-22 18:26:08 - passing check point 29
+2025-09-22 18:26:08 - passing check point 30
+2025-09-22 18:26:08 - passing check point 31
+2025-09-22 18:26:08 - passing check point 32
+2025-09-22 18:26:08 - passing check point 33
+2025-09-22 18:26:08 - passing check point 34
+2025-09-22 18:26:08 - passing check point 35
+2025-09-22 18:26:08 - passing check point 36
+2025-09-22 18:26:08 - passing check point 37
+2025-09-22 18:26:08 - passing check point 38
+2025-09-22 18:26:08 - passing check point 39
+2025-09-22 18:26:08 - passing check point 40
+2025-09-22 18:26:08 - passing check point 41
+2025-09-22 18:26:08 - passing check point 42
+2025-09-22 18:26:08 - Assemble contigs from SdBG for k = 127
+2025-09-22 20:14:03 - Merging to output final contigs 
+2025-09-22 20:19:09 - 47708857 contigs, total 25930973272 bp, min 200 bp, max 387505 bp, avg 543 bp, N50 555 bp
+2025-09-22 20:19:09 - ALL DONE. Time elapsed: 6782.026282 seconds 

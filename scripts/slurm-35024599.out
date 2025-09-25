@@ -1,0 +1,6 @@
+[2025-09-19 19:29:17] INFO: CheckM v1.1.3
+[2025-09-19 19:29:17] INFO: checkm lineage_wf -x fa -t 64 /ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/bin_refinement_A02_01/metawrap_80_5_bins /ocean/projects/ees240004p/hkittner/checkm_output
+[2025-09-19 19:29:17] INFO: [CheckM - tree] Placing bins in reference genome tree.
+[2025-09-19 19:29:18] ERROR: Make sure HMMER executables (e.g., hmmsearch, hmmfetch) are on your system path.
+
+  Controlled exit resulting from an unrecoverable error or warning.

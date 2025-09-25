@@ -6,7 +6,7 @@
 set -euo pipefail
 
 # Assign a variable to the path
-TOPDIR="/ocean/projects/ees240004p/hkittner/coassembly_analysis/bins"
+TOPDIR="/ocean/projects/ees240004p/hkittner/coassembly_analysis/bins/practice_renaming_bins"
 
 
 for REF_DIR in "${TOPDIR}"/bin_refinement_*; do
